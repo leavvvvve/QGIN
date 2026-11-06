@@ -1,0 +1,65 @@
+{
+  "label": "SinGeo†",
+  "url": "https://github.com/Yangchen-nudt/SinGeo",
+  "commit": "298b156809e206d7ec499b99e3db3744486d5050",
+  "entry": "train_singeo_university.py",
+  "blob": "7c91b39b12c6779a0057e652f607684a2da4de1f",
+  "fixed": {
+    "steps": 648,
+    "seeds": [
+      42,
+      43
+    ],
+    "domains": [
+      "dense",
+      "sues"
+    ],
+    "checkpoint": "step648",
+    "views": 4,
+    "new_temperature": true,
+    "weight_decay": 0.01,
+    "lr": 0.0001
+  },
+  "mapping": [
+    [
+      "common controlled transfer",
+      "original image backbone",
+      "shared EVA384 warm108; fixed648; matched name+shape Adam only; final-only; mean/std .5"
+    ],
+    [
+      "optimizer",
+      "AdamW; head lr_mlp default None means ratio1; clip_grad_value100",
+      "lr1e-4 ViT adapter; all groups ratio1; wd.01; cosine648 after common108 warmup"
+    ],
+    [
+      "precision",
+      "official autocast FP16",
+      "BF16 backbone cache/replay8; FP32 fullbatch objectives; heads single fullbatch forward per view"
+    ],
+    [
+      "nonpanoramic pairing",
+      "ConGeo appendix S3.2 / SinGeo Sec5.2",
+      "different legal query image from same train place; no panoramic rolls"
+    ],
+    [
+      "loss",
+      "symmetric CE label smoothing .1 and learned temperature",
+      "full64/16 all objective terms, native GAP768; no clamp except Sample4Geo controlled setting"
+    ],
+    [
+      "Eq1-4 cross weights .25 each, disc .5",
+      "University trainer cross .5,.5,1 and disc .5",
+      "controlled cross weights .25,.25,.25 and discriminative weights .5,.5"
+    ],
+    [
+      "linear curriculum",
+      "University keep probability1→.3; dynamic rotation only±90",
+      "controlled rotation probability .75*t/648; angles90/180/270; anchors0/.375/.75; official base sat has no rotation"
+    ],
+    [
+      "views",
+      "get_transforms_singeo_university default color/blur/dropout",
+      "exact base transforms; secondary satellite replaces rotation only"
+    ]
+  ]
+}

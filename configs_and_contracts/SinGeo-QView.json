@@ -1,0 +1,19 @@
+{
+  "method": "SinGeo-QView",
+  "host": "SinGeo",
+  "augmentation": "QGIN",
+  "augmented_query_view_index": 2,
+  "loss": "unchanged host four-view objective",
+  "temperature": "host learned temperature; Sample4Geo capped at100",
+  "inference_extra_parameters": 0,
+  "descriptor_dimension": 768,
+  "training_updates": 648,
+  "seeds": [
+    42,
+    43
+  ],
+  "domains": [
+    "dense",
+    "sues"
+  ]
+}

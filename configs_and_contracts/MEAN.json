@@ -1,0 +1,75 @@
+{
+  "label": "MEAN†",
+  "url": "https://github.com/ISChenawei/MEAN",
+  "commit": "18e183c17cdfaf73c2c32c914cc99de28ee1c2b1",
+  "entry": "train_sues200.py",
+  "blob": "9c3d8f48a54e9426fbcd0c74dc1f2ceafcdbb961",
+  "fixed": {
+    "steps": 648,
+    "seeds": [
+      42,
+      43
+    ],
+    "domains": [
+      "dense",
+      "sues"
+    ],
+    "checkpoint": "step648",
+    "views": 2,
+    "new_temperature": true,
+    "weight_decay": 0.01,
+    "lr": 0.0001
+  },
+  "mapping": [
+    [
+      "common controlled transfer",
+      "original image backbone",
+      "shared EVA384 warm108; fixed648; matched name+shape Adam only; final-only; mean/std .5"
+    ],
+    [
+      "optimizer",
+      "AdamW; head lr_mlp default None means ratio1; clip_grad_value100",
+      "lr1e-4 ViT adapter; all groups ratio1; wd.01; cosine648 after common108 warmup"
+    ],
+    [
+      "precision",
+      "official autocast FP16",
+      "BF16 backbone cache/replay8; FP32 fullbatch objectives; heads single fullbatch forward per view"
+    ],
+    [
+      "three-branch architecture",
+      "exact build_convnext class bodies",
+      "AST loads unchanged definitions, only replaces convnext factory with patch tuple; all active branches retained"
+    ],
+    [
+      "dimensions",
+      "DAC ConvNeXt-base1024 / MEAN ConvNeXt-tiny768",
+      "DAC shared 1x1 768→1024 adapter for native GAP and spatial map; MEAN identity768"
+    ],
+    [
+      "loss coefficients",
+      "entry weight_infonce=1, weight_cls=.1, weight_dsa=.75",
+      "actual trainer binding: InfoNCE1, CE.1, alignment.75; task list order is reversed, official-entry precedence applied"
+    ],
+    [
+      "classification",
+      "mean over3 heads for each view; unsmoothed CE",
+      "exact reduction; Dense2256/SUES120 contiguous train-only labels"
+    ],
+    [
+      "alignment",
+      "DSA 1-cos flattened spatial; CDA is sum of TWO 1-cos terms",
+      "official loss class directly invoked, no fabricated gaussian/statistical loss"
+    ],
+    [
+      "inference",
+      "trainer.predict uses model(img)[-2]; eval bypasses all auxiliary heads",
+      "full official eval global descriptor: 768; do not invent concatenation"
+    ],
+    [
+      "augmentations",
+      "entry imports dataset.university.get_transforms; stronger color jitter",
+      "exact function body from respective repository, with EVA normalization"
+    ]
+  ]
+}

@@ -1,0 +1,29 @@
+transform,layer,metric,statistic,value,ci_low,ci_high,source_images,parameter_draws_per_image,subset
+QGIN,1,hinge_miss,mean,0.01171875,0,0.03515625,32,4,
+QGIN,1,active_hinge,mean,0.984375,0.953125,1,32,4,
+QGIN,2,hinge_miss,mean,0,0,0,32,4,
+QGIN,2,active_hinge,mean,0.98828125,0.96484375,1,32,4,
+QGIN,3,hinge_miss,mean,0.00390625,0,0.01171875,32,4,
+QGIN,3,active_hinge,mean,0.98828125,0.96484375,1,32,4,
+w/o Quantile Anchoring (Fixed Zero-Hinge),1,hinge_miss,mean,0.421875,0.3359375,0.50390625,32,4,
+w/o Quantile Anchoring (Fixed Zero-Hinge),1,active_hinge,mean,0.19921875,0.13671875,0.26953125,32,4,
+w/o Quantile Anchoring (Fixed Zero-Hinge),2,hinge_miss,mean,0.71484375,0.64453125,0.78125,32,4,
+w/o Quantile Anchoring (Fixed Zero-Hinge),2,active_hinge,mean,0.09765625,0.046875,0.15625,32,4,
+w/o Quantile Anchoring (Fixed Zero-Hinge),3,hinge_miss,mean,0.84375,0.79296875,0.88671875,32,4,
+w/o Quantile Anchoring (Fixed Zero-Hinge),3,active_hinge,mean,0.03515625,0.015625,0.0546875,32,4,
+QGIN,,DC_share,median,0.667753666639,0.631172090769,0.751357474923,32,4,
+QGIN,,AC_share,median,0.332246333361,0.248642525077,0.368827909231,32,4,
+w/o Quantile Anchoring (Fixed Zero-Hinge),,DC_share,median,0.998839646578,0.995791435242,0.999650418758,32,4,
+w/o Quantile Anchoring (Fixed Zero-Hinge),,AC_share,median,0.00116035342216,0.000349581241608,0.0042085647583,32,4,
+ColorJitter,,E1_delta,median,0.180844837426,0.134230341652,0.253699882877,32,4,all
+ColorJitter,,E2_delta,median,0.0408894955162,0.0299850309314,0.0665726032104,32,4,all
+ColorJitter,,E1_delta,median,0.123055358128,0.0968308795584,0.170049716254,32,4,unclipped
+ColorJitter,,E2_delta,median,0.0139816842874,0.00931401021568,0.0247660983273,32,4,unclipped
+QGIN,,E1_delta,median,0.164737524336,0.125919625976,0.226339997496,32,4,all
+QGIN,,E2_delta,median,0.113288708641,0.0900843234616,0.172384157078,32,4,all
+QGIN,,E1_delta,median,0.145185600376,0.122847479402,0.201426978571,32,4,unclipped
+QGIN,,E2_delta,median,0.118790642537,0.0947871661828,0.144669622988,32,4,unclipped
+w/o Quantile Anchoring (Fixed Zero-Hinge),,E1_delta,median,0.00156547107716,0.000412829299029,0.00372541431095,32,4,all
+w/o Quantile Anchoring (Fixed Zero-Hinge),,E2_delta,median,0.000576328808898,0.000166882851673,0.00152941858166,32,4,all
+w/o Quantile Anchoring (Fixed Zero-Hinge),,E1_delta,median,0.00159657961178,0.000227251109916,0.00314051314493,32,4,unclipped
+w/o Quantile Anchoring (Fixed Zero-Hinge),,E2_delta,median,0.000368060253636,6.2556250612e-05,0.00143764015825,32,4,unclipped

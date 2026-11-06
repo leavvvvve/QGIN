@@ -1,0 +1,20 @@
+[
+  {
+    "seed": 42,
+    "bootstrap_unit": "777locations_with3heights",
+    "photo_ratio_ci_low": 0.05233043063638387,
+    "photo_ratio_ci_high": 0.09498266646271772,
+    "oracle_recovery_ci_low": 0.1903163271337966,
+    "oracle_recovery_ci_high": 0.25569694871434073,
+    "ratios_clipped": false
+  },
+  {
+    "seed": 43,
+    "bootstrap_unit": "777locations_with3heights",
+    "photo_ratio_ci_low": 0.07391870500787731,
+    "photo_ratio_ci_high": 0.12613719634197784,
+    "oracle_recovery_ci_low": 0.13019232434939504,
+    "oracle_recovery_ci_high": 0.20215630001746204,
+    "ratios_clipped": false
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "label": "DAC†",
+  "url": "https://github.com/SummerpanKing/DAC",
+  "commit": "5612a79c3928d8a71939e4e761bb352f805cb51b",
+  "entry": "train_sues200.py",
+  "blob": "1a3190ff9460fc6a0c3063984b112067dddb94ef",
+  "fixed": {
+    "steps": 648,
+    "seeds": [
+      42,
+      43
+    ],
+    "domains": [
+      "dense",
+      "sues"
+    ],
+    "checkpoint": "step648",
+    "views": 2,
+    "new_temperature": true,
+    "weight_decay": 0.01,
+    "lr": 0.0001
+  },
+  "mapping": [
+    [
+      "common controlled transfer",
+      "original image backbone",
+      "shared EVA384 warm108; fixed648; matched name+shape Adam only; final-only; mean/std .5"
+    ],
+    [
+      "optimizer",
+      "AdamW; head lr_mlp default None means ratio1; clip_grad_value100",
+      "lr1e-4 ViT adapter; all groups ratio1; wd.01; cosine648 after common108 warmup"
+    ],
+    [
+      "precision",
+      "official autocast FP16",
+      "BF16 backbone cache/replay8; FP32 fullbatch objectives; heads single fullbatch forward per view"
+    ],
+    [
+      "three-branch architecture",
+      "exact build_convnext class bodies",
+      "AST loads unchanged definitions, only replaces convnext factory with patch tuple; all active branches retained"
+    ],
+    [
+      "dimensions",
+      "DAC ConvNeXt-base1024 / MEAN ConvNeXt-tiny768",
+      "DAC shared 1x1 768→1024 adapter for native GAP and spatial map; MEAN identity768"
+    ],
+    [
+      "loss coefficients",
+      "entry weight_infonce=1, weight_cls=.1, weight_dsa=.6",
+      "actual trainer binding: InfoNCE1, CE.1, alignment.6; task list order is reversed, official-entry precedence applied"
+    ],
+    [
+      "classification",
+      "mean over3 heads for each view; unsmoothed CE",
+      "exact reduction; Dense2256/SUES120 contiguous train-only labels"
+    ],
+    [
+      "alignment",
+      "DSA 1-cos flattened spatial; CDA is sum of TWO 1-cos terms",
+      "official loss class directly invoked, no fabricated gaussian/statistical loss"
+    ],
+    [
+      "inference",
+      "trainer.predict uses model(img)[-2]; eval bypasses all auxiliary heads",
+      "full official eval global descriptor: 1024; do not invent concatenation"
+    ],
+    [
+      "augmentations",
+      "entry imports dataset.university.get_transforms; stronger color jitter",
+      "exact function body from respective repository, with EVA normalization"
+    ],
+    [
+      "unused parameters",
+      "proj_obj, block temperature and w_blocks are never used in selected forward/loss",
+      "proj_obj preserved frozen; outer unused scalars omitted; do not demand gradients for dead official branches"
+    ]
+  ]
+}

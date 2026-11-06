@@ -1,0 +1,80 @@
+{
+  "label": "QDFL†",
+  "url": "https://github.com/Shuyu-Hu/QDFL",
+  "commit": "627296d5410eee1714760b213ce9ca0258c6ae50",
+  "entry": "main.py -> model_configs/dino_b_QDFL.yaml -> U1652_baseline.py",
+  "yaml_blob": "a1fdf919e6ba27749a78b9306eccd1d893059c7a",
+  "fixed": {
+    "steps": 648,
+    "seeds": [
+      42,
+      43
+    ],
+    "domains": [
+      "dense",
+      "sues"
+    ],
+    "checkpoint": "step648",
+    "views": 2,
+    "new_temperature": false,
+    "weight_decay": 0.01,
+    "lr": 0.0001
+  },
+  "mapping": [
+    [
+      "PETL",
+      "frozen DINO12 blocks and all other backbone; two adapters/block",
+      "all EVA backbone frozen incl norm/reg/patch; exact official Adapter ratio.5; serial attention residual + parallel .2 FFN adapter, EVA rope retained"
+    ],
+    [
+      "context token",
+      "DINO CLS passed to token_classifier",
+      "native EVA GAP/fc_norm; register excluded, spatial24x24x768"
+    ],
+    [
+      "FFU/AQEU",
+      "CycleFC via torchvision deform_conv2d,8learnedqueries,2supervisors",
+      "unchanged official head definitions,4 supervised branches, native512x4=2048 descriptor"
+    ],
+    [
+      "loss",
+      "CE branch mean perview + bidirectional cal_MS_loss + .5bidirectional cal_js_loss",
+      "official helper functions verbatim; KL batchmean to detached mixture targets; all coefficients1"
+    ],
+    [
+      "cal_MS_loss discrepancy",
+      "loop indentation computes MS only on LAST fusion feature branch",
+      "preserve actual helper; do not silently fix to all-branch MS; class losses still use4branches"
+    ],
+    [
+      "optimizer",
+      "SGD nesterov momentum.9 wd.0005, backbone .3xheadlr.03",
+      "new SGD states; adapters .009 and heads .03; no Adam restore"
+    ],
+    [
+      "warmup discrepancy",
+      "175steps override all group lr with same value, losing .3ratio temporarily",
+      "preserve explicitly required group ratio during175step ramp; cosine normalized648; report this task-adaptation"
+    ],
+    [
+      "transform",
+      "main active U1652 default same as DAC color/blur/occlusion/rotate; no pairedflip",
+      "exact transform list with commonEVA .5norm; frozen common classunique pairplan"
+    ],
+    [
+      "inference",
+      "get_descriptors normalizes original512x4 acrosschannels, adds rawflip, then partnorm",
+      "preserve part processing; flatten2048; final globalL2 forcommoncosine ranking"
+    ],
+    [
+      "dependency",
+      "requirements pytorch_metric_learning2.3.0",
+      "isolated H/deps2.3.0 wheelSHA503365976757757f44c72718cef959501979f23a306af952fef1678d0dabb9e5; unused2.8.1download not imported"
+    ],
+    [
+      "Adapter initialization",
+      "vision_transformer.init_weights_vit_timm applies trunc_normal.02 to ALLLinear includingadapters",
+      "explicit same trunc_normal.02,bias0 after attachment beforeanyformaltraining"
+    ]
+  ]
+}

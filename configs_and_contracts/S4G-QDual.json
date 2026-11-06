@@ -1,0 +1,19 @@
+{
+  "method": "S4G-QDual",
+  "host": "Sample4Geo",
+  "augmentation": "QGIN",
+  "augmented_query_view_index": 0,
+  "loss": "average clean and augmented cross-view loss",
+  "temperature": "host learned temperature; Sample4Geo capped at100",
+  "inference_extra_parameters": 0,
+  "descriptor_dimension": 768,
+  "training_updates": 648,
+  "seeds": [
+    42,
+    43
+  ],
+  "domains": [
+    "dense",
+    "sues"
+  ]
+}

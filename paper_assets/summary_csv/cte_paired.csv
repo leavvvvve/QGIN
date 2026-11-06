@@ -1,0 +1,1681 @@
+direction,method,reference,frame,seed,condition,metric,Q0_n,numerator,denominator,value,ci_low,ci_high
+dense_to_dense,Base + QGIN,Base,host,42,Blur,rescue,1953,4,4,100,100,100
+dense_to_dense,Base + QGIN,Base,host,42,Blur,new_failure,1953,85,1838,4.62459194777,3.52185954575,5.72987092715
+dense_to_dense,Base + QGIN,Base,host,42,Blur,far200_removed,1953,2,2,100,100,100
+dense_to_dense,Base + QGIN,Base,host,42,Clean,rescue,1953,0,0,,,
+dense_to_dense,Base + QGIN,Base,host,42,Clean,new_failure,1953,108,1953,5.52995391705,4.37726259569,6.8090860584
+dense_to_dense,Base + QGIN,Base,host,42,Clean,far200_removed,1953,0,0,,,
+dense_to_dense,Base + QGIN,Base,host,42,ExposureClip,rescue,1953,50,84,59.5238095238,48.8629756871,70.5147058824
+dense_to_dense,Base + QGIN,Base,host,42,ExposureClip,new_failure,1953,93,1705,5.45454545455,4.27336494764,6.70554793346
+dense_to_dense,Base + QGIN,Base,host,42,ExposureClip,far200_removed,1953,32,49,65.306122449,50.9425385935,80.3580182073
+dense_to_dense,Base + QGIN,Base,host,42,Fog,rescue,1953,49,123,39.837398374,30.5954483309,48.4855985599
+dense_to_dense,Base + QGIN,Base,host,42,Fog,new_failure,1953,145,1601,9.05683947533,7.4141571478,10.8109420949
+dense_to_dense,Base + QGIN,Base,host,42,Fog,far200_removed,1953,16,39,41.0256410256,23.6842105263,57.1428571429
+dense_to_dense,Base + QGIN,Base,host,42,Gamma,rescue,1953,2,7,28.5714285714,0,62.9166666667
+dense_to_dense,Base + QGIN,Base,host,42,Gamma,new_failure,1953,87,1883,4.62028677642,3.46452148623,5.86336013036
+dense_to_dense,Base + QGIN,Base,host,42,Gamma,far200_removed,1953,6,6,100,100,100
+dense_to_dense,Base + QGIN,Base,host,42,Posterize4,rescue,1953,0,1,0,0,0
+dense_to_dense,Base + QGIN,Base,host,42,Posterize4,new_failure,1953,103,1928,5.34232365145,4.1793621897,6.64943156105
+dense_to_dense,Base + QGIN,Base,host,42,Posterize4,far200_removed,1953,1,1,100,100,100
+dense_to_dense,Base + QGIN,Base,host,42,Snow,rescue,1953,184,278,66.1870503597,59.7824043805,72.4490758568
+dense_to_dense,Base + QGIN,Base,host,42,Snow,new_failure,1953,70,1404,4.98575498575,3.80000722028,6.32113504111
+dense_to_dense,Base + QGIN,Base,host,42,Snow,far200_removed,1953,142,181,78.453038674,72.0238095238,84.7292584911
+dense_to_dense,Base + QGIN,Base,host,43,Blur,rescue,1988,7,15,46.6666666667,16.6666666667,72.7424242424
+dense_to_dense,Base + QGIN,Base,host,43,Blur,new_failure,1988,90,1882,4.7821466525,3.63725092525,6.07032549399
+dense_to_dense,Base + QGIN,Base,host,43,Blur,far200_removed,1988,3,7,42.8571428571,0,83.3333333333
+dense_to_dense,Base + QGIN,Base,host,43,Clean,rescue,1988,0,0,,,
+dense_to_dense,Base + QGIN,Base,host,43,Clean,new_failure,1988,106,1988,5.33199195171,4.25593849128,6.46811285059
+dense_to_dense,Base + QGIN,Base,host,43,Clean,far200_removed,1988,0,0,,,
+dense_to_dense,Base + QGIN,Base,host,43,ExposureClip,rescue,1988,55,95,57.8947368421,47.1424466338,68.1331168831
+dense_to_dense,Base + QGIN,Base,host,43,ExposureClip,new_failure,1988,95,1717,5.5329062318,4.35287123408,6.75367496995
+dense_to_dense,Base + QGIN,Base,host,43,ExposureClip,far200_removed,1988,37,60,61.6666666667,49.0175219024,73.8461538462
+dense_to_dense,Base + QGIN,Base,host,43,Fog,rescue,1988,56,125,44.8,35.9138320489,54.2006543075
+dense_to_dense,Base + QGIN,Base,host,43,Fog,new_failure,1988,152,1610,9.44099378882,7.77275453002,11.1185208805
+dense_to_dense,Base + QGIN,Base,host,43,Fog,far200_removed,1988,20,38,52.6315789474,37.5,68.5758928571
+dense_to_dense,Base + QGIN,Base,host,43,Gamma,rescue,1988,3,6,50,0,100
+dense_to_dense,Base + QGIN,Base,host,43,Gamma,new_failure,1988,92,1932,4.7619047619,3.7093495935,5.91666449051
+dense_to_dense,Base + QGIN,Base,host,43,Gamma,far200_removed,1988,2,5,40,0,100
+dense_to_dense,Base + QGIN,Base,host,43,Posterize4,rescue,1988,0,0,,,
+dense_to_dense,Base + QGIN,Base,host,43,Posterize4,new_failure,1988,97,1962,4.94393476045,3.87610223503,6.09701886759
+dense_to_dense,Base + QGIN,Base,host,43,Posterize4,far200_removed,1988,0,0,,,
+dense_to_dense,Base + QGIN,Base,host,43,Snow,rescue,1988,168,259,64.8648648649,58.1310308807,71.4299293862
+dense_to_dense,Base + QGIN,Base,host,43,Snow,new_failure,1988,81,1483,5.46190155091,4.30670099541,6.68074845519
+dense_to_dense,Base + QGIN,Base,host,43,Snow,far200_removed,1988,118,162,72.8395061728,65.2921994885,80.2473196881
+dense_to_dense,Base + QGIN,Base,host,mean,Clean,rescue,,,,,,
+dense_to_dense,Base + QGIN,Base,host,mean,Clean,new_failure,,,,5.43097293438,4.52703533609,6.33773529031
+dense_to_dense,Base + QGIN,Base,host,mean,Clean,far200_removed,,,,,,
+dense_to_dense,Base + QGIN,Base,host,mean,Fog,rescue,,,,42.318699187,35.9248691035,49.2776136599
+dense_to_dense,Base + QGIN,Base,host,mean,Fog,new_failure,,,,9.24891663207,7.94132926147,10.6232224891
+dense_to_dense,Base + QGIN,Base,host,mean,Fog,far200_removed,,,,46.8286099865,35.0519041769,58.8630818318
+dense_to_dense,Base + QGIN,Base,host,mean,Snow,rescue,,,,65.5259576123,60.5364465248,70.2550265765
+dense_to_dense,Base + QGIN,Base,host,mean,Snow,new_failure,,,,5.22382826833,4.33361218005,6.14824180524
+dense_to_dense,Base + QGIN,Base,host,mean,Snow,far200_removed,,,,75.6462724234,70.1321996215,80.6603679264
+dense_to_dense,Base + QGIN,Base,host,mean,Blur,rescue,,,,73.3333333333,58.3333333333,86.3712121212
+dense_to_dense,Base + QGIN,Base,host,mean,Blur,new_failure,,,,4.70336930013,3.85194251405,5.62673856345
+dense_to_dense,Base + QGIN,Base,host,mean,Blur,far200_removed,,,,71.4285714286,50,91.6666666667
+dense_to_dense,Base + QGIN,Base,host,mean,Gamma,rescue,,,,39.2857142857,12.0521978022,68.7946428571
+dense_to_dense,Base + QGIN,Base,host,mean,Gamma,new_failure,,,,4.69109576916,3.82393309173,5.57781710435
+dense_to_dense,Base + QGIN,Base,host,mean,Gamma,far200_removed,,,,70,50,100
+dense_to_dense,Base + QGIN,Base,host,mean,ExposureClip,rescue,,,,58.709273183,50.4506133387,67.1557114926
+dense_to_dense,Base + QGIN,Base,host,mean,ExposureClip,new_failure,,,,5.49372584317,4.56304279579,6.45578385318
+dense_to_dense,Base + QGIN,Base,host,mean,ExposureClip,far200_removed,,,,63.4863945578,53.0485219705,73.9117179676
+dense_to_dense,Base + QGIN,Base,host,mean,Posterize4,rescue,,,,,,
+dense_to_dense,Base + QGIN,Base,host,mean,Posterize4,new_failure,,,,5.14312920595,4.27220046915,6.05997620499
+dense_to_dense,Base + QGIN,Base,host,mean,Posterize4,far200_removed,,,,,,
+dense_to_dense,Base + QGIN,Base,common,42,Blur,rescue,1953,4,4,100,100,100
+dense_to_dense,Base + QGIN,Base,common,42,Blur,new_failure,1953,85,1838,4.62459194777,3.52185954575,5.72987092715
+dense_to_dense,Base + QGIN,Base,common,42,Blur,far200_removed,1953,2,2,100,100,100
+dense_to_dense,Base + QGIN,Base,common,42,Clean,rescue,1953,0,0,,,
+dense_to_dense,Base + QGIN,Base,common,42,Clean,new_failure,1953,108,1953,5.52995391705,4.37726259569,6.8090860584
+dense_to_dense,Base + QGIN,Base,common,42,Clean,far200_removed,1953,0,0,,,
+dense_to_dense,Base + QGIN,Base,common,42,ExposureClip,rescue,1953,50,84,59.5238095238,48.8629756871,70.5147058824
+dense_to_dense,Base + QGIN,Base,common,42,ExposureClip,new_failure,1953,93,1705,5.45454545455,4.27336494764,6.70554793346
+dense_to_dense,Base + QGIN,Base,common,42,ExposureClip,far200_removed,1953,32,49,65.306122449,50.9425385935,80.3580182073
+dense_to_dense,Base + QGIN,Base,common,42,Fog,rescue,1953,49,123,39.837398374,30.5954483309,48.4855985599
+dense_to_dense,Base + QGIN,Base,common,42,Fog,new_failure,1953,145,1601,9.05683947533,7.4141571478,10.8109420949
+dense_to_dense,Base + QGIN,Base,common,42,Fog,far200_removed,1953,16,39,41.0256410256,23.6842105263,57.1428571429
+dense_to_dense,Base + QGIN,Base,common,42,Gamma,rescue,1953,2,7,28.5714285714,0,62.9166666667
+dense_to_dense,Base + QGIN,Base,common,42,Gamma,new_failure,1953,87,1883,4.62028677642,3.46452148623,5.86336013036
+dense_to_dense,Base + QGIN,Base,common,42,Gamma,far200_removed,1953,6,6,100,100,100
+dense_to_dense,Base + QGIN,Base,common,42,Posterize4,rescue,1953,0,1,0,0,0
+dense_to_dense,Base + QGIN,Base,common,42,Posterize4,new_failure,1953,103,1928,5.34232365145,4.1793621897,6.64943156105
+dense_to_dense,Base + QGIN,Base,common,42,Posterize4,far200_removed,1953,1,1,100,100,100
+dense_to_dense,Base + QGIN,Base,common,42,Snow,rescue,1953,184,278,66.1870503597,59.7824043805,72.4490758568
+dense_to_dense,Base + QGIN,Base,common,42,Snow,new_failure,1953,70,1404,4.98575498575,3.80000722028,6.32113504111
+dense_to_dense,Base + QGIN,Base,common,42,Snow,far200_removed,1953,142,181,78.453038674,72.0238095238,84.7292584911
+dense_to_dense,Base + QGIN,Base,common,43,Blur,rescue,1988,7,15,46.6666666667,16.6666666667,72.7424242424
+dense_to_dense,Base + QGIN,Base,common,43,Blur,new_failure,1988,90,1882,4.7821466525,3.63725092525,6.07032549399
+dense_to_dense,Base + QGIN,Base,common,43,Blur,far200_removed,1988,3,7,42.8571428571,0,83.3333333333
+dense_to_dense,Base + QGIN,Base,common,43,Clean,rescue,1988,0,0,,,
+dense_to_dense,Base + QGIN,Base,common,43,Clean,new_failure,1988,106,1988,5.33199195171,4.25593849128,6.46811285059
+dense_to_dense,Base + QGIN,Base,common,43,Clean,far200_removed,1988,0,0,,,
+dense_to_dense,Base + QGIN,Base,common,43,ExposureClip,rescue,1988,55,95,57.8947368421,47.1424466338,68.1331168831
+dense_to_dense,Base + QGIN,Base,common,43,ExposureClip,new_failure,1988,95,1717,5.5329062318,4.35287123408,6.75367496995
+dense_to_dense,Base + QGIN,Base,common,43,ExposureClip,far200_removed,1988,37,60,61.6666666667,49.0175219024,73.8461538462
+dense_to_dense,Base + QGIN,Base,common,43,Fog,rescue,1988,56,125,44.8,35.9138320489,54.2006543075
+dense_to_dense,Base + QGIN,Base,common,43,Fog,new_failure,1988,152,1610,9.44099378882,7.77275453002,11.1185208805
+dense_to_dense,Base + QGIN,Base,common,43,Fog,far200_removed,1988,20,38,52.6315789474,37.5,68.5758928571
+dense_to_dense,Base + QGIN,Base,common,43,Gamma,rescue,1988,3,6,50,0,100
+dense_to_dense,Base + QGIN,Base,common,43,Gamma,new_failure,1988,92,1932,4.7619047619,3.7093495935,5.91666449051
+dense_to_dense,Base + QGIN,Base,common,43,Gamma,far200_removed,1988,2,5,40,0,100
+dense_to_dense,Base + QGIN,Base,common,43,Posterize4,rescue,1988,0,0,,,
+dense_to_dense,Base + QGIN,Base,common,43,Posterize4,new_failure,1988,97,1962,4.94393476045,3.87610223503,6.09701886759
+dense_to_dense,Base + QGIN,Base,common,43,Posterize4,far200_removed,1988,0,0,,,
+dense_to_dense,Base + QGIN,Base,common,43,Snow,rescue,1988,168,259,64.8648648649,58.1310308807,71.4299293862
+dense_to_dense,Base + QGIN,Base,common,43,Snow,new_failure,1988,81,1483,5.46190155091,4.30670099541,6.68074845519
+dense_to_dense,Base + QGIN,Base,common,43,Snow,far200_removed,1988,118,162,72.8395061728,65.2921994885,80.2473196881
+dense_to_dense,Base + QGIN,Base,common,mean,Clean,rescue,,,,,,
+dense_to_dense,Base + QGIN,Base,common,mean,Clean,new_failure,,,,5.43097293438,4.52703533609,6.33773529031
+dense_to_dense,Base + QGIN,Base,common,mean,Clean,far200_removed,,,,,,
+dense_to_dense,Base + QGIN,Base,common,mean,Fog,rescue,,,,42.318699187,35.9248691035,49.2776136599
+dense_to_dense,Base + QGIN,Base,common,mean,Fog,new_failure,,,,9.24891663207,7.94132926147,10.6232224891
+dense_to_dense,Base + QGIN,Base,common,mean,Fog,far200_removed,,,,46.8286099865,35.0519041769,58.8630818318
+dense_to_dense,Base + QGIN,Base,common,mean,Snow,rescue,,,,65.5259576123,60.5364465248,70.2550265765
+dense_to_dense,Base + QGIN,Base,common,mean,Snow,new_failure,,,,5.22382826833,4.33361218005,6.14824180524
+dense_to_dense,Base + QGIN,Base,common,mean,Snow,far200_removed,,,,75.6462724234,70.1321996215,80.6603679264
+dense_to_dense,Base + QGIN,Base,common,mean,Blur,rescue,,,,73.3333333333,58.3333333333,86.3712121212
+dense_to_dense,Base + QGIN,Base,common,mean,Blur,new_failure,,,,4.70336930013,3.85194251405,5.62673856345
+dense_to_dense,Base + QGIN,Base,common,mean,Blur,far200_removed,,,,71.4285714286,50,91.6666666667
+dense_to_dense,Base + QGIN,Base,common,mean,Gamma,rescue,,,,39.2857142857,12.0521978022,68.7946428571
+dense_to_dense,Base + QGIN,Base,common,mean,Gamma,new_failure,,,,4.69109576916,3.82393309173,5.57781710435
+dense_to_dense,Base + QGIN,Base,common,mean,Gamma,far200_removed,,,,70,50,100
+dense_to_dense,Base + QGIN,Base,common,mean,ExposureClip,rescue,,,,58.709273183,50.4506133387,67.1557114926
+dense_to_dense,Base + QGIN,Base,common,mean,ExposureClip,new_failure,,,,5.49372584317,4.56304279579,6.45578385318
+dense_to_dense,Base + QGIN,Base,common,mean,ExposureClip,far200_removed,,,,63.4863945578,53.0485219705,73.9117179676
+dense_to_dense,Base + QGIN,Base,common,mean,Posterize4,rescue,,,,,,
+dense_to_dense,Base + QGIN,Base,common,mean,Posterize4,new_failure,,,,5.14312920595,4.27220046915,6.05997620499
+dense_to_dense,Base + QGIN,Base,common,mean,Posterize4,far200_removed,,,,,,
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Blur,rescue,2035,4,8,50,16.6666666667,85.7142857143
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Blur,new_failure,2035,106,1949,5.4386865059,4.3776371308,6.6195048004
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Blur,far200_removed,2035,2,4,50,0,100
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Clean,rescue,2035,0,0,,,
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Clean,new_failure,2035,125,2035,6.14250614251,5.04607218993,7.42094214383
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Clean,far200_removed,2035,0,0,,,
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,ExposureClip,rescue,2035,74,126,58.7301587302,50,67.3917069243
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,ExposureClip,new_failure,2035,106,1759,6.02615122229,4.83229107447,7.40772450533
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,ExposureClip,far200_removed,2035,59,83,71.0843373494,60.6724548859,80.5555555556
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Fog,rescue,2035,23,53,43.3962264151,29.4092292089,58.0016129032
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Fog,new_failure,2035,117,1773,6.59898477157,5.30999691655,8.04338771205
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Fog,far200_removed,2035,6,13,46.1538461538,16.6666666667,75
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Gamma,rescue,2035,4,5,80,33.3333333333,100
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Gamma,new_failure,2035,115,1981,5.80514891469,4.70464586648,7.03310742697
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Gamma,far200_removed,2035,3,4,75,0,100
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Posterize4,rescue,2035,0,0,,,
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Posterize4,new_failure,2035,118,2022,5.83580613254,4.77368264511,7.01407379873
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Posterize4,far200_removed,2035,0,0,,,
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Snow,rescue,2035,250,322,77.6397515528,72.5805103032,82.7386083744
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Snow,new_failure,2035,72,1424,5.05617977528,3.87484921342,6.33086331491
+dense_to_dense,S4G-QDual,Sample4Geo,host,42,Snow,far200_removed,2035,174,196,88.7755102041,84.023592387,93.0008706468
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Blur,rescue,1990,2,4,50,0,100
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Blur,new_failure,1990,86,1917,4.48617631716,3.52503291439,5.52961750777
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Blur,far200_removed,1990,2,2,100,100,100
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Clean,rescue,1990,0,0,,,
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Clean,new_failure,1990,100,1990,5.02512562814,3.97346831414,6.23138686365
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Clean,far200_removed,1990,0,0,,,
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,ExposureClip,rescue,1990,77,119,64.7058823529,55.6519985975,73.0188343994
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,ExposureClip,new_failure,1990,83,1714,4.84247374562,3.71242697581,6.08036201658
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,ExposureClip,far200_removed,1990,53,78,67.9487179487,56.1637827445,77.7777777778
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Fog,rescue,1990,49,84,58.3333333333,47.5399590164,69.0149228706
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Fog,new_failure,1990,105,1689,6.21669626998,4.99383132015,7.52630192861
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Fog,far200_removed,1990,19,26,73.0769230769,54.1666666667,90.9090909091
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Gamma,rescue,1990,3,3,100,100,100
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Gamma,new_failure,1990,89,1941,4.58526532715,3.53295125114,5.73954874203
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Gamma,far200_removed,1990,0,0,,,
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Posterize4,rescue,1990,0,0,,,
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Posterize4,new_failure,1990,90,1978,4.55005055612,3.58026632252,5.65865426871
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Posterize4,far200_removed,1990,0,0,,,
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Snow,rescue,1990,209,279,74.9103942652,69.8298438019,79.8611703641
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Snow,new_failure,1990,74,1444,5.12465373961,3.90301120579,6.3642686205
+dense_to_dense,S4G-QDual,Sample4Geo,host,43,Snow,far200_removed,1990,163,184,88.5869565217,83.8536208832,93.0116870795
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Clean,rescue,,,,,,
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Clean,new_failure,,,,5.58381588532,4.73912296784,6.55273507565
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Clean,far200_removed,,,,,,
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Fog,rescue,,,,50.8647798742,42.3869390798,59.450707501
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Fog,new_failure,,,,6.40784052078,5.52370306771,7.42945084763
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Fog,far200_removed,,,,59.6153846154,41.6666666667,77.7799736495
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Snow,rescue,,,,76.275072909,72.7476469856,79.9223133519
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Snow,new_failure,,,,5.09041675745,4.16081365168,6.01886184917
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Snow,far200_removed,,,,88.6812333629,84.9993927484,91.981648082
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Blur,rescue,,,,50,16.6666666667,83.3333333333
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Blur,new_failure,,,,4.96243141153,4.1887716959,5.80040313625
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Blur,far200_removed,,,,75,50,100
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Gamma,rescue,,,,90,66.6666666667,100
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Gamma,new_failure,,,,5.19520712092,4.34949555963,6.16984671754
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Gamma,far200_removed,,,,,,
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,ExposureClip,rescue,,,,61.7180205415,54.5764581241,68.2123666097
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,ExposureClip,new_failure,,,,5.43431248395,4.49903009853,6.48538252129
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,ExposureClip,far200_removed,,,,69.5165276491,61.6592434224,76.6026898734
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Posterize4,rescue,,,,,,
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Posterize4,new_failure,,,,5.19292834433,4.37588748074,6.11576960273
+dense_to_dense,S4G-QDual,Sample4Geo,host,mean,Posterize4,far200_removed,,,,,,
+dense_to_dense,S4G-QDual,Base,common,42,Blur,rescue,1953,2,4,50,0,100
+dense_to_dense,S4G-QDual,Base,common,42,Blur,new_failure,1953,134,1838,7.29053318825,5.84442192865,8.78666693674
+dense_to_dense,S4G-QDual,Base,common,42,Blur,far200_removed,1953,1,2,50,0,100
+dense_to_dense,S4G-QDual,Base,common,42,Clean,rescue,1953,0,0,,,
+dense_to_dense,S4G-QDual,Base,common,42,Clean,new_failure,1953,165,1953,8.44854070661,6.94018671298,10.0701491099
+dense_to_dense,S4G-QDual,Base,common,42,Clean,far200_removed,1953,0,0,,,
+dense_to_dense,S4G-QDual,Base,common,42,ExposureClip,rescue,1953,51,84,60.7142857143,50.5491551459,70.8333333333
+dense_to_dense,S4G-QDual,Base,common,42,ExposureClip,new_failure,1953,170,1705,9.9706744868,8.24670931265,11.7787365357
+dense_to_dense,S4G-QDual,Base,common,42,ExposureClip,far200_removed,1953,37,49,75.5102040816,64.1025641026,86.8449656751
+dense_to_dense,S4G-QDual,Base,common,42,Fog,rescue,1953,78,123,63.4146341463,54.6875,71.6324609301
+dense_to_dense,S4G-QDual,Base,common,42,Fog,new_failure,1953,168,1601,10.493441599,8.67833231893,12.4378262628
+dense_to_dense,S4G-QDual,Base,common,42,Fog,far200_removed,1953,34,39,87.1794871795,76.4667182663,96.875
+dense_to_dense,S4G-QDual,Base,common,42,Gamma,rescue,1953,5,7,71.4285714286,40,100
+dense_to_dense,S4G-QDual,Base,common,42,Gamma,new_failure,1953,158,1883,8.39086563994,6.88302781613,10.005241867
+dense_to_dense,S4G-QDual,Base,common,42,Gamma,far200_removed,1953,6,6,100,100,100
+dense_to_dense,S4G-QDual,Base,common,42,Posterize4,rescue,1953,0,1,0,0,0
+dense_to_dense,S4G-QDual,Base,common,42,Posterize4,new_failure,1953,161,1928,8.35062240664,6.89829553584,9.96398628447
+dense_to_dense,S4G-QDual,Base,common,42,Posterize4,far200_removed,1953,1,1,100,100,100
+dense_to_dense,S4G-QDual,Base,common,42,Snow,rescue,1953,210,278,75.5395683453,69.5029704338,80.9688904095
+dense_to_dense,S4G-QDual,Base,common,42,Snow,new_failure,1953,124,1404,8.83190883191,7.23578166112,10.5415708812
+dense_to_dense,S4G-QDual,Base,common,42,Snow,far200_removed,1953,162,181,89.5027624309,84.5669633722,93.9226519337
+dense_to_dense,S4G-QDual,Base,common,43,Blur,rescue,1988,13,15,86.6666666667,66.6666666667,100
+dense_to_dense,S4G-QDual,Base,common,43,Blur,new_failure,1988,151,1882,8.02337938363,6.56418884751,9.6394988399
+dense_to_dense,S4G-QDual,Base,common,43,Blur,far200_removed,1988,6,7,85.7142857143,50,100
+dense_to_dense,S4G-QDual,Base,common,43,Clean,rescue,1988,0,0,,,
+dense_to_dense,S4G-QDual,Base,common,43,Clean,new_failure,1988,157,1988,7.89738430584,6.47993954352,9.40829814279
+dense_to_dense,S4G-QDual,Base,common,43,Clean,far200_removed,1988,0,0,,,
+dense_to_dense,S4G-QDual,Base,common,43,ExposureClip,rescue,1988,65,95,68.4210526316,58.6198188784,78.4965437788
+dense_to_dense,S4G-QDual,Base,common,43,ExposureClip,new_failure,1988,153,1717,8.91089108911,7.35798988581,10.5992097063
+dense_to_dense,S4G-QDual,Base,common,43,ExposureClip,far200_removed,1988,48,60,80,69.0877742947,90
+dense_to_dense,S4G-QDual,Base,common,43,Fog,rescue,1988,87,125,69.6,60.9192789969,77.6882460973
+dense_to_dense,S4G-QDual,Base,common,43,Fog,new_failure,1988,175,1610,10.8695652174,9.07344552067,12.7996301479
+dense_to_dense,S4G-QDual,Base,common,43,Fog,far200_removed,1988,32,38,84.2105263158,71.7934782609,94.5945945946
+dense_to_dense,S4G-QDual,Base,common,43,Gamma,rescue,1988,4,6,66.6666666667,20,100
+dense_to_dense,S4G-QDual,Base,common,43,Gamma,new_failure,1988,150,1932,7.76397515528,6.33829643374,9.26407426866
+dense_to_dense,S4G-QDual,Base,common,43,Gamma,far200_removed,1988,4,5,80,33.3333333333,100
+dense_to_dense,S4G-QDual,Base,common,43,Posterize4,rescue,1988,0,0,,,
+dense_to_dense,S4G-QDual,Base,common,43,Posterize4,new_failure,1988,151,1962,7.69622833843,6.19053300435,9.1696834375
+dense_to_dense,S4G-QDual,Base,common,43,Posterize4,far200_removed,1988,0,0,,,
+dense_to_dense,S4G-QDual,Base,common,43,Snow,rescue,1988,193,259,74.5173745174,69.0962490658,79.8537298879
+dense_to_dense,S4G-QDual,Base,common,43,Snow,new_failure,1988,141,1483,9.50775455158,7.79567653822,11.2592570665
+dense_to_dense,S4G-QDual,Base,common,43,Snow,far200_removed,1988,143,162,88.2716049383,83.2234745433,92.8592436975
+dense_to_dense,S4G-QDual,Base,common,mean,Clean,rescue,,,,,,
+dense_to_dense,S4G-QDual,Base,common,mean,Clean,new_failure,,,,8.17296250622,6.99964987277,9.37606359069
+dense_to_dense,S4G-QDual,Base,common,mean,Clean,far200_removed,,,,,,
+dense_to_dense,S4G-QDual,Base,common,mean,Fog,rescue,,,,66.5073170732,60.1005260609,72.5834421268
+dense_to_dense,S4G-QDual,Base,common,mean,Fog,new_failure,,,,10.6815034082,9.21447721805,12.2592051604
+dense_to_dense,S4G-QDual,Base,common,mean,Fog,far200_removed,,,,85.6950067476,76.7094375219,94.1864373656
+dense_to_dense,S4G-QDual,Base,common,mean,Snow,rescue,,,,75.0284714313,70.6809275004,79.1433365565
+dense_to_dense,S4G-QDual,Base,common,mean,Snow,new_failure,,,,9.16983169175,7.90956076517,10.5405538387
+dense_to_dense,S4G-QDual,Base,common,mean,Snow,far200_removed,,,,88.8871836846,85.2842297876,92.1422556844
+dense_to_dense,S4G-QDual,Base,common,mean,Blur,rescue,,,,68.3333333333,38.8825757576,100
+dense_to_dense,S4G-QDual,Base,common,mean,Blur,new_failure,,,,7.65695628594,6.47103967362,8.89401958348
+dense_to_dense,S4G-QDual,Base,common,mean,Blur,far200_removed,,,,67.8571428571,30,100
+dense_to_dense,S4G-QDual,Base,common,mean,Gamma,rescue,,,,69.0476190476,37.5,100
+dense_to_dense,S4G-QDual,Base,common,mean,Gamma,new_failure,,,,8.07742039761,6.8817372688,9.42407633305
+dense_to_dense,S4G-QDual,Base,common,mean,Gamma,far200_removed,,,,90,66.6666666667,100
+dense_to_dense,S4G-QDual,Base,common,mean,ExposureClip,rescue,,,,64.5676691729,57.3457386987,72.1602746212
+dense_to_dense,S4G-QDual,Base,common,mean,ExposureClip,new_failure,,,,9.44078278796,8.14614071626,10.7908906661
+dense_to_dense,S4G-QDual,Base,common,mean,ExposureClip,far200_removed,,,,77.7551020408,70.4470442889,85.2577493261
+dense_to_dense,S4G-QDual,Base,common,mean,Posterize4,rescue,,,,,,
+dense_to_dense,S4G-QDual,Base,common,mean,Posterize4,new_failure,,,,8.02342537253,6.84384672873,9.24169228419
+dense_to_dense,S4G-QDual,Base,common,mean,Posterize4,far200_removed,,,,,,
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Blur,rescue,2087,5,8,62.5,25,100
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Blur,new_failure,2087,55,2031,2.70802560315,1.95776171034,3.52782539262
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Blur,far200_removed,2087,1,1,100,100,100
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Clean,rescue,2087,0,0,,,
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Clean,new_failure,2087,68,2087,3.2582654528,2.43428051719,4.11824458245
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Clean,far200_removed,2087,0,0,,,
+dense_to_dense,ConGeo-QView,ConGeo,host,42,ExposureClip,rescue,2087,61,98,62.2448979592,52.4728901462,72.1663802978
+dense_to_dense,ConGeo-QView,ConGeo,host,42,ExposureClip,new_failure,2087,61,1827,3.33880678708,2.48749350981,4.28648941942
+dense_to_dense,ConGeo-QView,ConGeo,host,42,ExposureClip,far200_removed,2087,39,58,67.2413793103,54.2372881356,80
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Fog,rescue,2087,26,53,49.0566037736,36.3636363636,61.7050290135
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Fog,new_failure,2087,73,1866,3.91211146838,2.97770623718,4.98637559527
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Fog,far200_removed,2087,10,16,62.5,41.3742393509,84.6153846154
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Gamma,rescue,2087,1,4,25,0,80
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Gamma,new_failure,2087,55,2035,2.7027027027,1.92000873701,3.58715433892
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Gamma,far200_removed,2087,1,3,33.3333333333,0,100
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Posterize4,rescue,2087,0,0,,,
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Posterize4,new_failure,2087,65,2072,3.13706563707,2.30871913869,4.0116483028
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Posterize4,far200_removed,2087,0,0,,,
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Snow,rescue,2087,137,198,69.1919191919,61.8551720703,76.2136578326
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Snow,new_failure,2087,44,1608,2.73631840796,1.84370247482,3.67435286882
+dense_to_dense,ConGeo-QView,ConGeo,host,42,Snow,far200_removed,2087,93,130,71.5384615385,63.2648700506,80
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Blur,rescue,2038,4,8,50,12.5,85.7589285714
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Blur,new_failure,2038,57,1971,2.89193302892,2.06947959844,3.79701817202
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Blur,far200_removed,2038,0,0,,,
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Clean,rescue,2038,0,0,,,
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Clean,new_failure,2038,64,2038,3.14033366045,2.3083630261,4.09188898966
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Clean,far200_removed,2038,0,0,,,
+dense_to_dense,ConGeo-QView,ConGeo,host,43,ExposureClip,rescue,2038,64,109,58.7155963303,50,67.5010964912
+dense_to_dense,ConGeo-QView,ConGeo,host,43,ExposureClip,new_failure,2038,56,1778,3.14960629921,2.27888599727,4.0678540974
+dense_to_dense,ConGeo-QView,ConGeo,host,43,ExposureClip,far200_removed,2038,52,84,61.9047619048,51.3888888889,71.6216216216
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Fog,rescue,2038,29,66,43.9393939394,31.4814814815,56.2522007042
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Fog,new_failure,2038,73,1775,4.11267605634,3.1125825316,5.15004460792
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Fog,far200_removed,2038,17,26,65.3846153846,46.1458333333,83.3333333333
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Gamma,rescue,2038,2,3,66.6666666667,0,100
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Gamma,new_failure,2038,55,1997,2.7541311968,1.99401794616,3.56439678609
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Gamma,far200_removed,2038,1,1,100,100,100
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Posterize4,rescue,2038,0,0,,,
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Posterize4,new_failure,2038,67,2020,3.31683168317,2.40196078431,4.35224421949
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Posterize4,far200_removed,2038,0,0,,,
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Snow,rescue,2038,167,242,69.0082644628,62.9163306452,75
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Snow,new_failure,2038,55,1566,3.51213282248,2.59652045982,4.45601713089
+dense_to_dense,ConGeo-QView,ConGeo,host,43,Snow,far200_removed,2038,132,163,80.981595092,75,87.2340425532
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Clean,rescue,,,,,,
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Clean,new_failure,,,,3.19929955663,2.57142033058,3.85799307315
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Clean,far200_removed,,,,,,
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Fog,rescue,,,,46.4979988565,37.8234705148,54.9307635183
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Fog,new_failure,,,,4.01239376236,3.31061960137,4.8237986228
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Fog,far200_removed,,,,63.9423076923,49.5533685065,77.5018939394
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Snow,rescue,,,,69.1000918274,64.4266306372,74.0956336153
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Snow,new_failure,,,,3.12422561522,2.442985327,3.8428216618
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Snow,far200_removed,,,,76.2600283152,71.0197831944,81.8176687946
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Blur,rescue,,,,56.25,30,81.25
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Blur,new_failure,,,,2.79997931604,2.25349961025,3.46178315228
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Blur,far200_removed,,,,,,
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Gamma,rescue,,,,45.8333333333,0,83.3333333333
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Gamma,new_failure,,,,2.72841694975,2.15926944408,3.33904240754
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Gamma,far200_removed,,,,66.6666666667,50,100
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,ExposureClip,rescue,,,,60.4802471447,53.5786300058,67.6334919746
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,ExposureClip,new_failure,,,,3.24420654315,2.60064354717,3.93888049262
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,ExposureClip,far200_removed,,,,64.5730706076,55.9252562898,73.2738854375
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Posterize4,rescue,,,,,,
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Posterize4,new_failure,,,,3.22694866012,2.58707610502,3.92742030491
+dense_to_dense,ConGeo-QView,ConGeo,host,mean,Posterize4,far200_removed,,,,,,
+dense_to_dense,ConGeo-QView,Base,common,42,Blur,rescue,1953,4,4,100,100,100
+dense_to_dense,ConGeo-QView,Base,common,42,Blur,new_failure,1953,86,1838,4.67899891186,3.55794099447,5.98917570328
+dense_to_dense,ConGeo-QView,Base,common,42,Blur,far200_removed,1953,2,2,100,100,100
+dense_to_dense,ConGeo-QView,Base,common,42,Clean,rescue,1953,0,0,,,
+dense_to_dense,ConGeo-QView,Base,common,42,Clean,new_failure,1953,103,1953,5.273937532,4.10542321338,6.60584862672
+dense_to_dense,ConGeo-QView,Base,common,42,Clean,far200_removed,1953,0,0,,,
+dense_to_dense,ConGeo-QView,Base,common,42,ExposureClip,rescue,1953,56,84,66.6666666667,55.5528052805,77.5032894737
+dense_to_dense,ConGeo-QView,Base,common,42,ExposureClip,new_failure,1953,137,1705,8.03519061584,6.56299419337,9.6890871198
+dense_to_dense,ConGeo-QView,Base,common,42,ExposureClip,far200_removed,1953,33,49,67.3469387755,53.488372093,80.3921568627
+dense_to_dense,ConGeo-QView,Base,common,42,Fog,rescue,1953,89,123,72.3577235772,63.4905828003,80.452044746
+dense_to_dense,ConGeo-QView,Base,common,42,Fog,new_failure,1953,133,1601,8.30730793254,6.7785136665,10.0435687427
+dense_to_dense,ConGeo-QView,Base,common,42,Fog,far200_removed,1953,35,39,89.7435897436,79.543997669,97.8260869565
+dense_to_dense,ConGeo-QView,Base,common,42,Gamma,rescue,1953,6,7,85.7142857143,50,100
+dense_to_dense,ConGeo-QView,Base,common,42,Gamma,new_failure,1953,105,1883,5.57620817844,4.32680763074,6.9559962823
+dense_to_dense,ConGeo-QView,Base,common,42,Gamma,far200_removed,1953,6,6,100,100,100
+dense_to_dense,ConGeo-QView,Base,common,42,Posterize4,rescue,1953,1,1,100,100,100
+dense_to_dense,ConGeo-QView,Base,common,42,Posterize4,new_failure,1953,103,1928,5.34232365145,4.12698029486,6.68756530825
+dense_to_dense,ConGeo-QView,Base,common,42,Posterize4,far200_removed,1953,1,1,100,100,100
+dense_to_dense,ConGeo-QView,Base,common,42,Snow,rescue,1953,222,278,79.8561151079,74.4356530862,84.8495748855
+dense_to_dense,ConGeo-QView,Base,common,42,Snow,new_failure,1953,100,1404,7.12250712251,5.39214805261,8.95570225794
+dense_to_dense,ConGeo-QView,Base,common,42,Snow,far200_removed,1953,163,181,90.0552486188,85.2781605028,94.660710597
+dense_to_dense,ConGeo-QView,Base,common,43,Blur,rescue,1988,13,15,86.6666666667,66.6666666667,100
+dense_to_dense,ConGeo-QView,Base,common,43,Blur,new_failure,1988,118,1882,6.26992561105,4.87540628386,7.73070094813
+dense_to_dense,ConGeo-QView,Base,common,43,Blur,far200_removed,1988,6,7,85.7142857143,50,100
+dense_to_dense,ConGeo-QView,Base,common,43,Clean,rescue,1988,0,0,,,
+dense_to_dense,ConGeo-QView,Base,common,43,Clean,new_failure,1988,136,1988,6.84104627767,5.47109439118,8.29669426142
+dense_to_dense,ConGeo-QView,Base,common,43,Clean,far200_removed,1988,0,0,,,
+dense_to_dense,ConGeo-QView,Base,common,43,ExposureClip,rescue,1988,61,95,64.2105263158,53.9178690344,74.1943797805
+dense_to_dense,ConGeo-QView,Base,common,43,ExposureClip,new_failure,1988,131,1717,7.62958648806,6.11037947566,9.14054162844
+dense_to_dense,ConGeo-QView,Base,common,43,ExposureClip,far200_removed,1988,44,60,73.3333333333,61.2216553288,84.7826086957
+dense_to_dense,ConGeo-QView,Base,common,43,Fog,rescue,1988,92,125,73.6,65.1351905721,81.6
+dense_to_dense,ConGeo-QView,Base,common,43,Fog,new_failure,1988,160,1610,9.93788819876,8.12805145047,11.8086748369
+dense_to_dense,ConGeo-QView,Base,common,43,Fog,far200_removed,1988,34,38,89.4736842105,76.1904761905,100
+dense_to_dense,ConGeo-QView,Base,common,43,Gamma,rescue,1988,5,6,83.3333333333,50,100
+dense_to_dense,ConGeo-QView,Base,common,43,Gamma,new_failure,1988,135,1932,6.98757763975,5.63520982452,8.46645985937
+dense_to_dense,ConGeo-QView,Base,common,43,Gamma,far200_removed,1988,5,5,100,100,100
+dense_to_dense,ConGeo-QView,Base,common,43,Posterize4,rescue,1988,0,0,,,
+dense_to_dense,ConGeo-QView,Base,common,43,Posterize4,new_failure,1988,132,1962,6.72782874618,5.36732825045,8.18858362703
+dense_to_dense,ConGeo-QView,Base,common,43,Posterize4,far200_removed,1988,0,0,,,
+dense_to_dense,ConGeo-QView,Base,common,43,Snow,rescue,1988,194,259,74.9034749035,69.2883895131,80.4880578889
+dense_to_dense,ConGeo-QView,Base,common,43,Snow,new_failure,1988,136,1483,9.17060013486,7.382342194,10.9250615184
+dense_to_dense,ConGeo-QView,Base,common,43,Snow,far200_removed,1988,141,162,87.037037037,81.2152842152,92.2079866242
+dense_to_dense,ConGeo-QView,Base,common,mean,Clean,rescue,,,,,,
+dense_to_dense,ConGeo-QView,Base,common,mean,Clean,new_failure,,,,6.05749190483,5.00612021832,7.20882763508
+dense_to_dense,ConGeo-QView,Base,common,mean,Clean,far200_removed,,,,,,
+dense_to_dense,ConGeo-QView,Base,common,mean,Fog,rescue,,,,72.9788617886,66.5304826925,78.8847015652
+dense_to_dense,ConGeo-QView,Base,common,mean,Fog,new_failure,,,,9.12259806565,7.7702641628,10.617083227
+dense_to_dense,ConGeo-QView,Base,common,mean,Fog,far200_removed,,,,89.6086369771,79.7892156863,97.3684210526
+dense_to_dense,ConGeo-QView,Base,common,mean,Snow,rescue,,,,77.3797950057,73.326392345,81.3327954726
+dense_to_dense,ConGeo-QView,Base,common,mean,Snow,new_failure,,,,8.14655362868,6.81661649845,9.46725454886
+dense_to_dense,ConGeo-QView,Base,common,mean,Snow,far200_removed,,,,88.5461428279,84.6964795657,92.2610382088
+dense_to_dense,ConGeo-QView,Base,common,mean,Blur,rescue,,,,93.3333333333,83.3333333333,100
+dense_to_dense,ConGeo-QView,Base,common,mean,Blur,new_failure,,,,5.47446226146,4.38785336828,6.66441763254
+dense_to_dense,ConGeo-QView,Base,common,mean,Blur,far200_removed,,,,92.8571428571,75,100
+dense_to_dense,ConGeo-QView,Base,common,mean,Gamma,rescue,,,,84.5238095238,58.3333333333,100
+dense_to_dense,ConGeo-QView,Base,common,mean,Gamma,new_failure,,,,6.2818929091,5.20262913433,7.47881658785
+dense_to_dense,ConGeo-QView,Base,common,mean,Gamma,far200_removed,,,,100,100,100
+dense_to_dense,ConGeo-QView,Base,common,mean,ExposureClip,rescue,,,,65.4385964912,56.3084365296,74.208346519
+dense_to_dense,ConGeo-QView,Base,common,mean,ExposureClip,new_failure,,,,7.83238855195,6.57549863976,9.21276780686
+dense_to_dense,ConGeo-QView,Base,common,mean,ExposureClip,far200_removed,,,,70.3401360544,59.972245111,80.304669289
+dense_to_dense,ConGeo-QView,Base,common,mean,Posterize4,rescue,,,,,,
+dense_to_dense,ConGeo-QView,Base,common,mean,Posterize4,new_failure,,,,6.03507619881,4.99242030301,7.19291872953
+dense_to_dense,ConGeo-QView,Base,common,mean,Posterize4,far200_removed,,,,,,
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Blur,rescue,2077,0,1,0,0,0
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Blur,new_failure,2077,58,2014,2.87984111221,2.07815342465,3.74661026752
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Blur,far200_removed,2077,0,0,,,
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Clean,rescue,2077,0,0,,,
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Clean,new_failure,2077,56,2077,2.69619643717,1.95142848021,3.53226174113
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Clean,far200_removed,2077,0,0,,,
+dense_to_dense,SinGeo-QView,SinGeo,host,42,ExposureClip,rescue,2077,63,98,64.2857142857,55.1020408163,73.1182795699
+dense_to_dense,SinGeo-QView,SinGeo,host,42,ExposureClip,new_failure,2077,59,1814,3.25248070562,2.42781265704,4.18079581416
+dense_to_dense,SinGeo-QView,SinGeo,host,42,ExposureClip,far200_removed,2077,53,69,76.8115942029,66.6666666667,86.4431225554
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Fog,rescue,2077,27,44,61.3636363636,46.6666666667,76.1904761905
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Fog,new_failure,2077,107,1877,5.70058604156,4.55431695933,6.94218788719
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Fog,far200_removed,2077,13,20,65,45.8333333333,84.6153846154
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Gamma,rescue,2077,1,2,50,0,100
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Gamma,new_failure,2077,44,2013,2.18579234973,1.53379947374,2.89362731283
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Gamma,far200_removed,2077,0,1,0,0,0
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Posterize4,rescue,2077,0,0,,,
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Posterize4,new_failure,2077,54,2058,2.62390670554,1.87921921365,3.49129482281
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Posterize4,far200_removed,2077,0,0,,,
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Snow,rescue,2077,169,239,70.7112970711,64.73205634,76.8006008584
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Snow,new_failure,2077,49,1568,3.125,2.1711101174,4.20306363044
+dense_to_dense,SinGeo-QView,SinGeo,host,42,Snow,far200_removed,2077,128,148,86.4864864865,80.434402554,92.1579057155
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Blur,rescue,2084,2,3,66.6666666667,0,100
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Blur,new_failure,2084,56,2034,2.75319567355,1.98805470618,3.57867101406
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Blur,far200_removed,2084,2,3,66.6666666667,0,100
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Clean,rescue,2084,0,0,,,
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Clean,new_failure,2084,64,2084,3.07101727447,2.24660027466,4.04782886114
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Clean,far200_removed,2084,0,0,,,
+dense_to_dense,SinGeo-QView,SinGeo,host,43,ExposureClip,rescue,2084,64,99,64.6464646465,54.9450549451,73.5637605725
+dense_to_dense,SinGeo-QView,SinGeo,host,43,ExposureClip,new_failure,2084,55,1832,3.00218340611,2.14001434788,3.89756669155
+dense_to_dense,SinGeo-QView,SinGeo,host,43,ExposureClip,far200_removed,2084,52,78,66.6666666667,55.4340481786,76.4724037763
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Fog,rescue,2084,23,58,39.6551724138,26.3136324418,52.501059322
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Fog,new_failure,2084,91,1845,4.93224932249,3.92148969088,6.02557353245
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Fog,far200_removed,2084,9,16,56.25,30.4239130435,80.9523809524
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Gamma,rescue,2084,3,6,50,0,100
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Gamma,new_failure,2084,48,2027,2.36803157375,1.67561989131,3.15780612525
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Gamma,far200_removed,2084,2,4,50,0,100
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Posterize4,rescue,2084,2,2,100,100,100
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Posterize4,new_failure,2084,63,2068,3.04642166344,2.199865219,4.00603849092
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Posterize4,far200_removed,2084,1,1,100,100,100
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Snow,rescue,2084,171,228,75,69.3456234662,80.3573467058
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Snow,new_failure,2084,54,1613,3.34779913205,2.41935483871,4.33696899122
+dense_to_dense,SinGeo-QView,SinGeo,host,43,Snow,far200_removed,2084,119,151,78.8079470199,72.1508223543,84.7685718399
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Clean,rescue,,,,,,
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Clean,new_failure,,,,2.88360685582,2.2582120365,3.58666114404
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Clean,far200_removed,,,,,,
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Fog,rescue,,,,50.5094043887,40.4651443295,59.822280886
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Fog,new_failure,,,,5.31641768202,4.47377921972,6.2575438895
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Fog,far200_removed,,,,60.625,44.1377715534,76.1936090226
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Snow,rescue,,,,72.8556485356,68.4267304611,77.2354202388
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Snow,new_failure,,,,3.23639956603,2.53932403693,3.96439762817
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Snow,far200_removed,,,,82.6472167532,77.8667995766,87.1480079029
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Blur,rescue,,,,33.3333333333,0,50
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Blur,new_failure,,,,2.81651839288,2.22002304966,3.46247451243
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Blur,far200_removed,,,,,,
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Gamma,rescue,,,,50,12.5,90
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Gamma,new_failure,,,,2.27691196174,1.76473681767,2.85523210448
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Gamma,far200_removed,,,,25,0,50
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,ExposureClip,rescue,,,,64.4660894661,57.4944487848,71.5502111576
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,ExposureClip,new_failure,,,,3.12733205587,2.49340906751,3.79532501708
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,ExposureClip,far200_removed,,,,71.7391304348,63.8110675051,78.8700634297
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Posterize4,rescue,,,,,,
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Posterize4,new_failure,,,,2.83516418449,2.20244772517,3.53354852633
+dense_to_dense,SinGeo-QView,SinGeo,host,mean,Posterize4,far200_removed,,,,,,
+dense_to_dense,SinGeo-QView,Base,common,42,Blur,rescue,1953,4,4,100,100,100
+dense_to_dense,SinGeo-QView,Base,common,42,Blur,new_failure,1953,77,1838,4.18933623504,3.11986635015,5.37876625007
+dense_to_dense,SinGeo-QView,Base,common,42,Blur,far200_removed,1953,2,2,100,100,100
+dense_to_dense,SinGeo-QView,Base,common,42,Clean,rescue,1953,0,0,,,
+dense_to_dense,SinGeo-QView,Base,common,42,Clean,new_failure,1953,83,1953,4.24987199181,3.19229830291,5.38746124595
+dense_to_dense,SinGeo-QView,Base,common,42,Clean,far200_removed,1953,0,0,,,
+dense_to_dense,SinGeo-QView,Base,common,42,ExposureClip,rescue,1953,57,84,67.8571428571,58.4415584416,76.9230769231
+dense_to_dense,SinGeo-QView,Base,common,42,ExposureClip,new_failure,1953,106,1705,6.21700879765,4.95124909576,7.49718858131
+dense_to_dense,SinGeo-QView,Base,common,42,ExposureClip,far200_removed,1953,35,49,71.4285714286,60,82.9268292683
+dense_to_dense,SinGeo-QView,Base,common,42,Fog,rescue,1953,98,123,79.674796748,71.5418118467,86.9872163547
+dense_to_dense,SinGeo-QView,Base,common,42,Fog,new_failure,1953,118,1601,7.37039350406,5.95082902958,8.92978484671
+dense_to_dense,SinGeo-QView,Base,common,42,Fog,far200_removed,1953,36,39,92.3076923077,82.9268292683,100
+dense_to_dense,SinGeo-QView,Base,common,42,Gamma,rescue,1953,7,7,100,100,100
+dense_to_dense,SinGeo-QView,Base,common,42,Gamma,new_failure,1953,78,1883,4.14232607541,3.17284057186,5.18533697632
+dense_to_dense,SinGeo-QView,Base,common,42,Gamma,far200_removed,1953,6,6,100,100,100
+dense_to_dense,SinGeo-QView,Base,common,42,Posterize4,rescue,1953,1,1,100,100,100
+dense_to_dense,SinGeo-QView,Base,common,42,Posterize4,new_failure,1953,81,1928,4.20124481328,3.19830090485,5.26856308419
+dense_to_dense,SinGeo-QView,Base,common,42,Posterize4,far200_removed,1953,1,1,100,100,100
+dense_to_dense,SinGeo-QView,Base,common,42,Snow,rescue,1953,207,278,74.4604316547,68.7969258252,80
+dense_to_dense,SinGeo-QView,Base,common,42,Snow,new_failure,1953,95,1404,6.76638176638,5.20593676773,8.26802462038
+dense_to_dense,SinGeo-QView,Base,common,42,Snow,far200_removed,1953,165,181,91.1602209945,86.3382226057,95.5668426639
+dense_to_dense,SinGeo-QView,Base,common,43,Blur,rescue,1988,14,15,93.3333333333,78.5714285714,100
+dense_to_dense,SinGeo-QView,Base,common,43,Blur,new_failure,1988,92,1882,4.88841657811,3.73518561251,6.16046420148
+dense_to_dense,SinGeo-QView,Base,common,43,Blur,far200_removed,1988,7,7,100,100,100
+dense_to_dense,SinGeo-QView,Base,common,43,Clean,rescue,1988,0,0,,,
+dense_to_dense,SinGeo-QView,Base,common,43,Clean,new_failure,1988,96,1988,4.82897384306,3.74960038363,6.03075418227
+dense_to_dense,SinGeo-QView,Base,common,43,Clean,far200_removed,1988,0,0,,,
+dense_to_dense,SinGeo-QView,Base,common,43,ExposureClip,rescue,1988,60,95,63.1578947368,53.7614601019,72.4776376147
+dense_to_dense,SinGeo-QView,Base,common,43,ExposureClip,new_failure,1988,99,1717,5.76587070472,4.50867052023,7.06900905608
+dense_to_dense,SinGeo-QView,Base,common,43,ExposureClip,far200_removed,1988,46,60,76.6666666667,66.0714285714,87.037037037
+dense_to_dense,SinGeo-QView,Base,common,43,Fog,rescue,1988,90,125,72,63.6363636364,79.6787251486
+dense_to_dense,SinGeo-QView,Base,common,43,Fog,new_failure,1988,136,1610,8.44720496894,6.95016745018,10.1759004498
+dense_to_dense,SinGeo-QView,Base,common,43,Fog,far200_removed,1988,32,38,84.2105263158,72.0930232558,94.7368421053
+dense_to_dense,SinGeo-QView,Base,common,43,Gamma,rescue,1988,4,6,66.6666666667,25,100
+dense_to_dense,SinGeo-QView,Base,common,43,Gamma,new_failure,1988,95,1932,4.91718426501,3.85015887732,6.05911459357
+dense_to_dense,SinGeo-QView,Base,common,43,Gamma,far200_removed,1988,3,5,60,0,100
+dense_to_dense,SinGeo-QView,Base,common,43,Posterize4,rescue,1988,0,0,,,
+dense_to_dense,SinGeo-QView,Base,common,43,Posterize4,new_failure,1988,93,1962,4.74006116208,3.6756735927,5.90933871425
+dense_to_dense,SinGeo-QView,Base,common,43,Posterize4,far200_removed,1988,0,0,,,
+dense_to_dense,SinGeo-QView,Base,common,43,Snow,rescue,1988,194,259,74.9034749035,69.1449814126,80.3860701107
+dense_to_dense,SinGeo-QView,Base,common,43,Snow,new_failure,1988,86,1483,5.79905596763,4.48349137276,7.21048584815
+dense_to_dense,SinGeo-QView,Base,common,43,Snow,far200_removed,1988,142,162,87.6543209877,81.7201022817,92.90436311
+dense_to_dense,SinGeo-QView,Base,common,mean,Clean,rescue,,,,,,
+dense_to_dense,SinGeo-QView,Base,common,mean,Clean,new_failure,,,,4.53942291743,3.68865488865,5.50804675601
+dense_to_dense,SinGeo-QView,Base,common,mean,Clean,far200_removed,,,,,,
+dense_to_dense,SinGeo-QView,Base,common,mean,Fog,rescue,,,,75.837398374,69.6499505786,81.5159695125
+dense_to_dense,SinGeo-QView,Base,common,mean,Fog,new_failure,,,,7.9087992365,6.75628728231,9.25338173034
+dense_to_dense,SinGeo-QView,Base,common,mean,Fog,far200_removed,,,,88.2591093117,80.9523809524,94.8286914235
+dense_to_dense,SinGeo-QView,Base,common,mean,Snow,rescue,,,,74.6819532791,70.3363626208,78.9120629269
+dense_to_dense,SinGeo-QView,Base,common,mean,Snow,new_failure,,,,6.28271886701,5.18011968862,7.46239998388
+dense_to_dense,SinGeo-QView,Base,common,mean,Snow,far200_removed,,,,89.4072709911,85.4716577348,93.1016878175
+dense_to_dense,SinGeo-QView,Base,common,mean,Blur,rescue,,,,96.6666666667,89.2857142857,100
+dense_to_dense,SinGeo-QView,Base,common,mean,Blur,new_failure,,,,4.53887640657,3.65069051348,5.54486629525
+dense_to_dense,SinGeo-QView,Base,common,mean,Blur,far200_removed,,,,100,100,100
+dense_to_dense,SinGeo-QView,Base,common,mean,Gamma,rescue,,,,83.3333333333,62.5,100
+dense_to_dense,SinGeo-QView,Base,common,mean,Gamma,new_failure,,,,4.52975517021,3.68405990173,5.451276918
+dense_to_dense,SinGeo-QView,Base,common,mean,Gamma,far200_removed,,,,80,50,100
+dense_to_dense,SinGeo-QView,Base,common,mean,ExposureClip,rescue,,,,65.507518797,58.3402860761,73.0388625428
+dense_to_dense,SinGeo-QView,Base,common,mean,ExposureClip,new_failure,,,,5.99143975119,5.01366565187,7.06654745695
+dense_to_dense,SinGeo-QView,Base,common,mean,ExposureClip,far200_removed,,,,74.0476190476,65.8078123098,82.6923505798
+dense_to_dense,SinGeo-QView,Base,common,mean,Posterize4,rescue,,,,,,
+dense_to_dense,SinGeo-QView,Base,common,mean,Posterize4,new_failure,,,,4.47065298768,3.64204198297,5.42680166701
+dense_to_dense,SinGeo-QView,Base,common,mean,Posterize4,far200_removed,,,,,,
+dense_to_sues,Base + QGIN,Base,host,42,Blur,rescue,12389,0,0,,,
+dense_to_sues,Base + QGIN,Base,host,42,Blur,new_failure,12389,646,11397,5.66815828727,4.07466056321,7.49800812992
+dense_to_sues,Base + QGIN,Base,host,42,Clean,rescue,12389,0,0,,,
+dense_to_sues,Base + QGIN,Base,host,42,Clean,new_failure,12389,888,12387,7.1688060063,5.48310584554,9.15609511112
+dense_to_sues,Base + QGIN,Base,host,42,ExposureClip,rescue,12389,257,572,44.9300699301,32.2747506412,57.8556955497
+dense_to_sues,Base + QGIN,Base,host,42,ExposureClip,new_failure,12389,634,10757,5.89383657153,4.36709833738,7.46388775264
+dense_to_sues,Base + QGIN,Base,host,42,Fog,rescue,12389,0,0,,,
+dense_to_sues,Base + QGIN,Base,host,42,Fog,new_failure,12389,649,11779,5.50980558621,4.03110458341,7.21152424517
+dense_to_sues,Base + QGIN,Base,host,42,Gamma,rescue,12389,0,0,,,
+dense_to_sues,Base + QGIN,Base,host,42,Gamma,new_failure,12389,721,12132,5.94296076492,4.45941839622,7.68975490121
+dense_to_sues,Base + QGIN,Base,host,42,Posterize4,rescue,12389,0,0,,,
+dense_to_sues,Base + QGIN,Base,host,42,Posterize4,new_failure,12389,837,12183,6.87022900763,5.21218658721,8.8362253915
+dense_to_sues,Base + QGIN,Base,host,42,Snow,rescue,12389,871,1575,55.3015873016,48.1809934571,61.9957307774
+dense_to_sues,Base + QGIN,Base,host,42,Snow,new_failure,12389,535,8593,6.22599790527,4.37479659763,8.31187409894
+dense_to_sues,Base + QGIN,Base,host,43,Blur,rescue,11972,0,0,,,
+dense_to_sues,Base + QGIN,Base,host,43,Blur,new_failure,11972,465,11046,4.20966865834,2.92954143876,5.73135715889
+dense_to_sues,Base + QGIN,Base,host,43,Clean,rescue,11972,0,0,,,
+dense_to_sues,Base + QGIN,Base,host,43,Clean,new_failure,11972,894,11968,7.4699197861,5.39870562876,9.85808429543
+dense_to_sues,Base + QGIN,Base,host,43,ExposureClip,rescue,11972,304,608,50,37.6112646411,62.7328819729
+dense_to_sues,Base + QGIN,Base,host,43,ExposureClip,new_failure,11972,677,10268,6.59329957148,4.76837875161,8.58291102506
+dense_to_sues,Base + QGIN,Base,host,43,Fog,rescue,11972,0,0,,,
+dense_to_sues,Base + QGIN,Base,host,43,Fog,new_failure,11972,584,11371,5.13587195497,3.65458995709,6.87191758047
+dense_to_sues,Base + QGIN,Base,host,43,Gamma,rescue,11972,0,0,,,
+dense_to_sues,Base + QGIN,Base,host,43,Gamma,new_failure,11972,834,11674,7.14408086346,5.17146218924,9.41374898956
+dense_to_sues,Base + QGIN,Base,host,43,Posterize4,rescue,11972,0,0,,,
+dense_to_sues,Base + QGIN,Base,host,43,Posterize4,new_failure,11972,832,11738,7.08808996422,5.11586337741,9.39962941682
+dense_to_sues,Base + QGIN,Base,host,43,Snow,rescue,11972,1110,1728,64.2361111111,57.0304086973,70.8022117249
+dense_to_sues,Base + QGIN,Base,host,43,Snow,new_failure,11972,335,7547,4.43884987412,2.86358162367,6.71590761737
+dense_to_sues,Base + QGIN,Base,host,mean,Clean,rescue,,,,,,
+dense_to_sues,Base + QGIN,Base,host,mean,Clean,new_failure,,,,7.3193628962,5.62327505303,9.17942388863
+dense_to_sues,Base + QGIN,Base,host,mean,Fog,rescue,,,,,,
+dense_to_sues,Base + QGIN,Base,host,mean,Fog,new_failure,,,,5.32283877059,3.99309355557,6.759796433
+dense_to_sues,Base + QGIN,Base,host,mean,Snow,rescue,,,,59.7688492063,54.3630407271,64.7821975032
+dense_to_sues,Base + QGIN,Base,host,mean,Snow,new_failure,,,,5.3324238897,3.81757544056,7.16622092754
+dense_to_sues,Base + QGIN,Base,host,mean,Blur,rescue,,,,,,
+dense_to_sues,Base + QGIN,Base,host,mean,Blur,new_failure,,,,4.9389134728,3.67726818739,6.38417763335
+dense_to_sues,Base + QGIN,Base,host,mean,Gamma,rescue,,,,,,
+dense_to_sues,Base + QGIN,Base,host,mean,Gamma,new_failure,,,,6.54352081419,5.01926966454,8.21619894196
+dense_to_sues,Base + QGIN,Base,host,mean,ExposureClip,rescue,,,,47.465034965,35.6011788227,58.9296812577
+dense_to_sues,Base + QGIN,Base,host,mean,ExposureClip,new_failure,,,,6.24356807151,4.78769598094,7.78190956372
+dense_to_sues,Base + QGIN,Base,host,mean,Posterize4,rescue,,,,,,
+dense_to_sues,Base + QGIN,Base,host,mean,Posterize4,new_failure,,,,6.97915948593,5.34000591666,8.77509898923
+dense_to_sues,Base + QGIN,Base,common,42,Blur,rescue,12389,0,0,,,
+dense_to_sues,Base + QGIN,Base,common,42,Blur,new_failure,12389,646,11397,5.66815828727,4.07466056321,7.49800812992
+dense_to_sues,Base + QGIN,Base,common,42,Clean,rescue,12389,0,0,,,
+dense_to_sues,Base + QGIN,Base,common,42,Clean,new_failure,12389,888,12387,7.1688060063,5.48310584554,9.15609511112
+dense_to_sues,Base + QGIN,Base,common,42,ExposureClip,rescue,12389,257,572,44.9300699301,32.2747506412,57.8556955497
+dense_to_sues,Base + QGIN,Base,common,42,ExposureClip,new_failure,12389,634,10757,5.89383657153,4.36709833738,7.46388775264
+dense_to_sues,Base + QGIN,Base,common,42,Fog,rescue,12389,0,0,,,
+dense_to_sues,Base + QGIN,Base,common,42,Fog,new_failure,12389,649,11779,5.50980558621,4.03110458341,7.21152424517
+dense_to_sues,Base + QGIN,Base,common,42,Gamma,rescue,12389,0,0,,,
+dense_to_sues,Base + QGIN,Base,common,42,Gamma,new_failure,12389,721,12132,5.94296076492,4.45941839622,7.68975490121
+dense_to_sues,Base + QGIN,Base,common,42,Posterize4,rescue,12389,0,0,,,
+dense_to_sues,Base + QGIN,Base,common,42,Posterize4,new_failure,12389,837,12183,6.87022900763,5.21218658721,8.8362253915
+dense_to_sues,Base + QGIN,Base,common,42,Snow,rescue,12389,871,1575,55.3015873016,48.1809934571,61.9957307774
+dense_to_sues,Base + QGIN,Base,common,42,Snow,new_failure,12389,535,8593,6.22599790527,4.37479659763,8.31187409894
+dense_to_sues,Base + QGIN,Base,common,43,Blur,rescue,11972,0,0,,,
+dense_to_sues,Base + QGIN,Base,common,43,Blur,new_failure,11972,465,11046,4.20966865834,2.92954143876,5.73135715889
+dense_to_sues,Base + QGIN,Base,common,43,Clean,rescue,11972,0,0,,,
+dense_to_sues,Base + QGIN,Base,common,43,Clean,new_failure,11972,894,11968,7.4699197861,5.39870562876,9.85808429543
+dense_to_sues,Base + QGIN,Base,common,43,ExposureClip,rescue,11972,304,608,50,37.6112646411,62.7328819729
+dense_to_sues,Base + QGIN,Base,common,43,ExposureClip,new_failure,11972,677,10268,6.59329957148,4.76837875161,8.58291102506
+dense_to_sues,Base + QGIN,Base,common,43,Fog,rescue,11972,0,0,,,
+dense_to_sues,Base + QGIN,Base,common,43,Fog,new_failure,11972,584,11371,5.13587195497,3.65458995709,6.87191758047
+dense_to_sues,Base + QGIN,Base,common,43,Gamma,rescue,11972,0,0,,,
+dense_to_sues,Base + QGIN,Base,common,43,Gamma,new_failure,11972,834,11674,7.14408086346,5.17146218924,9.41374898956
+dense_to_sues,Base + QGIN,Base,common,43,Posterize4,rescue,11972,0,0,,,
+dense_to_sues,Base + QGIN,Base,common,43,Posterize4,new_failure,11972,832,11738,7.08808996422,5.11586337741,9.39962941682
+dense_to_sues,Base + QGIN,Base,common,43,Snow,rescue,11972,1110,1728,64.2361111111,57.0304086973,70.8022117249
+dense_to_sues,Base + QGIN,Base,common,43,Snow,new_failure,11972,335,7547,4.43884987412,2.86358162367,6.71590761737
+dense_to_sues,Base + QGIN,Base,common,mean,Clean,rescue,,,,,,
+dense_to_sues,Base + QGIN,Base,common,mean,Clean,new_failure,,,,7.3193628962,5.62327505303,9.17942388863
+dense_to_sues,Base + QGIN,Base,common,mean,Fog,rescue,,,,,,
+dense_to_sues,Base + QGIN,Base,common,mean,Fog,new_failure,,,,5.32283877059,3.99309355557,6.759796433
+dense_to_sues,Base + QGIN,Base,common,mean,Snow,rescue,,,,59.7688492063,54.3630407271,64.7821975032
+dense_to_sues,Base + QGIN,Base,common,mean,Snow,new_failure,,,,5.3324238897,3.81757544056,7.16622092754
+dense_to_sues,Base + QGIN,Base,common,mean,Blur,rescue,,,,,,
+dense_to_sues,Base + QGIN,Base,common,mean,Blur,new_failure,,,,4.9389134728,3.67726818739,6.38417763335
+dense_to_sues,Base + QGIN,Base,common,mean,Gamma,rescue,,,,,,
+dense_to_sues,Base + QGIN,Base,common,mean,Gamma,new_failure,,,,6.54352081419,5.01926966454,8.21619894196
+dense_to_sues,Base + QGIN,Base,common,mean,ExposureClip,rescue,,,,47.465034965,35.6011788227,58.9296812577
+dense_to_sues,Base + QGIN,Base,common,mean,ExposureClip,new_failure,,,,6.24356807151,4.78769598094,7.78190956372
+dense_to_sues,Base + QGIN,Base,common,mean,Posterize4,rescue,,,,,,
+dense_to_sues,Base + QGIN,Base,common,mean,Posterize4,new_failure,,,,6.97915948593,5.34000591666,8.77509898923
+dense_to_sues,S4G-QDual,Sample4Geo,host,42,Blur,rescue,13221,46,141,32.6241134752,18.7937343358,45.8604346197
+dense_to_sues,S4G-QDual,Sample4Geo,host,42,Blur,new_failure,13221,708,12605,5.61681872273,3.75586574872,7.88337969899
+dense_to_sues,S4G-QDual,Sample4Geo,host,42,Clean,rescue,13221,0,0,,,
+dense_to_sues,S4G-QDual,Sample4Geo,host,42,Clean,new_failure,13221,965,13120,7.35518292683,5.43907591006,9.44305250933
+dense_to_sues,S4G-QDual,Sample4Geo,host,42,ExposureClip,rescue,13221,207,608,34.0460526316,23.2732112056,46.6332659075
+dense_to_sues,S4G-QDual,Sample4Geo,host,42,ExposureClip,new_failure,13221,710,11409,6.22315715663,4.27948345567,8.49102490485
+dense_to_sues,S4G-QDual,Sample4Geo,host,42,Fog,rescue,13221,20,59,33.8983050847,21.9987804878,47.1711215933
+dense_to_sues,S4G-QDual,Sample4Geo,host,42,Fog,new_failure,13221,742,12805,5.79461147989,4.33002262771,7.52199128499
+dense_to_sues,S4G-QDual,Sample4Geo,host,42,Gamma,rescue,13221,8,32,25,8.69565217391,42.1052631579
+dense_to_sues,S4G-QDual,Sample4Geo,host,42,Gamma,new_failure,13221,860,12830,6.70303975058,4.81698952036,8.81498039218
+dense_to_sues,S4G-QDual,Sample4Geo,host,42,Posterize4,rescue,13221,2,8,25,0,60
+dense_to_sues,S4G-QDual,Sample4Geo,host,42,Posterize4,new_failure,13221,896,12978,6.90399137001,5.14435575129,8.85142466606
+dense_to_sues,S4G-QDual,Sample4Geo,host,42,Snow,rescue,13221,1524,2541,59.9763872491,52.9617999701,66.3960621696
+dense_to_sues,S4G-QDual,Sample4Geo,host,42,Snow,new_failure,13221,362,7926,4.56724703507,3.02875560821,6.29661213209
+dense_to_sues,S4G-QDual,Sample4Geo,host,43,Blur,rescue,13365,43,167,25.748502994,14.665497076,38.1504791603
+dense_to_sues,S4G-QDual,Sample4Geo,host,43,Blur,new_failure,13365,928,12801,7.249433638,5.38059132136,9.20859097809
+dense_to_sues,S4G-QDual,Sample4Geo,host,43,Clean,rescue,13365,0,0,,,
+dense_to_sues,S4G-QDual,Sample4Geo,host,43,Clean,new_failure,13365,1324,13304,9.95189416717,7.54346531296,12.5742774949
+dense_to_sues,S4G-QDual,Sample4Geo,host,43,ExposureClip,rescue,13365,191,547,34.9177330896,24.4376089828,47.5052702371
+dense_to_sues,S4G-QDual,Sample4Geo,host,43,ExposureClip,new_failure,13365,885,11717,7.55312793377,5.51994950024,9.80412764019
+dense_to_sues,S4G-QDual,Sample4Geo,host,43,Fog,rescue,13365,22,85,25.8823529412,12.9858670741,42.2719462668
+dense_to_sues,S4G-QDual,Sample4Geo,host,43,Fog,new_failure,13365,1059,12953,8.17571219023,6.12398046517,10.4293675557
+dense_to_sues,S4G-QDual,Sample4Geo,host,43,Gamma,rescue,13365,7,22,31.8181818182,11.1111111111,53.8461538462
+dense_to_sues,S4G-QDual,Sample4Geo,host,43,Gamma,new_failure,13365,1180,13108,9.00213610009,6.69540822509,11.6903556929
+dense_to_sues,S4G-QDual,Sample4Geo,host,43,Posterize4,rescue,13365,6,15,40,0,66.6666666667
+dense_to_sues,S4G-QDual,Sample4Geo,host,43,Posterize4,new_failure,13365,1190,13120,9.07012195122,6.84747045859,11.5496167691
+dense_to_sues,S4G-QDual,Sample4Geo,host,43,Snow,rescue,13365,1196,2160,55.3703703704,48.5716560334,62.0070396365
+dense_to_sues,S4G-QDual,Sample4Geo,host,43,Snow,new_failure,13365,548,8619,6.35804617705,4.56655299597,8.34013000557
+dense_to_sues,S4G-QDual,Sample4Geo,host,mean,Clean,rescue,,,,,,
+dense_to_sues,S4G-QDual,Sample4Geo,host,mean,Clean,new_failure,,,,8.653538547,6.70136815864,10.7933639474
+dense_to_sues,S4G-QDual,Sample4Geo,host,mean,Fog,rescue,,,,29.890329013,21.304213385,40.6298020849
+dense_to_sues,S4G-QDual,Sample4Geo,host,mean,Fog,new_failure,,,,6.98516183506,5.40694003936,8.75281324974
+dense_to_sues,S4G-QDual,Sample4Geo,host,mean,Snow,rescue,,,,57.6733788097,51.892818605,63.1768677324
+dense_to_sues,S4G-QDual,Sample4Geo,host,mean,Snow,new_failure,,,,5.46264660606,4.15553166318,6.87615761336
+dense_to_sues,S4G-QDual,Sample4Geo,host,mean,Blur,rescue,,,,29.1863082346,19.7730487833,38.0716446357
+dense_to_sues,S4G-QDual,Sample4Geo,host,mean,Blur,new_failure,,,,6.43312618036,4.83550067441,8.17009303751
+dense_to_sues,S4G-QDual,Sample4Geo,host,mean,Gamma,rescue,,,,28.4090909091,15.3451595559,42.1716269841
+dense_to_sues,S4G-QDual,Sample4Geo,host,mean,Gamma,new_failure,,,,7.85258792534,6.01036424472,9.95671492283
+dense_to_sues,S4G-QDual,Sample4Geo,host,mean,ExposureClip,rescue,,,,34.4818928606,24.870085718,45.7440771461
+dense_to_sues,S4G-QDual,Sample4Geo,host,mean,ExposureClip,new_failure,,,,6.8881425452,5.25310311378,8.82011034483
+dense_to_sues,S4G-QDual,Sample4Geo,host,mean,Posterize4,rescue,,,,32.5,8.33333333333,53.5714285714
+dense_to_sues,S4G-QDual,Sample4Geo,host,mean,Posterize4,new_failure,,,,7.98705666062,6.19926113093,9.95315520478
+dense_to_sues,S4G-QDual,Base,common,42,Blur,rescue,12389,0,0,,,
+dense_to_sues,S4G-QDual,Base,common,42,Blur,new_failure,12389,621,11397,5.4488023164,3.73172502718,7.35494846615
+dense_to_sues,S4G-QDual,Base,common,42,Clean,rescue,12389,0,0,,,
+dense_to_sues,S4G-QDual,Base,common,42,Clean,new_failure,12389,940,12387,7.58860095261,5.63612870452,9.74725256045
+dense_to_sues,S4G-QDual,Base,common,42,ExposureClip,rescue,12389,319,572,55.7692307692,39.3651528374,70.590090926
+dense_to_sues,S4G-QDual,Base,common,42,ExposureClip,new_failure,12389,873,10757,8.1156456261,5.87779786362,10.6235002906
+dense_to_sues,S4G-QDual,Base,common,42,Fog,rescue,12389,0,0,,,
+dense_to_sues,S4G-QDual,Base,common,42,Fog,new_failure,12389,713,11779,6.0531454283,4.39639458033,7.92179037961
+dense_to_sues,S4G-QDual,Base,common,42,Gamma,rescue,12389,0,0,,,
+dense_to_sues,S4G-QDual,Base,common,42,Gamma,new_failure,12389,903,12132,7.4431256182,5.45621776993,9.60749637993
+dense_to_sues,S4G-QDual,Base,common,42,Posterize4,rescue,12389,0,0,,,
+dense_to_sues,S4G-QDual,Base,common,42,Posterize4,new_failure,12389,875,12183,7.18213904621,5.40999218797,9.1152669297
+dense_to_sues,S4G-QDual,Base,common,42,Snow,rescue,12389,972,1575,61.7142857143,54.1758848141,69.1568663351
+dense_to_sues,S4G-QDual,Base,common,42,Snow,new_failure,12389,896,8593,10.4270918189,7.67551430385,13.3336858184
+dense_to_sues,S4G-QDual,Base,common,43,Blur,rescue,11972,0,0,,,
+dense_to_sues,S4G-QDual,Base,common,43,Blur,new_failure,11972,579,11046,5.24171645845,3.66149336057,6.95827658794
+dense_to_sues,S4G-QDual,Base,common,43,Clean,rescue,11972,0,0,,,
+dense_to_sues,S4G-QDual,Base,common,43,Clean,new_failure,11972,922,11968,7.70387700535,5.46091312914,10.0205014786
+dense_to_sues,S4G-QDual,Base,common,43,ExposureClip,rescue,11972,401,608,65.9539473684,50.3499669157,79.0898232203
+dense_to_sues,S4G-QDual,Base,common,43,ExposureClip,new_failure,11972,721,10268,7.02181534866,5.05526006413,9.43041515423
+dense_to_sues,S4G-QDual,Base,common,43,Fog,rescue,11972,0,0,,,
+dense_to_sues,S4G-QDual,Base,common,43,Fog,new_failure,11972,732,11371,6.4374285463,4.61284862096,8.49064531997
+dense_to_sues,S4G-QDual,Base,common,43,Gamma,rescue,11972,0,0,,,
+dense_to_sues,S4G-QDual,Base,common,43,Gamma,new_failure,11972,811,11674,6.94706184684,4.88310445335,9.22295207962
+dense_to_sues,S4G-QDual,Base,common,43,Posterize4,rescue,11972,0,0,,,
+dense_to_sues,S4G-QDual,Base,common,43,Posterize4,new_failure,11972,828,11738,7.05401260862,5.07976242212,9.2509562637
+dense_to_sues,S4G-QDual,Base,common,43,Snow,rescue,11972,1152,1728,66.6666666667,59.1381880123,74.0133695896
+dense_to_sues,S4G-QDual,Base,common,43,Snow,new_failure,11972,591,7547,7.83092619584,5.44932985332,10.4064718088
+dense_to_sues,S4G-QDual,Base,common,mean,Clean,rescue,,,,,,
+dense_to_sues,S4G-QDual,Base,common,mean,Clean,new_failure,,,,7.64623897898,5.82170902729,9.68694891681
+dense_to_sues,S4G-QDual,Base,common,mean,Fog,rescue,,,,,,
+dense_to_sues,S4G-QDual,Base,common,mean,Fog,new_failure,,,,6.2452869873,4.71089438626,8.02085312027
+dense_to_sues,S4G-QDual,Base,common,mean,Snow,rescue,,,,64.1904761905,57.8181259619,70.3699870179
+dense_to_sues,S4G-QDual,Base,common,mean,Snow,new_failure,,,,9.12900900738,6.70013706364,11.6261321273
+dense_to_sues,S4G-QDual,Base,common,mean,Blur,rescue,,,,,,
+dense_to_sues,S4G-QDual,Base,common,mean,Blur,new_failure,,,,5.34525938742,3.87548113454,6.97815018153
+dense_to_sues,S4G-QDual,Base,common,mean,Gamma,rescue,,,,,,
+dense_to_sues,S4G-QDual,Base,common,mean,Gamma,new_failure,,,,7.19509373252,5.37997368027,9.25076985413
+dense_to_sues,S4G-QDual,Base,common,mean,ExposureClip,rescue,,,,60.8615890688,45.4812434619,74.1572373663
+dense_to_sues,S4G-QDual,Base,common,mean,ExposureClip,new_failure,,,,7.56873048738,5.61340988959,9.81731673402
+dense_to_sues,S4G-QDual,Base,common,mean,Posterize4,rescue,,,,,,
+dense_to_sues,S4G-QDual,Base,common,mean,Posterize4,new_failure,,,,7.11807582742,5.43268369709,8.99624502435
+dense_to_sues,ConGeo-QView,ConGeo,host,42,Blur,rescue,12419,83,176,47.1590909091,36.7344056267,57.2255205794
+dense_to_sues,ConGeo-QView,ConGeo,host,42,Blur,new_failure,12419,286,11684,2.44779185211,1.75406802228,3.2789071116
+dense_to_sues,ConGeo-QView,ConGeo,host,42,Clean,rescue,12419,0,0,,,
+dense_to_sues,ConGeo-QView,ConGeo,host,42,Clean,new_failure,12419,486,12347,3.93617882887,2.87865543492,5.15672204746
+dense_to_sues,ConGeo-QView,ConGeo,host,42,ExposureClip,rescue,12419,310,592,52.3648648649,42.4558932356,63.1581764905
+dense_to_sues,ConGeo-QView,ConGeo,host,42,ExposureClip,new_failure,12419,302,10366,2.91337063477,2.14402985801,3.78457732125
+dense_to_sues,ConGeo-QView,ConGeo,host,42,Fog,rescue,12419,43,94,45.7446808511,33.9414006978,57.5757575758
+dense_to_sues,ConGeo-QView,ConGeo,host,42,Fog,new_failure,12419,322,11870,2.71272114575,1.93690648688,3.61179233698
+dense_to_sues,ConGeo-QView,ConGeo,host,42,Gamma,rescue,12419,40,56,71.4285714286,59.6153846154,83.6746559089
+dense_to_sues,ConGeo-QView,ConGeo,host,42,Gamma,new_failure,12419,385,11887,3.23883233785,2.31111673838,4.31513701609
+dense_to_sues,ConGeo-QView,ConGeo,host,42,Posterize4,rescue,12419,8,21,38.0952380952,16.6447368421,63.1698564593
+dense_to_sues,ConGeo-QView,ConGeo,host,42,Posterize4,new_failure,12419,450,12176,3.69579500657,2.71540856652,4.87945565844
+dense_to_sues,ConGeo-QView,ConGeo,host,42,Snow,rescue,12419,1366,2261,60.4157452455,55.5761891883,64.9347218009
+dense_to_sues,ConGeo-QView,ConGeo,host,42,Snow,new_failure,12419,313,7398,4.23087320898,2.70369041543,6.01156675764
+dense_to_sues,ConGeo-QView,ConGeo,host,43,Blur,rescue,12315,94,219,42.9223744292,31.7987577438,53.9615971091
+dense_to_sues,ConGeo-QView,ConGeo,host,43,Blur,new_failure,12315,412,11546,3.56833535424,2.43670087981,4.88315829281
+dense_to_sues,ConGeo-QView,ConGeo,host,43,Clean,rescue,12315,0,0,,,
+dense_to_sues,ConGeo-QView,ConGeo,host,43,Clean,new_failure,12315,652,12238,5.32766791959,4.14532879782,6.71086161133
+dense_to_sues,ConGeo-QView,ConGeo,host,43,ExposureClip,rescue,12315,341,692,49.2774566474,39.2935828877,58.8629247169
+dense_to_sues,ConGeo-QView,ConGeo,host,43,ExposureClip,new_failure,12315,448,10376,4.31765612953,3.1554478659,5.6577780771
+dense_to_sues,ConGeo-QView,ConGeo,host,43,Fog,rescue,12315,40,95,42.1052631579,28.7093352192,57.4508556892
+dense_to_sues,ConGeo-QView,ConGeo,host,43,Fog,new_failure,12315,480,11848,4.05131667792,2.99664687564,5.25009381701
+dense_to_sues,ConGeo-QView,ConGeo,host,43,Gamma,rescue,12315,10,24,41.6666666667,21.7391304348,64.2857142857
+dense_to_sues,ConGeo-QView,ConGeo,host,43,Gamma,new_failure,12315,521,11974,4.35109403708,3.2708237541,5.61937301746
+dense_to_sues,ConGeo-QView,ConGeo,host,43,Posterize4,rescue,12315,4,8,50,16.6666666667,85.7142857143
+dense_to_sues,ConGeo-QView,ConGeo,host,43,Posterize4,new_failure,12315,586,12042,4.86630127886,3.68751619089,6.22221860188
+dense_to_sues,ConGeo-QView,ConGeo,host,43,Snow,rescue,12315,1134,2047,55.3981436248,49.7872681277,60.8782479488
+dense_to_sues,ConGeo-QView,ConGeo,host,43,Snow,new_failure,12315,377,7964,4.73380210949,3.24281741974,6.42558092578
+dense_to_sues,ConGeo-QView,ConGeo,host,mean,Clean,rescue,,,,,,
+dense_to_sues,ConGeo-QView,ConGeo,host,mean,Clean,new_failure,,,,4.63192337423,3.65370975966,5.74475417485
+dense_to_sues,ConGeo-QView,ConGeo,host,mean,Fog,rescue,,,,43.9249720045,36.4217440394,52.1911598303
+dense_to_sues,ConGeo-QView,ConGeo,host,mean,Fog,new_failure,,,,3.38201891183,2.60340515288,4.28229238507
+dense_to_sues,ConGeo-QView,ConGeo,host,mean,Snow,rescue,,,,57.9069444351,53.8386955892,61.796672606
+dense_to_sues,ConGeo-QView,ConGeo,host,mean,Snow,new_failure,,,,4.48233765923,3.2550470267,5.82790695319
+dense_to_sues,ConGeo-QView,ConGeo,host,mean,Blur,rescue,,,,45.0407326692,37.5740795347,52.8748631363
+dense_to_sues,ConGeo-QView,ConGeo,host,mean,Blur,new_failure,,,,3.00806360317,2.20704422014,3.91331059343
+dense_to_sues,ConGeo-QView,ConGeo,host,mean,Gamma,rescue,,,,56.5476190476,44.9817864865,68.3921337889
+dense_to_sues,ConGeo-QView,ConGeo,host,mean,Gamma,new_failure,,,,3.79496318746,2.94451401327,4.79246651069
+dense_to_sues,ConGeo-QView,ConGeo,host,mean,ExposureClip,rescue,,,,50.8211607561,41.6990986497,59.9207238428
+dense_to_sues,ConGeo-QView,ConGeo,host,mean,ExposureClip,new_failure,,,,3.61551338215,2.83019645692,4.47960707126
+dense_to_sues,ConGeo-QView,ConGeo,host,mean,Posterize4,rescue,,,,44.0476190476,26.3852339181,63.3333333333
+dense_to_sues,ConGeo-QView,ConGeo,host,mean,Posterize4,new_failure,,,,4.28104814271,3.32874618206,5.38608737876
+dense_to_sues,ConGeo-QView,Base,common,42,Blur,rescue,12389,0,0,,,
+dense_to_sues,ConGeo-QView,Base,common,42,Blur,new_failure,12389,816,11397,7.15977888918,5.47061579428,8.96249726247
+dense_to_sues,ConGeo-QView,Base,common,42,Clean,rescue,12389,0,0,,,
+dense_to_sues,ConGeo-QView,Base,common,42,Clean,new_failure,12389,1110,12387,8.96100750787,7.15422351376,10.9039912399
+dense_to_sues,ConGeo-QView,Base,common,42,ExposureClip,rescue,12389,319,572,55.7692307692,43.0612117246,69.5581417579
+dense_to_sues,ConGeo-QView,Base,common,42,ExposureClip,new_failure,12389,1171,10757,10.8859347402,8.43601568686,13.4052446331
+dense_to_sues,ConGeo-QView,Base,common,42,Fog,rescue,12389,0,0,,,
+dense_to_sues,ConGeo-QView,Base,common,42,Fog,new_failure,12389,920,11779,7.81051023007,6.0924759563,9.71218665632
+dense_to_sues,ConGeo-QView,Base,common,42,Gamma,rescue,12389,0,0,,,
+dense_to_sues,ConGeo-QView,Base,common,42,Gamma,new_failure,12389,1091,12132,8.99274645565,7.11571082421,10.9137728222
+dense_to_sues,ConGeo-QView,Base,common,42,Posterize4,rescue,12389,0,0,,,
+dense_to_sues,ConGeo-QView,Base,common,42,Posterize4,new_failure,12389,1092,12183,8.96330952967,7.12227261597,10.8131072342
+dense_to_sues,ConGeo-QView,Base,common,42,Snow,rescue,12389,898,1575,57.0158730159,49.8621780089,63.9919769861
+dense_to_sues,ConGeo-QView,Base,common,42,Snow,new_failure,12389,1357,8593,15.7919236588,12.5606758715,19.123342622
+dense_to_sues,ConGeo-QView,Base,common,43,Blur,rescue,11972,0,0,,,
+dense_to_sues,ConGeo-QView,Base,common,43,Blur,new_failure,11972,715,11046,6.47293137787,4.73001629498,8.45646103249
+dense_to_sues,ConGeo-QView,Base,common,43,Clean,rescue,11972,0,0,,,
+dense_to_sues,ConGeo-QView,Base,common,43,Clean,new_failure,11972,1080,11968,9.02406417112,6.896947113,11.2850183016
+dense_to_sues,ConGeo-QView,Base,common,43,ExposureClip,rescue,11972,396,608,65.1315789474,53.3176341089,75.2195005662
+dense_to_sues,ConGeo-QView,Base,common,43,ExposureClip,new_failure,11972,972,10268,9.46630307752,7.25127384697,12.0478676382
+dense_to_sues,ConGeo-QView,Base,common,43,Fog,rescue,11972,0,0,,,
+dense_to_sues,ConGeo-QView,Base,common,43,Fog,new_failure,11972,807,11371,7.09700114326,5.30769097177,9.18296952846
+dense_to_sues,ConGeo-QView,Base,common,43,Gamma,rescue,11972,0,0,,,
+dense_to_sues,ConGeo-QView,Base,common,43,Gamma,new_failure,11972,952,11674,8.15487407915,6.13375157582,10.5028463463
+dense_to_sues,ConGeo-QView,Base,common,43,Posterize4,rescue,11972,0,0,,,
+dense_to_sues,ConGeo-QView,Base,common,43,Posterize4,new_failure,11972,1013,11738,8.63009030499,6.58891916536,10.7746889249
+dense_to_sues,ConGeo-QView,Base,common,43,Snow,rescue,11972,1055,1728,61.0532407407,54.5003675353,67.6619106174
+dense_to_sues,ConGeo-QView,Base,common,43,Snow,new_failure,11972,858,7547,11.368755797,8.22986005936,14.4181921555
+dense_to_sues,ConGeo-QView,Base,common,mean,Clean,rescue,,,,,,
+dense_to_sues,ConGeo-QView,Base,common,mean,Clean,new_failure,,,,8.9925358395,7.15921600312,10.8858304847
+dense_to_sues,ConGeo-QView,Base,common,mean,Fog,rescue,,,,,,
+dense_to_sues,ConGeo-QView,Base,common,mean,Fog,new_failure,,,,7.45375568666,5.91423544444,9.18312474488
+dense_to_sues,ConGeo-QView,Base,common,mean,Snow,rescue,,,,59.0345568783,53.294499017,64.7515280853
+dense_to_sues,ConGeo-QView,Base,common,mean,Snow,new_failure,,,,13.5803397279,10.6112362138,16.4494997577
+dense_to_sues,ConGeo-QView,Base,common,mean,Blur,rescue,,,,,,
+dense_to_sues,ConGeo-QView,Base,common,mean,Blur,new_failure,,,,6.81635513353,5.2610640365,8.4728827672
+dense_to_sues,ConGeo-QView,Base,common,mean,Gamma,rescue,,,,,,
+dense_to_sues,ConGeo-QView,Base,common,mean,Gamma,new_failure,,,,8.5738102674,6.75975594,10.4067781922
+dense_to_sues,ConGeo-QView,Base,common,mean,ExposureClip,rescue,,,,60.4504048583,49.0952024115,71.0392640583
+dense_to_sues,ConGeo-QView,Base,common,mean,ExposureClip,new_failure,,,,10.1761189088,8.08281743525,12.4870981724
+dense_to_sues,ConGeo-QView,Base,common,mean,Posterize4,rescue,,,,,,
+dense_to_sues,ConGeo-QView,Base,common,mean,Posterize4,new_failure,,,,8.79669991733,6.99944447355,10.5966439316
+dense_to_sues,SinGeo-QView,SinGeo,host,42,Blur,rescue,11667,61,223,27.3542600897,18.5185185185,38.5903677151
+dense_to_sues,SinGeo-QView,SinGeo,host,42,Blur,new_failure,11667,594,10859,5.47011695368,4.2157016141,6.95099811422
+dense_to_sues,SinGeo-QView,SinGeo,host,42,Clean,rescue,11667,0,0,,,
+dense_to_sues,SinGeo-QView,SinGeo,host,42,Clean,new_failure,11667,790,11621,6.79803803459,5.14169430791,8.64466113526
+dense_to_sues,SinGeo-QView,SinGeo,host,42,ExposureClip,rescue,11667,264,600,44,33.6877585697,54.9084029228
+dense_to_sues,SinGeo-QView,SinGeo,host,42,ExposureClip,new_failure,11667,543,9925,5.47103274559,4.07196415737,7.09095532767
+dense_to_sues,SinGeo-QView,SinGeo,host,42,Fog,rescue,11667,40,106,37.7358490566,23.5208866155,52.9437340153
+dense_to_sues,SinGeo-QView,SinGeo,host,42,Fog,new_failure,11667,578,11195,5.163019205,3.88333368419,6.61993213194
+dense_to_sues,SinGeo-QView,SinGeo,host,42,Gamma,rescue,11667,17,49,34.693877551,19.512195122,50.8779904306
+dense_to_sues,SinGeo-QView,SinGeo,host,42,Gamma,new_failure,11667,644,11255,5.72190137717,4.23849353458,7.38281398573
+dense_to_sues,SinGeo-QView,SinGeo,host,42,Posterize4,rescue,11667,9,20,45,15.7894736842,69.2391304348
+dense_to_sues,SinGeo-QView,SinGeo,host,42,Posterize4,new_failure,11667,717,11422,6.2773594817,4.70575093311,8.08551785291
+dense_to_sues,SinGeo-QView,SinGeo,host,42,Snow,rescue,11667,1294,2242,57.7163247101,51.8060778946,63.0272616227
+dense_to_sues,SinGeo-QView,SinGeo,host,42,Snow,new_failure,11667,384,7008,5.47945205479,3.74134569716,7.45513418308
+dense_to_sues,SinGeo-QView,SinGeo,host,43,Blur,rescue,11770,80,277,28.880866426,20.0785322169,38.3838096673
+dense_to_sues,SinGeo-QView,SinGeo,host,43,Blur,new_failure,11770,696,10820,6.4325323475,4.59208846058,8.62966899332
+dense_to_sues,SinGeo-QView,SinGeo,host,43,Clean,rescue,11770,0,0,,,
+dense_to_sues,SinGeo-QView,SinGeo,host,43,Clean,new_failure,11770,1059,11715,9.03969270166,6.98803793479,11.4006592886
+dense_to_sues,SinGeo-QView,SinGeo,host,43,ExposureClip,rescue,11770,240,644,37.2670807453,27.9060928661,48.4472317413
+dense_to_sues,SinGeo-QView,SinGeo,host,43,ExposureClip,new_failure,11770,676,9992,6.76541232986,4.95814119384,8.80425949878
+dense_to_sues,SinGeo-QView,SinGeo,host,43,Fog,rescue,11770,46,150,30.6666666667,19.7180528426,41.1044648943
+dense_to_sues,SinGeo-QView,SinGeo,host,43,Fog,new_failure,11770,758,11105,6.82575416479,4.97923548969,9.04261414006
+dense_to_sues,SinGeo-QView,SinGeo,host,43,Gamma,rescue,11770,14,29,48.275862069,24,67.6470588235
+dense_to_sues,SinGeo-QView,SinGeo,host,43,Gamma,new_failure,11770,848,11426,7.42166987572,5.63683760573,9.56780182589
+dense_to_sues,SinGeo-QView,SinGeo,host,43,Posterize4,rescue,11770,6,24,25,5.88235294118,50
+dense_to_sues,SinGeo-QView,SinGeo,host,43,Posterize4,new_failure,11770,998,11497,8.68052535444,6.64363342231,11.063247514
+dense_to_sues,SinGeo-QView,SinGeo,host,43,Snow,rescue,11770,1096,2044,53.6203522505,47.0522194733,59.8296230362
+dense_to_sues,SinGeo-QView,SinGeo,host,43,Snow,new_failure,11770,457,7702,5.93352376006,4.22732166152,7.68254362034
+dense_to_sues,SinGeo-QView,SinGeo,host,mean,Clean,rescue,,,,,,
+dense_to_sues,SinGeo-QView,SinGeo,host,mean,Clean,new_failure,,,,7.91886536813,6.2963589599,9.72196035444
+dense_to_sues,SinGeo-QView,SinGeo,host,mean,Fog,rescue,,,,34.2012578616,24.6771246387,43.2974882626
+dense_to_sues,SinGeo-QView,SinGeo,host,mean,Fog,new_failure,,,,5.9943866849,4.63588189494,7.58736975932
+dense_to_sues,SinGeo-QView,SinGeo,host,mean,Snow,rescue,,,,55.6683384803,50.9186969081,60.0038164029
+dense_to_sues,SinGeo-QView,SinGeo,host,mean,Snow,new_failure,,,,5.70648790743,4.30108558034,7.27818343072
+dense_to_sues,SinGeo-QView,SinGeo,host,mean,Blur,rescue,,,,28.1175632578,20.9532675335,36.0401791312
+dense_to_sues,SinGeo-QView,SinGeo,host,mean,Blur,new_failure,,,,5.95132465059,4.5589934499,7.58130310307
+dense_to_sues,SinGeo-QView,SinGeo,host,mean,Gamma,rescue,,,,41.48486981,28.1234056122,53.9325742492
+dense_to_sues,SinGeo-QView,SinGeo,host,mean,Gamma,new_failure,,,,6.57178562644,5.17813259873,8.2157941854
+dense_to_sues,SinGeo-QView,SinGeo,host,mean,ExposureClip,rescue,,,,40.6335403727,32.6451552825,49.5726308541
+dense_to_sues,SinGeo-QView,SinGeo,host,mean,ExposureClip,new_failure,,,,6.11822253773,4.77283866576,7.71431306711
+dense_to_sues,SinGeo-QView,SinGeo,host,mean,Posterize4,rescue,,,,35,15.5278110048,52.8613653699
+dense_to_sues,SinGeo-QView,SinGeo,host,mean,Posterize4,new_failure,,,,7.47894241807,5.92485365487,9.24654146567
+dense_to_sues,SinGeo-QView,Base,common,42,Blur,rescue,12389,0,0,,,
+dense_to_sues,SinGeo-QView,Base,common,42,Blur,new_failure,12389,1405,11397,12.3278055629,9.9021361664,15.0194792724
+dense_to_sues,SinGeo-QView,Base,common,42,Clean,rescue,12389,0,0,,,
+dense_to_sues,SinGeo-QView,Base,common,42,Clean,new_failure,12389,1790,12387,14.4506337289,11.718738281,17.3424692457
+dense_to_sues,SinGeo-QView,Base,common,42,ExposureClip,rescue,12389,264,572,46.1538461538,31.1639487116,62.3350736934
+dense_to_sues,SinGeo-QView,Base,common,42,ExposureClip,new_failure,12389,1614,10757,15.0041833225,12.1373576588,18.0637404796
+dense_to_sues,SinGeo-QView,Base,common,42,Fog,rescue,12389,0,0,,,
+dense_to_sues,SinGeo-QView,Base,common,42,Fog,new_failure,12389,1389,11779,11.7921725104,9.38995258345,14.3579734862
+dense_to_sues,SinGeo-QView,Base,common,42,Gamma,rescue,12389,0,0,,,
+dense_to_sues,SinGeo-QView,Base,common,42,Gamma,new_failure,12389,1691,12132,13.9383448731,11.2192073545,16.8216285742
+dense_to_sues,SinGeo-QView,Base,common,42,Posterize4,rescue,12389,0,0,,,
+dense_to_sues,SinGeo-QView,Base,common,42,Posterize4,new_failure,12389,1712,12183,14.0523680538,11.3835761544,16.8927384389
+dense_to_sues,SinGeo-QView,Base,common,42,Snow,rescue,12389,706,1575,44.8253968254,37.4914086871,52.4267250029
+dense_to_sues,SinGeo-QView,Base,common,42,Snow,new_failure,12389,1546,8593,17.9913883393,14.0730049659,22.0608583341
+dense_to_sues,SinGeo-QView,Base,common,43,Blur,rescue,11972,0,0,,,
+dense_to_sues,SinGeo-QView,Base,common,43,Blur,new_failure,11972,1256,11046,11.370631903,8.31506032389,14.8034884357
+dense_to_sues,SinGeo-QView,Base,common,43,Clean,rescue,11972,0,0,,,
+dense_to_sues,SinGeo-QView,Base,common,43,Clean,new_failure,11972,1670,11968,13.9538770053,10.8226031082,17.3326614528
+dense_to_sues,SinGeo-QView,Base,common,43,ExposureClip,rescue,11972,340,608,55.9210526316,44.8967726626,65.8714594559
+dense_to_sues,SinGeo-QView,Base,common,43,ExposureClip,new_failure,11972,1424,10268,13.8683287885,10.5681403268,17.6593481746
+dense_to_sues,SinGeo-QView,Base,common,43,Fog,rescue,11972,0,0,,,
+dense_to_sues,SinGeo-QView,Base,common,43,Fog,new_failure,11972,1410,11371,12.3999648228,9.37779116989,15.7392961677
+dense_to_sues,SinGeo-QView,Base,common,43,Gamma,rescue,11972,0,0,,,
+dense_to_sues,SinGeo-QView,Base,common,43,Gamma,new_failure,11972,1503,11674,12.8747644338,9.75477690588,16.2276250871
+dense_to_sues,SinGeo-QView,Base,common,43,Posterize4,rescue,11972,0,0,,,
+dense_to_sues,SinGeo-QView,Base,common,43,Posterize4,new_failure,11972,1606,11738,13.6820582723,10.6014273807,16.9585168667
+dense_to_sues,SinGeo-QView,Base,common,43,Snow,rescue,11972,995,1728,57.5810185185,50.0281954887,64.7589109652
+dense_to_sues,SinGeo-QView,Base,common,43,Snow,new_failure,11972,1017,7547,13.4755531999,9.76269544026,17.7582129225
+dense_to_sues,SinGeo-QView,Base,common,mean,Clean,rescue,,,,,,
+dense_to_sues,SinGeo-QView,Base,common,mean,Clean,new_failure,,,,14.2022553671,11.3648218199,17.0546562225
+dense_to_sues,SinGeo-QView,Base,common,mean,Fog,rescue,,,,,,
+dense_to_sues,SinGeo-QView,Base,common,mean,Fog,new_failure,,,,12.0960686666,9.67464032828,14.6428449669
+dense_to_sues,SinGeo-QView,Base,common,mean,Snow,rescue,,,,51.203207672,45.2782295347,57.4528500211
+dense_to_sues,SinGeo-QView,Base,common,mean,Snow,new_failure,,,,15.7334707696,12.0969526996,19.7075125999
+dense_to_sues,SinGeo-QView,Base,common,mean,Blur,rescue,,,,,,
+dense_to_sues,SinGeo-QView,Base,common,mean,Blur,new_failure,,,,11.8492187329,9.38167896556,14.5455497138
+dense_to_sues,SinGeo-QView,Base,common,mean,Gamma,rescue,,,,,,
+dense_to_sues,SinGeo-QView,Base,common,mean,Gamma,new_failure,,,,13.4065546534,10.747181337,16.168491776
+dense_to_sues,SinGeo-QView,Base,common,mean,ExposureClip,rescue,,,,51.0374493927,39.1585421115,62.8819816748
+dense_to_sues,SinGeo-QView,Base,common,mean,ExposureClip,new_failure,,,,14.4362560555,11.5339105459,17.5931565635
+dense_to_sues,SinGeo-QView,Base,common,mean,Posterize4,rescue,,,,,,
+dense_to_sues,SinGeo-QView,Base,common,mean,Posterize4,new_failure,,,,13.8672131631,11.1953044777,16.6335326013
+sues_to_dense,Base + QGIN,Base,host,42,Blur,rescue,307,11,26,42.3076923077,21.7313664596,62.5
+sues_to_dense,Base + QGIN,Base,host,42,Blur,new_failure,307,97,220,44.0909090909,36.3247863248,51.7245127436
+sues_to_dense,Base + QGIN,Base,host,42,Blur,far200_removed,307,9,11,81.8181818182,57.1428571429,100
+sues_to_dense,Base + QGIN,Base,host,42,Clean,rescue,307,0,0,,,
+sues_to_dense,Base + QGIN,Base,host,42,Clean,new_failure,307,136,307,44.2996742671,37.7355133284,51.1115288221
+sues_to_dense,Base + QGIN,Base,host,42,Clean,far200_removed,307,0,0,,,
+sues_to_dense,Base + QGIN,Base,host,42,ExposureClip,rescue,307,26,89,29.2134831461,19.2294520548,39.7086056645
+sues_to_dense,Base + QGIN,Base,host,42,ExposureClip,new_failure,307,51,127,40.157480315,31.2099363057,49.2075337598
+sues_to_dense,Base + QGIN,Base,host,42,ExposureClip,far200_removed,307,25,46,54.347826087,39.5348837209,68.6305147059
+sues_to_dense,Base + QGIN,Base,host,42,Fog,rescue,307,30,65,46.1538461538,33.3333333333,59.6785394265
+sues_to_dense,Base + QGIN,Base,host,42,Fog,new_failure,307,63,172,36.6279069767,28.9153144369,45.3987730061
+sues_to_dense,Base + QGIN,Base,host,42,Fog,far200_removed,307,19,24,79.1666666667,61.1111111111,95.2380952381
+sues_to_dense,Base + QGIN,Base,host,42,Gamma,rescue,307,14,26,53.8461538462,33.3333333333,72.0055555556
+sues_to_dense,Base + QGIN,Base,host,42,Gamma,new_failure,307,89,219,40.6392694064,33.7586355786,48.2060301508
+sues_to_dense,Base + QGIN,Base,host,42,Gamma,far200_removed,307,5,7,71.4285714286,33.3333333333,100
+sues_to_dense,Base + QGIN,Base,host,42,Posterize4,rescue,307,2,10,20,0,50
+sues_to_dense,Base + QGIN,Base,host,42,Posterize4,new_failure,307,116,265,43.7735849057,37.0742181765,50.8420550038
+sues_to_dense,Base + QGIN,Base,host,42,Posterize4,far200_removed,307,3,3,100,100,100
+sues_to_dense,Base + QGIN,Base,host,42,Snow,rescue,307,36,122,29.5081967213,21.427045177,37.6817533856
+sues_to_dense,Base + QGIN,Base,host,42,Snow,new_failure,307,34,76,44.7368421053,32.8947368421,56.25
+sues_to_dense,Base + QGIN,Base,host,42,Snow,far200_removed,307,39,66,59.0909090909,45.7117794486,71.4285714286
+sues_to_dense,Base + QGIN,Base,host,43,Blur,rescue,323,10,30,33.3333333333,15.3846153846,51.724137931
+sues_to_dense,Base + QGIN,Base,host,43,Blur,new_failure,323,93,226,41.1504424779,33.7956871345,49.1900294076
+sues_to_dense,Base + QGIN,Base,host,43,Blur,far200_removed,323,8,12,66.6666666667,33.3333333333,93.75
+sues_to_dense,Base + QGIN,Base,host,43,Clean,rescue,323,0,0,,,
+sues_to_dense,Base + QGIN,Base,host,43,Clean,new_failure,323,130,323,40.2476780186,33.8557437743,46.6485102421
+sues_to_dense,Base + QGIN,Base,host,43,Clean,far200_removed,323,0,0,,,
+sues_to_dense,Base + QGIN,Base,host,43,ExposureClip,rescue,323,37,90,41.1111111111,31.0318165659,51.8542568543
+sues_to_dense,Base + QGIN,Base,host,43,ExposureClip,new_failure,323,46,136,33.8235294118,24.3035067288,43.1375906527
+sues_to_dense,Base + QGIN,Base,host,43,ExposureClip,far200_removed,323,33,42,78.5714285714,64.1025641026,92.3076923077
+sues_to_dense,Base + QGIN,Base,host,43,Fog,rescue,323,38,81,46.9135802469,36.3636363636,57.6551577153
+sues_to_dense,Base + QGIN,Base,host,43,Fog,new_failure,323,58,159,36.4779874214,28.656358885,44.9643769324
+sues_to_dense,Base + QGIN,Base,host,43,Fog,far200_removed,323,13,20,65,43.75,85.7142857143
+sues_to_dense,Base + QGIN,Base,host,43,Gamma,rescue,323,11,16,68.75,44.4444444444,91.6666666667
+sues_to_dense,Base + QGIN,Base,host,43,Gamma,new_failure,323,91,247,36.8421052632,30,43.4801932367
+sues_to_dense,Base + QGIN,Base,host,43,Gamma,far200_removed,323,2,2,100,100,100
+sues_to_dense,Base + QGIN,Base,host,43,Posterize4,rescue,323,4,9,44.4444444444,12.5,80
+sues_to_dense,Base + QGIN,Base,host,43,Posterize4,new_failure,323,98,283,34.628975265,28.4132841328,40.9723527569
+sues_to_dense,Base + QGIN,Base,host,43,Posterize4,far200_removed,323,3,3,100,100,100
+sues_to_dense,Base + QGIN,Base,host,43,Snow,rescue,323,36,100,36,25.7418670438,46.8101728723
+sues_to_dense,Base + QGIN,Base,host,43,Snow,new_failure,323,45,109,41.2844036697,31.3725490196,52.1318075346
+sues_to_dense,Base + QGIN,Base,host,43,Snow,far200_removed,323,32,45,71.1111111111,58.3284883721,83.0267295597
+sues_to_dense,Base + QGIN,Base,host,mean,Clean,rescue,,,,,,
+sues_to_dense,Base + QGIN,Base,host,mean,Clean,new_failure,,,,42.2736761428,37.0138684604,47.3488972011
+sues_to_dense,Base + QGIN,Base,host,mean,Clean,far200_removed,,,,,,
+sues_to_dense,Base + QGIN,Base,host,mean,Fog,rescue,,,,46.5337132004,37.9359942496,55.6549886717
+sues_to_dense,Base + QGIN,Base,host,mean,Fog,new_failure,,,,36.5529471991,30.3558298319,43.2305436072
+sues_to_dense,Base + QGIN,Base,host,mean,Fog,far200_removed,,,,72.0833333333,57.4988354037,86.1911630037
+sues_to_dense,Base + QGIN,Base,host,mean,Snow,rescue,,,,32.7540983607,25.9343201556,39.8395392018
+sues_to_dense,Base + QGIN,Base,host,mean,Snow,new_failure,,,,43.0106228875,34.5912656496,51.4464251031
+sues_to_dense,Base + QGIN,Base,host,mean,Snow,far200_removed,,,,65.101010101,54.3282071171,75.0116811221
+sues_to_dense,Base + QGIN,Base,host,mean,Blur,rescue,,,,37.8205128205,23.6885772454,52.4152762329
+sues_to_dense,Base + QGIN,Base,host,mean,Blur,new_failure,,,,42.6206757844,36.5908577795,48.7406372382
+sues_to_dense,Base + QGIN,Base,host,mean,Blur,far200_removed,,,,74.2424242424,55.5892857143,92.3076923077
+sues_to_dense,Base + QGIN,Base,host,mean,Gamma,rescue,,,,61.2980769231,43.5582844575,77.0833333333
+sues_to_dense,Base + QGIN,Base,host,mean,Gamma,new_failure,,,,38.7406873348,33.1203274626,44.1961124668
+sues_to_dense,Base + QGIN,Base,host,mean,Gamma,far200_removed,,,,85.7142857143,66.6666666667,100
+sues_to_dense,Base + QGIN,Base,host,mean,ExposureClip,rescue,,,,35.1622971286,27.5006360764,43.1747343944
+sues_to_dense,Base + QGIN,Base,host,mean,ExposureClip,new_failure,,,,36.9905048634,29.510580403,44.273366301
+sues_to_dense,Base + QGIN,Base,host,mean,ExposureClip,far200_removed,,,,66.4596273292,56.568510378,76.51738826
+sues_to_dense,Base + QGIN,Base,host,mean,Posterize4,rescue,,,,32.2222222222,11.1080586081,55.1298701299
+sues_to_dense,Base + QGIN,Base,host,mean,Posterize4,new_failure,,,,39.2012800853,33.9445089095,44.70130901
+sues_to_dense,Base + QGIN,Base,host,mean,Posterize4,far200_removed,,,,100,100,100
+sues_to_dense,Base + QGIN,Base,common,42,Blur,rescue,307,11,26,42.3076923077,21.7313664596,62.5
+sues_to_dense,Base + QGIN,Base,common,42,Blur,new_failure,307,97,220,44.0909090909,36.3247863248,51.7245127436
+sues_to_dense,Base + QGIN,Base,common,42,Blur,far200_removed,307,9,11,81.8181818182,57.1428571429,100
+sues_to_dense,Base + QGIN,Base,common,42,Clean,rescue,307,0,0,,,
+sues_to_dense,Base + QGIN,Base,common,42,Clean,new_failure,307,136,307,44.2996742671,37.7355133284,51.1115288221
+sues_to_dense,Base + QGIN,Base,common,42,Clean,far200_removed,307,0,0,,,
+sues_to_dense,Base + QGIN,Base,common,42,ExposureClip,rescue,307,26,89,29.2134831461,19.2294520548,39.7086056645
+sues_to_dense,Base + QGIN,Base,common,42,ExposureClip,new_failure,307,51,127,40.157480315,31.2099363057,49.2075337598
+sues_to_dense,Base + QGIN,Base,common,42,ExposureClip,far200_removed,307,25,46,54.347826087,39.5348837209,68.6305147059
+sues_to_dense,Base + QGIN,Base,common,42,Fog,rescue,307,30,65,46.1538461538,33.3333333333,59.6785394265
+sues_to_dense,Base + QGIN,Base,common,42,Fog,new_failure,307,63,172,36.6279069767,28.9153144369,45.3987730061
+sues_to_dense,Base + QGIN,Base,common,42,Fog,far200_removed,307,19,24,79.1666666667,61.1111111111,95.2380952381
+sues_to_dense,Base + QGIN,Base,common,42,Gamma,rescue,307,14,26,53.8461538462,33.3333333333,72.0055555556
+sues_to_dense,Base + QGIN,Base,common,42,Gamma,new_failure,307,89,219,40.6392694064,33.7586355786,48.2060301508
+sues_to_dense,Base + QGIN,Base,common,42,Gamma,far200_removed,307,5,7,71.4285714286,33.3333333333,100
+sues_to_dense,Base + QGIN,Base,common,42,Posterize4,rescue,307,2,10,20,0,50
+sues_to_dense,Base + QGIN,Base,common,42,Posterize4,new_failure,307,116,265,43.7735849057,37.0742181765,50.8420550038
+sues_to_dense,Base + QGIN,Base,common,42,Posterize4,far200_removed,307,3,3,100,100,100
+sues_to_dense,Base + QGIN,Base,common,42,Snow,rescue,307,36,122,29.5081967213,21.427045177,37.6817533856
+sues_to_dense,Base + QGIN,Base,common,42,Snow,new_failure,307,34,76,44.7368421053,32.8947368421,56.25
+sues_to_dense,Base + QGIN,Base,common,42,Snow,far200_removed,307,39,66,59.0909090909,45.7117794486,71.4285714286
+sues_to_dense,Base + QGIN,Base,common,43,Blur,rescue,323,10,30,33.3333333333,15.3846153846,51.724137931
+sues_to_dense,Base + QGIN,Base,common,43,Blur,new_failure,323,93,226,41.1504424779,33.7956871345,49.1900294076
+sues_to_dense,Base + QGIN,Base,common,43,Blur,far200_removed,323,8,12,66.6666666667,33.3333333333,93.75
+sues_to_dense,Base + QGIN,Base,common,43,Clean,rescue,323,0,0,,,
+sues_to_dense,Base + QGIN,Base,common,43,Clean,new_failure,323,130,323,40.2476780186,33.8557437743,46.6485102421
+sues_to_dense,Base + QGIN,Base,common,43,Clean,far200_removed,323,0,0,,,
+sues_to_dense,Base + QGIN,Base,common,43,ExposureClip,rescue,323,37,90,41.1111111111,31.0318165659,51.8542568543
+sues_to_dense,Base + QGIN,Base,common,43,ExposureClip,new_failure,323,46,136,33.8235294118,24.3035067288,43.1375906527
+sues_to_dense,Base + QGIN,Base,common,43,ExposureClip,far200_removed,323,33,42,78.5714285714,64.1025641026,92.3076923077
+sues_to_dense,Base + QGIN,Base,common,43,Fog,rescue,323,38,81,46.9135802469,36.3636363636,57.6551577153
+sues_to_dense,Base + QGIN,Base,common,43,Fog,new_failure,323,58,159,36.4779874214,28.656358885,44.9643769324
+sues_to_dense,Base + QGIN,Base,common,43,Fog,far200_removed,323,13,20,65,43.75,85.7142857143
+sues_to_dense,Base + QGIN,Base,common,43,Gamma,rescue,323,11,16,68.75,44.4444444444,91.6666666667
+sues_to_dense,Base + QGIN,Base,common,43,Gamma,new_failure,323,91,247,36.8421052632,30,43.4801932367
+sues_to_dense,Base + QGIN,Base,common,43,Gamma,far200_removed,323,2,2,100,100,100
+sues_to_dense,Base + QGIN,Base,common,43,Posterize4,rescue,323,4,9,44.4444444444,12.5,80
+sues_to_dense,Base + QGIN,Base,common,43,Posterize4,new_failure,323,98,283,34.628975265,28.4132841328,40.9723527569
+sues_to_dense,Base + QGIN,Base,common,43,Posterize4,far200_removed,323,3,3,100,100,100
+sues_to_dense,Base + QGIN,Base,common,43,Snow,rescue,323,36,100,36,25.7418670438,46.8101728723
+sues_to_dense,Base + QGIN,Base,common,43,Snow,new_failure,323,45,109,41.2844036697,31.3725490196,52.1318075346
+sues_to_dense,Base + QGIN,Base,common,43,Snow,far200_removed,323,32,45,71.1111111111,58.3284883721,83.0267295597
+sues_to_dense,Base + QGIN,Base,common,mean,Clean,rescue,,,,,,
+sues_to_dense,Base + QGIN,Base,common,mean,Clean,new_failure,,,,42.2736761428,37.0138684604,47.3488972011
+sues_to_dense,Base + QGIN,Base,common,mean,Clean,far200_removed,,,,,,
+sues_to_dense,Base + QGIN,Base,common,mean,Fog,rescue,,,,46.5337132004,37.9359942496,55.6549886717
+sues_to_dense,Base + QGIN,Base,common,mean,Fog,new_failure,,,,36.5529471991,30.3558298319,43.2305436072
+sues_to_dense,Base + QGIN,Base,common,mean,Fog,far200_removed,,,,72.0833333333,57.4988354037,86.1911630037
+sues_to_dense,Base + QGIN,Base,common,mean,Snow,rescue,,,,32.7540983607,25.9343201556,39.8395392018
+sues_to_dense,Base + QGIN,Base,common,mean,Snow,new_failure,,,,43.0106228875,34.5912656496,51.4464251031
+sues_to_dense,Base + QGIN,Base,common,mean,Snow,far200_removed,,,,65.101010101,54.3282071171,75.0116811221
+sues_to_dense,Base + QGIN,Base,common,mean,Blur,rescue,,,,37.8205128205,23.6885772454,52.4152762329
+sues_to_dense,Base + QGIN,Base,common,mean,Blur,new_failure,,,,42.6206757844,36.5908577795,48.7406372382
+sues_to_dense,Base + QGIN,Base,common,mean,Blur,far200_removed,,,,74.2424242424,55.5892857143,92.3076923077
+sues_to_dense,Base + QGIN,Base,common,mean,Gamma,rescue,,,,61.2980769231,43.5582844575,77.0833333333
+sues_to_dense,Base + QGIN,Base,common,mean,Gamma,new_failure,,,,38.7406873348,33.1203274626,44.1961124668
+sues_to_dense,Base + QGIN,Base,common,mean,Gamma,far200_removed,,,,85.7142857143,66.6666666667,100
+sues_to_dense,Base + QGIN,Base,common,mean,ExposureClip,rescue,,,,35.1622971286,27.5006360764,43.1747343944
+sues_to_dense,Base + QGIN,Base,common,mean,ExposureClip,new_failure,,,,36.9905048634,29.510580403,44.273366301
+sues_to_dense,Base + QGIN,Base,common,mean,ExposureClip,far200_removed,,,,66.4596273292,56.568510378,76.51738826
+sues_to_dense,Base + QGIN,Base,common,mean,Posterize4,rescue,,,,32.2222222222,11.1080586081,55.1298701299
+sues_to_dense,Base + QGIN,Base,common,mean,Posterize4,new_failure,,,,39.2012800853,33.9445089095,44.70130901
+sues_to_dense,Base + QGIN,Base,common,mean,Posterize4,far200_removed,,,,100,100,100
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Blur,rescue,518,21,59,35.593220339,24.1363346105,48.0769230769
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Blur,new_failure,518,108,355,30.4225352113,25.1336449743,35.9206053519
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Blur,far200_removed,518,12,21,57.1428571429,37.5,76.4754901961
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Clean,rescue,518,0,0,,,
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Clean,new_failure,518,201,518,38.8030888031,34.1648304421,43.6468665525
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Clean,far200_removed,518,0,0,,,
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,ExposureClip,rescue,518,43,145,29.6551724138,21.8178400547,37.5022163121
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,ExposureClip,new_failure,518,72,212,33.9622641509,27.4106709336,40.7257828505
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,ExposureClip,far200_removed,518,31,69,44.9275362319,33.3333333333,57.5757575758
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Fog,rescue,518,28,96,29.1666666667,20.4076679215,38.2983694571
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Fog,new_failure,518,106,326,32.5153374233,26.9357031857,38.1558823529
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Fog,far200_removed,518,22,43,51.1627906977,34.6901669759,68
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Gamma,rescue,518,11,37,29.7297297297,15.5555555556,45.1612903226
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Gamma,new_failure,518,137,390,35.1282051282,30,40.3846153846
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Gamma,far200_removed,518,8,12,66.6666666667,39.9615384615,92.8571428571
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Posterize4,rescue,518,4,10,40,6.96428571429,75
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Posterize4,new_failure,518,153,461,33.1887201735,28.6548134102,37.9317824819
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Posterize4,far200_removed,518,4,6,66.6666666667,20,100
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Snow,rescue,518,61,191,31.9371727749,25.6820092476,38.5550353588
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Snow,new_failure,518,57,164,34.756097561,26.8444312848,42.9706901904
+sues_to_dense,S4G-QDual,Sample4Geo,host,42,Snow,far200_removed,518,42,77,54.5454545455,41.9343940715,67.0461474501
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Blur,rescue,526,15,44,34.0909090909,20.8333333333,47.619047619
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Blur,new_failure,526,136,362,37.5690607735,32.1708636538,42.7375428005
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Blur,far200_removed,526,9,14,64.2857142857,37.5,90
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Clean,rescue,526,0,0,,,
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Clean,new_failure,526,196,526,37.2623574144,32.6042242279,42.1153846154
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Clean,far200_removed,526,0,0,,,
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,ExposureClip,rescue,526,34,144,23.6111111111,16.7881935583,31.2883435583
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,ExposureClip,new_failure,526,76,230,33.0434782609,26.5745553246,39.8306807221
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,ExposureClip,far200_removed,526,32,68,47.0588235294,34.7826086957,59.4594594595
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Fog,rescue,526,27,85,31.7647058824,21.5189873418,43.0110652663
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Fog,new_failure,526,103,355,29.014084507,23.8086009598,34.2706926093
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Fog,far200_removed,526,14,31,45.1612903226,25.625,64.7058823529
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Gamma,rescue,526,26,60,43.3333333333,29.6875,56.8635902637
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Gamma,new_failure,526,123,375,32.8,27.7197228482,38.0403458213
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Gamma,far200_removed,526,18,23,78.2608695652,60,94.7434210526
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Posterize4,rescue,526,3,3,100,100,100
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Posterize4,new_failure,526,160,475,33.6842105263,28.9795918367,38.8507107393
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Posterize4,far200_removed,526,1,1,100,100,100
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Snow,rescue,526,59,190,31.0526315789,24.018607443,38.2661202779
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Snow,new_failure,526,53,147,36.0544217687,27.5,44.6666666667
+sues_to_dense,S4G-QDual,Sample4Geo,host,43,Snow,far200_removed,526,48,82,58.5365853659,46.9663406214,68.6571659773
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Clean,rescue,,,,,,
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Clean,new_failure,,,,38.0327231088,34.5522092985,41.9062189197
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Clean,far200_removed,,,,,,
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Fog,rescue,,,,30.4656862745,23.2919142615,38.3058349786
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Fog,new_failure,,,,30.7647109652,27.0078914744,34.9134086063
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Fog,far200_removed,,,,48.1620405101,34.7733078617,61.3439114987
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Snow,rescue,,,,31.4949021769,26.3364368475,36.8053359033
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Snow,new_failure,,,,35.4052596648,29.3541392441,41.69417626
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Snow,far200_removed,,,,56.5410199557,47.2861782111,64.8864427049
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Blur,rescue,,,,34.8420647149,25.2156229323,44.6802321242
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Blur,new_failure,,,,33.9957979924,30.0592825307,38.0618214071
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Blur,far200_removed,,,,60.7142857143,44.9492694805,75.9526098901
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Gamma,rescue,,,,36.5315315315,25.7567523057,47.3640574651
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Gamma,new_failure,,,,33.9641025641,30.0664432558,38.0089430377
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Gamma,far200_removed,,,,72.4637681159,55.0173729779,89.1541353383
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,ExposureClip,rescue,,,,26.6331417625,21.098646837,32.0474052077
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,ExposureClip,new_failure,,,,33.5028712059,28.4272312419,39.0166029128
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,ExposureClip,far200_removed,,,,45.9931798806,37.3889204545,54.7504805895
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Posterize4,rescue,,,,70,51.4285714286,87.1666666667
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Posterize4,new_failure,,,,33.4364653499,30.0523833645,37.3785204955
+sues_to_dense,S4G-QDual,Sample4Geo,host,mean,Posterize4,far200_removed,,,,83.3333333333,60,100
+sues_to_dense,S4G-QDual,Base,common,42,Blur,rescue,307,14,26,53.8461538462,33.3333333333,73.0769230769
+sues_to_dense,S4G-QDual,Base,common,42,Blur,new_failure,307,96,220,43.6363636364,36.2548555777,51.3089005236
+sues_to_dense,S4G-QDual,Base,common,42,Blur,far200_removed,307,11,11,100,100,100
+sues_to_dense,S4G-QDual,Base,common,42,Clean,rescue,307,0,0,,,
+sues_to_dense,S4G-QDual,Base,common,42,Clean,new_failure,307,140,307,45.6026058632,39.0160569203,52.3337774295
+sues_to_dense,S4G-QDual,Base,common,42,Clean,far200_removed,307,0,0,,,
+sues_to_dense,S4G-QDual,Base,common,42,ExposureClip,rescue,307,27,89,30.3370786517,20.2241516286,41.2395189003
+sues_to_dense,S4G-QDual,Base,common,42,ExposureClip,new_failure,307,59,127,46.4566929134,36.4696762426,55.9322033898
+sues_to_dense,S4G-QDual,Base,common,42,ExposureClip,far200_removed,307,28,46,60.8695652174,46.1538461538,75.5555555556
+sues_to_dense,S4G-QDual,Base,common,42,Fog,rescue,307,28,65,43.0769230769,31.5765107212,54.6666666667
+sues_to_dense,S4G-QDual,Base,common,42,Fog,new_failure,307,66,172,38.3720930233,30.4341469616,47.1593589194
+sues_to_dense,S4G-QDual,Base,common,42,Fog,far200_removed,307,20,24,83.3333333333,66.6666666667,96.2962962963
+sues_to_dense,S4G-QDual,Base,common,42,Gamma,rescue,307,13,26,50,30,69.5760869565
+sues_to_dense,S4G-QDual,Base,common,42,Gamma,new_failure,307,96,219,43.8356164384,36.1902368988,51.5657080314
+sues_to_dense,S4G-QDual,Base,common,42,Gamma,far200_removed,307,5,7,71.4285714286,33.3333333333,100
+sues_to_dense,S4G-QDual,Base,common,42,Posterize4,rescue,307,6,10,60,25,90.9090909091
+sues_to_dense,S4G-QDual,Base,common,42,Posterize4,new_failure,307,124,265,46.7924528302,39.9069272703,53.9034183318
+sues_to_dense,S4G-QDual,Base,common,42,Posterize4,far200_removed,307,3,3,100,100,100
+sues_to_dense,S4G-QDual,Base,common,42,Snow,rescue,307,41,122,33.606557377,24.4440203562,42.7219140083
+sues_to_dense,S4G-QDual,Base,common,42,Snow,new_failure,307,38,76,50,37.5,62.2956759325
+sues_to_dense,S4G-QDual,Base,common,42,Snow,far200_removed,307,47,66,71.2121212121,57.9992753623,83.0774647887
+sues_to_dense,S4G-QDual,Base,common,43,Blur,rescue,323,15,30,50,31.244612069,67.8607142857
+sues_to_dense,S4G-QDual,Base,common,43,Blur,new_failure,323,105,226,46.4601769912,39.3301863176,53.8461538462
+sues_to_dense,S4G-QDual,Base,common,43,Blur,far200_removed,323,11,12,91.6666666667,71.4285714286,100
+sues_to_dense,S4G-QDual,Base,common,43,Clean,rescue,323,0,0,,,
+sues_to_dense,S4G-QDual,Base,common,43,Clean,new_failure,323,147,323,45.5108359133,39.2203261854,52.0518429354
+sues_to_dense,S4G-QDual,Base,common,43,Clean,far200_removed,323,0,0,,,
+sues_to_dense,S4G-QDual,Base,common,43,ExposureClip,rescue,323,27,90,30,20.618556701,40.2064657104
+sues_to_dense,S4G-QDual,Base,common,43,ExposureClip,new_failure,323,60,136,44.1176470588,35.1714818267,54.1696428571
+sues_to_dense,S4G-QDual,Base,common,43,ExposureClip,far200_removed,323,32,42,76.1904761905,62.7389705882,89.4736842105
+sues_to_dense,S4G-QDual,Base,common,43,Fog,rescue,323,34,81,41.975308642,30.7692307692,54.2865961199
+sues_to_dense,S4G-QDual,Base,common,43,Fog,new_failure,323,65,159,40.8805031447,32.5411140584,49.6455140604
+sues_to_dense,S4G-QDual,Base,common,43,Fog,far200_removed,323,16,20,80,61.5277777778,95.4545454545
+sues_to_dense,S4G-QDual,Base,common,43,Gamma,rescue,323,8,16,50,22.2222222222,75
+sues_to_dense,S4G-QDual,Base,common,43,Gamma,new_failure,323,105,247,42.5101214575,35.4835263303,50.0051440329
+sues_to_dense,S4G-QDual,Base,common,43,Gamma,far200_removed,323,1,2,50,0,100
+sues_to_dense,S4G-QDual,Base,common,43,Posterize4,rescue,323,3,9,33.3333333333,0,66.6666666667
+sues_to_dense,S4G-QDual,Base,common,43,Posterize4,new_failure,323,127,283,44.8763250883,38.3271923852,51.7995154896
+sues_to_dense,S4G-QDual,Base,common,43,Posterize4,far200_removed,323,3,3,100,100,100
+sues_to_dense,S4G-QDual,Base,common,43,Snow,rescue,323,42,100,42,32,52.0020833333
+sues_to_dense,S4G-QDual,Base,common,43,Snow,new_failure,323,44,109,40.3669724771,30.5076674738,50.4504504505
+sues_to_dense,S4G-QDual,Base,common,43,Snow,far200_removed,323,34,45,75.5555555556,62,87.5
+sues_to_dense,S4G-QDual,Base,common,mean,Clean,rescue,,,,,,
+sues_to_dense,S4G-QDual,Base,common,mean,Clean,new_failure,,,,45.5567208883,40.5176341365,50.6400087793
+sues_to_dense,S4G-QDual,Base,common,mean,Clean,far200_removed,,,,,,
+sues_to_dense,S4G-QDual,Base,common,mean,Fog,rescue,,,,42.5261158594,34.1761501947,50.9993273625
+sues_to_dense,S4G-QDual,Base,common,mean,Fog,new_failure,,,,39.626298084,33.5446572417,46.5079183604
+sues_to_dense,S4G-QDual,Base,common,mean,Fog,far200_removed,,,,81.6666666667,68.5687441643,93.3333333333
+sues_to_dense,S4G-QDual,Base,common,mean,Snow,rescue,,,,37.8032786885,30.3193176125,45.2627422102
+sues_to_dense,S4G-QDual,Base,common,mean,Snow,new_failure,,,,45.1834862385,36.7045619408,54.136892545
+sues_to_dense,S4G-QDual,Base,common,mean,Snow,far200_removed,,,,73.3838383838,63.0943226183,83.0666613702
+sues_to_dense,S4G-QDual,Base,common,mean,Blur,rescue,,,,51.9230769231,38.1677827381,64.5715629198
+sues_to_dense,S4G-QDual,Base,common,mean,Blur,new_failure,,,,45.0482703138,39.0900786662,51.2252802731
+sues_to_dense,S4G-QDual,Base,common,mean,Blur,far200_removed,,,,95.8333333333,85.7142857143,100
+sues_to_dense,S4G-QDual,Base,common,mean,Gamma,rescue,,,,50,33.3901515152,66.2719187675
+sues_to_dense,S4G-QDual,Base,common,mean,Gamma,new_failure,,,,43.1728689479,37.4784593009,49.176032332
+sues_to_dense,S4G-QDual,Base,common,mean,Gamma,far200_removed,,,,60.7142857143,21.4285714286,100
+sues_to_dense,S4G-QDual,Base,common,mean,ExposureClip,rescue,,,,30.1685393258,23.004756871,38.4326569477
+sues_to_dense,S4G-QDual,Base,common,mean,ExposureClip,new_failure,,,,45.2871699861,37.7987816695,53.1658118547
+sues_to_dense,S4G-QDual,Base,common,mean,ExposureClip,far200_removed,,,,68.5300207039,57.5382928118,79.0280971711
+sues_to_dense,S4G-QDual,Base,common,mean,Posterize4,rescue,,,,46.6666666667,22.9166666667,69.6445741758
+sues_to_dense,S4G-QDual,Base,common,mean,Posterize4,new_failure,,,,45.8343889593,40.4974666924,50.9825706683
+sues_to_dense,S4G-QDual,Base,common,mean,Posterize4,far200_removed,,,,100,100,100
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Blur,rescue,481,29,58,50,35.8182302772,63.1578947368
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Blur,new_failure,481,110,321,34.2679127726,29.1874006359,39.877025383
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Blur,far200_removed,481,16,19,84.2105263158,64.2857142857,100
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Clean,rescue,481,0,0,,,
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Clean,new_failure,481,184,481,38.2536382536,33.2626658069,43.3047048712
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Clean,far200_removed,481,0,0,,,
+sues_to_dense,ConGeo-QView,ConGeo,host,42,ExposureClip,rescue,481,37,144,25.6944444444,18.3819777911,33.3333333333
+sues_to_dense,ConGeo-QView,ConGeo,host,42,ExposureClip,new_failure,481,78,192,40.625,32.9840101882,48.2962021531
+sues_to_dense,ConGeo-QView,ConGeo,host,42,ExposureClip,far200_removed,481,32,75,42.6666666667,30.5525362319,54.3209876543
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Fog,rescue,481,24,76,31.5789473684,21.2121212121,42.4657534247
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Fog,new_failure,481,95,303,31.3531353135,25.7569112174,37.3903695711
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Fog,far200_removed,481,18,32,56.25,40.5405405405,71.796875
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Gamma,rescue,481,35,57,61.4035087719,47.8260869565,74.5106951872
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Gamma,new_failure,481,123,331,37.1601208459,31.0320581897,43.3346153846
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Gamma,far200_removed,481,13,14,92.8571428571,75,100
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Posterize4,rescue,481,7,13,53.8461538462,25,83.3333333333
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Posterize4,new_failure,481,156,432,36.1111111111,31.1281042912,41.5274463007
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Posterize4,far200_removed,481,3,4,75,0,100
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Snow,rescue,481,54,181,29.8342541436,22.3451419296,37.3700394033
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Snow,new_failure,481,40,132,30.303030303,22.0322932717,39.5375026189
+sues_to_dense,ConGeo-QView,ConGeo,host,42,Snow,far200_removed,481,65,102,63.7254901961,53.5325861353,73.3333333333
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Blur,rescue,491,19,55,34.5454545455,21.0526315789,48.9372557534
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Blur,new_failure,491,99,323,30.6501547988,25.2335729691,36.1845132386
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Blur,far200_removed,491,14,24,58.3333333333,36.8377192982,80.0192307692
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Clean,rescue,491,0,0,,,
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Clean,new_failure,491,187,491,38.0855397149,33.1885732753,42.8578900179
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Clean,far200_removed,491,0,0,,,
+sues_to_dense,ConGeo-QView,ConGeo,host,43,ExposureClip,rescue,491,38,135,28.1481481481,20.1489946103,36.4342727631
+sues_to_dense,ConGeo-QView,ConGeo,host,43,ExposureClip,new_failure,491,77,201,38.3084577114,31.6763775714,45.3680709534
+sues_to_dense,ConGeo-QView,ConGeo,host,43,ExposureClip,far200_removed,491,16,44,36.3636363636,21.568627451,51.3532818533
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Fog,rescue,491,30,78,38.4615384615,27.7777777778,49.3982827863
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Fog,new_failure,491,108,316,34.1772151899,28.3518692872,40.4939228394
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Fog,far200_removed,491,14,25,56,35.2941176471,78.5714285714
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Gamma,rescue,491,20,56,35.7142857143,24.0722222222,48.1498015873
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Gamma,new_failure,491,106,345,30.7246376812,25.3430967428,36.2887076556
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Gamma,far200_removed,491,13,22,59.0909090909,36.3474025974,80.7692307692
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Posterize4,rescue,491,4,8,50,10,85.7142857143
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Posterize4,new_failure,491,137,435,31.4942528736,26.4973821691,36.2774225462
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Posterize4,far200_removed,491,3,5,60,0,100
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Snow,rescue,491,49,190,25.7894736842,19.444047619,32.353366202
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Snow,new_failure,491,60,146,41.095890411,32.8942862293,49.6405393168
+sues_to_dense,ConGeo-QView,ConGeo,host,43,Snow,far200_removed,491,46,92,50,39.5059134765,60.2594339623
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Clean,rescue,,,,,,
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Clean,new_failure,,,,38.1695889843,34.5024811112,41.8940150809
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Clean,far200_removed,,,,,,
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Fog,rescue,,,,35.020242915,27.4696881617,42.9014465347
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Fog,new_failure,,,,32.7651752517,28.3638345315,37.2473644468
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Fog,far200_removed,,,,56.125,42.825195985,70.8364130435
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Snow,rescue,,,,27.8118639139,22.5835469803,32.9569417961
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Snow,new_failure,,,,35.699460357,29.5585623142,42.6292701863
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Snow,far200_removed,,,,56.862745098,49.5155421919,63.9335224799
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Blur,rescue,,,,42.2727272727,32.6893397054,51.6743681327
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Blur,new_failure,,,,32.4590337857,28.3280265312,36.6901393897
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Blur,far200_removed,,,,71.2719298246,57.4225801432,84.4571776612
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Gamma,rescue,,,,48.5588972431,39.1240982587,57.7928048963
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Gamma,new_failure,,,,33.9423792635,29.6367305131,38.7198879971
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Gamma,far200_removed,,,,75.974025974,62.1397243108,88.4615384615
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,ExposureClip,rescue,,,,26.9212962963,21.177319053,32.8768342821
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,ExposureClip,new_failure,,,,39.4667288557,34.0317331021,45.3512572828
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,ExposureClip,far200_removed,,,,39.5151515152,29.9141539036,49.8548403401
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Posterize4,rescue,,,,51.9230769231,27.7777777778,75
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Posterize4,new_failure,,,,33.8026819923,30.0819059346,37.4589211358
+sues_to_dense,ConGeo-QView,ConGeo,host,mean,Posterize4,far200_removed,,,,67.5,29.1666666667,100
+sues_to_dense,ConGeo-QView,Base,common,42,Blur,rescue,307,14,26,53.8461538462,33.3064516129,73.6842105263
+sues_to_dense,ConGeo-QView,Base,common,42,Blur,new_failure,307,118,220,53.6363636364,45.754065137,61.4686258156
+sues_to_dense,ConGeo-QView,Base,common,42,Blur,far200_removed,307,9,11,81.8181818182,54.5454545455,100
+sues_to_dense,ConGeo-QView,Base,common,42,Clean,rescue,307,0,0,,,
+sues_to_dense,ConGeo-QView,Base,common,42,Clean,new_failure,307,150,307,48.8599348534,42.295017171,55.4818795073
+sues_to_dense,ConGeo-QView,Base,common,42,Clean,far200_removed,307,0,0,,,
+sues_to_dense,ConGeo-QView,Base,common,42,ExposureClip,rescue,307,17,89,19.1011235955,10.5247858017,28.3950617284
+sues_to_dense,ConGeo-QView,Base,common,42,ExposureClip,new_failure,307,72,127,56.6929133858,47.618226601,65.348209633
+sues_to_dense,ConGeo-QView,Base,common,42,ExposureClip,far200_removed,307,23,46,50,34.693877551,65.0029069767
+sues_to_dense,ConGeo-QView,Base,common,42,Fog,rescue,307,25,65,38.4615384615,26.2276166456,50.8474576271
+sues_to_dense,ConGeo-QView,Base,common,42,Fog,new_failure,307,77,172,44.7674418605,36.257127193,53.5912504965
+sues_to_dense,ConGeo-QView,Base,common,42,Fog,far200_removed,307,18,24,75,56,91.3043478261
+sues_to_dense,ConGeo-QView,Base,common,42,Gamma,rescue,307,14,26,53.8461538462,33.3333333333,73.0769230769
+sues_to_dense,ConGeo-QView,Base,common,42,Gamma,new_failure,307,99,219,45.2054794521,37.8103721026,53.0704352706
+sues_to_dense,ConGeo-QView,Base,common,42,Gamma,far200_removed,307,6,7,85.7142857143,50,100
+sues_to_dense,ConGeo-QView,Base,common,42,Posterize4,rescue,307,6,10,60,25,90
+sues_to_dense,ConGeo-QView,Base,common,42,Posterize4,new_failure,307,130,265,49.0566037736,42.5180136681,56.25
+sues_to_dense,ConGeo-QView,Base,common,42,Posterize4,far200_removed,307,3,3,100,100,100
+sues_to_dense,ConGeo-QView,Base,common,42,Snow,rescue,307,41,122,33.606557377,24.427480916,42.5925925926
+sues_to_dense,ConGeo-QView,Base,common,42,Snow,new_failure,307,44,76,57.8947368421,46.1538461538,70.1522791448
+sues_to_dense,ConGeo-QView,Base,common,42,Snow,far200_removed,307,45,66,68.1818181818,54.9959677419,80
+sues_to_dense,ConGeo-QView,Base,common,43,Blur,rescue,323,10,30,33.3333333333,16.6666666667,50
+sues_to_dense,ConGeo-QView,Base,common,43,Blur,new_failure,323,114,226,50.4424778761,43.252716135,57.7898732794
+sues_to_dense,ConGeo-QView,Base,common,43,Blur,far200_removed,323,11,12,91.6666666667,75,100
+sues_to_dense,ConGeo-QView,Base,common,43,Clean,rescue,323,0,0,,,
+sues_to_dense,ConGeo-QView,Base,common,43,Clean,new_failure,323,170,323,52.6315789474,45.9103303454,59.2616487455
+sues_to_dense,ConGeo-QView,Base,common,43,Clean,far200_removed,323,0,0,,,
+sues_to_dense,ConGeo-QView,Base,common,43,ExposureClip,rescue,323,22,90,24.4444444444,15.2777777778,34.2105263158
+sues_to_dense,ConGeo-QView,Base,common,43,ExposureClip,new_failure,323,70,136,51.4705882353,41.4801587302,62.015503876
+sues_to_dense,ConGeo-QView,Base,common,43,ExposureClip,far200_removed,323,28,42,66.6666666667,52.270256917,81.1350235849
+sues_to_dense,ConGeo-QView,Base,common,43,Fog,rescue,323,28,81,34.5679012346,24.4856591285,45.3134084302
+sues_to_dense,ConGeo-QView,Base,common,43,Fog,new_failure,323,64,159,40.251572327,31.4656019656,49.4137154862
+sues_to_dense,ConGeo-QView,Base,common,43,Fog,far200_removed,323,13,20,65,42.0942982456,85.0046296296
+sues_to_dense,ConGeo-QView,Base,common,43,Gamma,rescue,323,9,16,56.25,28.5714285714,80
+sues_to_dense,ConGeo-QView,Base,common,43,Gamma,new_failure,323,127,247,51.4170040486,43.3874099954,59.2456324249
+sues_to_dense,ConGeo-QView,Base,common,43,Gamma,far200_removed,323,2,2,100,100,100
+sues_to_dense,ConGeo-QView,Base,common,43,Posterize4,rescue,323,4,9,44.4444444444,12.5,80
+sues_to_dense,ConGeo-QView,Base,common,43,Posterize4,new_failure,323,134,283,47.3498233216,40.4760159196,54.1357754852
+sues_to_dense,ConGeo-QView,Base,common,43,Posterize4,far200_removed,323,3,3,100,100,100
+sues_to_dense,ConGeo-QView,Base,common,43,Snow,rescue,323,29,100,29,20.8333333333,38.0541508639
+sues_to_dense,ConGeo-QView,Base,common,43,Snow,new_failure,323,65,109,59.6330275229,48.4803543914,70.9401709402
+sues_to_dense,ConGeo-QView,Base,common,43,Snow,far200_removed,323,29,45,64.4444444444,51.0627442466,77.2748713551
+sues_to_dense,ConGeo-QView,Base,common,mean,Clean,rescue,,,,,,
+sues_to_dense,ConGeo-QView,Base,common,mean,Clean,new_failure,,,,50.7457569004,45.29292032,56.0567558508
+sues_to_dense,ConGeo-QView,Base,common,mean,Clean,far200_removed,,,,,,
+sues_to_dense,ConGeo-QView,Base,common,mean,Fog,rescue,,,,36.5147198481,27.7767722474,45.1307005588
+sues_to_dense,ConGeo-QView,Base,common,mean,Fog,new_failure,,,,42.5095070938,35.8684688334,49.4342157323
+sues_to_dense,ConGeo-QView,Base,common,mean,Fog,far200_removed,,,,70,57.1660714286,81.8463990371
+sues_to_dense,ConGeo-QView,Base,common,mean,Snow,rescue,,,,31.3032786885,24.6255728088,38.2946910774
+sues_to_dense,ConGeo-QView,Base,common,mean,Snow,new_failure,,,,58.7638821825,50.0652120568,68.0150185653
+sues_to_dense,ConGeo-QView,Base,common,mean,Snow,far200_removed,,,,66.3131313131,56.8769928536,75.485331714
+sues_to_dense,ConGeo-QView,Base,common,mean,Blur,rescue,,,,43.5897435897,30.2930672269,56.2772727273
+sues_to_dense,ConGeo-QView,Base,common,mean,Blur,new_failure,,,,52.0394207562,46.1471676887,58.1746571898
+sues_to_dense,ConGeo-QView,Base,common,mean,Blur,far200_removed,,,,86.7424242424,72.1187770563,100
+sues_to_dense,ConGeo-QView,Base,common,mean,Gamma,rescue,,,,55.0480769231,37.0119047619,71.7052218615
+sues_to_dense,ConGeo-QView,Base,common,mean,Gamma,new_failure,,,,48.3112417503,42.2463385914,54.6461854402
+sues_to_dense,ConGeo-QView,Base,common,mean,Gamma,far200_removed,,,,92.8571428571,75,100
+sues_to_dense,ConGeo-QView,Base,common,mean,ExposureClip,rescue,,,,21.77278402,15.2049211438,29.1245475731
+sues_to_dense,ConGeo-QView,Base,common,mean,ExposureClip,new_failure,,,,54.0817508106,46.418146125,62.1712627475
+sues_to_dense,ConGeo-QView,Base,common,mean,ExposureClip,far200_removed,,,,58.3333333333,47.0047885229,69.7402177925
+sues_to_dense,ConGeo-QView,Base,common,mean,Posterize4,rescue,,,,52.2222222222,27.7777777778,75.2525252525
+sues_to_dense,ConGeo-QView,Base,common,mean,Posterize4,new_failure,,,,48.2032135476,42.789363508,53.7088034741
+sues_to_dense,ConGeo-QView,Base,common,mean,Posterize4,far200_removed,,,,100,100,100
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Blur,rescue,485,19,61,31.1475409836,20.3383209746,42.5531914894
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Blur,new_failure,485,113,313,36.1022364217,30.0631539475,42.7130333139
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Blur,far200_removed,485,11,18,61.1111111111,38.0952380952,85.7142857143
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Clean,rescue,485,0,0,,,
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Clean,new_failure,485,199,484,41.1157024793,36.100132087,46.3534583064
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Clean,far200_removed,485,0,0,,,
+sues_to_dense,SinGeo-QView,SinGeo,host,42,ExposureClip,rescue,485,34,138,24.6376811594,17.2171839478,32.279789664
+sues_to_dense,SinGeo-QView,SinGeo,host,42,ExposureClip,new_failure,485,79,193,40.932642487,33.0139952153,48.9247311828
+sues_to_dense,SinGeo-QView,SinGeo,host,42,ExposureClip,far200_removed,485,33,73,45.2054794521,33.3333333333,56.0615299335
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Fog,rescue,485,31,92,33.6956521739,24.2416267943,43.5904255319
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Fog,new_failure,485,82,272,30.1470588235,24.1707746854,35.9715964253
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Fog,far200_removed,485,18,35,51.4285714286,35.9974358974,67.7448156682
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Gamma,rescue,485,17,45,37.7777777778,23.6842105263,52.9441776711
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Gamma,new_failure,485,136,349,38.9684813754,33.4292577685,44.6027014734
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Gamma,far200_removed,485,13,21,61.9047619048,40,81.8181818182
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Posterize4,rescue,485,3,7,42.8571428571,0,85.7142857143
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Posterize4,new_failure,485,173,424,40.8018867925,35.7134473508,46.1721358032
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Posterize4,far200_removed,485,1,1,100,100,100
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Snow,rescue,485,67,200,33.5,25.9997797357,41.7478395391
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Snow,new_failure,485,50,129,38.7596899225,30.534351145,47.4137931034
+sues_to_dense,SinGeo-QView,SinGeo,host,42,Snow,far200_removed,485,57,111,51.3513513514,41.1184579439,60.7843137255
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Blur,rescue,468,22,57,38.5964912281,25,52.5423728814
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Blur,new_failure,468,111,317,35.0157728707,29.2675795179,41.3672165716
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Blur,far200_removed,468,12,15,80,57.1428571429,100
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Clean,rescue,468,0,0,,,
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Clean,new_failure,468,176,468,37.6068376068,32.5724949974,42.6593961733
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Clean,far200_removed,468,0,0,,,
+sues_to_dense,SinGeo-QView,SinGeo,host,43,ExposureClip,rescue,468,43,137,31.3868613139,24.1106382979,39.6954407613
+sues_to_dense,SinGeo-QView,SinGeo,host,43,ExposureClip,new_failure,468,62,187,33.1550802139,25.6402439024,41.1465992647
+sues_to_dense,SinGeo-QView,SinGeo,host,43,ExposureClip,far200_removed,468,39,77,50.6493506494,38.5709982788,62.6919836302
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Fog,rescue,468,27,96,28.125,18.8103341584,37.6379928315
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Fog,new_failure,468,85,274,31.0218978102,24.8118080635,37.7779587405
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Fog,far200_removed,468,20,35,57.1428571429,40.5389317889,72.7272727273
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Gamma,rescue,468,12,45,26.6666666667,14.2857142857,40.4353017803
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Gamma,new_failure,468,115,333,34.5345345345,28.9707404745,40.6079260518
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Gamma,far200_removed,468,8,17,47.0588235294,23.0769230769,75
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Posterize4,rescue,468,2,6,33.3333333333,0,80
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Posterize4,new_failure,468,155,418,37.0813397129,32.0073897593,42.579413355
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Posterize4,far200_removed,468,3,3,100,100,100
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Snow,rescue,468,51,176,28.9772727273,21.7640664962,36.1715696917
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Snow,new_failure,468,51,117,43.5897435897,33.9061264822,53.9224502751
+sues_to_dense,SinGeo-QView,SinGeo,host,43,Snow,far200_removed,468,36,77,46.7532467532,34.4800646552,59.2128212974
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Clean,rescue,,,,,,
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Clean,new_failure,,,,39.3612700431,35.6537860051,43.2468120876
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Clean,far200_removed,,,,,,
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Fog,rescue,,,,30.910326087,24.4078394873,37.9327319238
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Fog,new_failure,,,,30.5844783169,26.0960462235,35.4427187008
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Fog,far200_removed,,,,54.2857142857,42.8567535299,65.9240251982
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Snow,rescue,,,,31.2386363636,25.8329875248,36.9278171748
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Snow,new_failure,,,,41.1747167561,34.3724800778,48.5311730968
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Snow,far200_removed,,,,49.0522990523,40.4488677569,57.1370508187
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Blur,rescue,,,,34.8720161058,25.4585714047,43.8572055138
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Blur,new_failure,,,,35.5590046462,31.1410481497,40.4578171419
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Blur,far200_removed,,,,70.5555555556,54.6023606811,86.6688034188
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Gamma,rescue,,,,32.2222222222,23.1057900433,41.9527261926
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Gamma,new_failure,,,,36.7515079549,32.5126401887,41.3106984289
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Gamma,far200_removed,,,,54.4817927171,38.6900946276,71.4976449275
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,ExposureClip,rescue,,,,28.0122712366,22.5417951995,33.7747074141
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,ExposureClip,new_failure,,,,37.0438613505,31.0629983793,43.4310096009
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,ExposureClip,far200_removed,,,,47.9274150507,39.097721151,57.067815762
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Posterize4,rescue,,,,38.0952380952,10,70.0173611111
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Posterize4,new_failure,,,,38.9416132527,35.0602615218,43.3695358876
+sues_to_dense,SinGeo-QView,SinGeo,host,mean,Posterize4,far200_removed,,,,100,100,100
+sues_to_dense,SinGeo-QView,Base,common,42,Blur,rescue,307,10,26,38.4615384615,17.3875562219,58.6206896552
+sues_to_dense,SinGeo-QView,Base,common,42,Blur,new_failure,307,114,220,51.8181818182,44.2700532834,59.6573826484
+sues_to_dense,SinGeo-QView,Base,common,42,Blur,far200_removed,307,8,11,72.7272727273,42.8571428571,100
+sues_to_dense,SinGeo-QView,Base,common,42,Clean,rescue,307,0,0,,,
+sues_to_dense,SinGeo-QView,Base,common,42,Clean,new_failure,307,165,307,53.7459283388,47.2017453053,60.4398254479
+sues_to_dense,SinGeo-QView,Base,common,42,Clean,far200_removed,307,0,0,,,
+sues_to_dense,SinGeo-QView,Base,common,42,ExposureClip,rescue,307,14,89,15.7303370787,7.69230769231,25
+sues_to_dense,SinGeo-QView,Base,common,42,ExposureClip,new_failure,307,76,127,59.842519685,49.593495935,69.7247706422
+sues_to_dense,SinGeo-QView,Base,common,42,ExposureClip,far200_removed,307,19,46,41.3043478261,26.6632653061,55.5620155039
+sues_to_dense,SinGeo-QView,Base,common,42,Fog,rescue,307,32,65,49.2307692308,36.9230769231,61.3350877193
+sues_to_dense,SinGeo-QView,Base,common,42,Fog,new_failure,307,78,172,45.3488372093,36.6012229634,53.7147121535
+sues_to_dense,SinGeo-QView,Base,common,42,Fog,far200_removed,307,18,24,75,56.6666666667,91.3134057971
+sues_to_dense,SinGeo-QView,Base,common,42,Gamma,rescue,307,11,26,42.3076923077,23.5245098039,61.2965260546
+sues_to_dense,SinGeo-QView,Base,common,42,Gamma,new_failure,307,116,219,52.9680365297,45.3598090498,60.0939531419
+sues_to_dense,SinGeo-QView,Base,common,42,Gamma,far200_removed,307,6,7,85.7142857143,50,100
+sues_to_dense,SinGeo-QView,Base,common,42,Posterize4,rescue,307,3,10,30,0,61.1217948718
+sues_to_dense,SinGeo-QView,Base,common,42,Posterize4,new_failure,307,142,265,53.5849056604,46.2954725188,60.6427515115
+sues_to_dense,SinGeo-QView,Base,common,42,Posterize4,far200_removed,307,3,3,100,100,100
+sues_to_dense,SinGeo-QView,Base,common,42,Snow,rescue,307,34,122,27.868852459,18.75,36.7354441777
+sues_to_dense,SinGeo-QView,Base,common,42,Snow,new_failure,307,44,76,57.8947368421,45.3328125,70.8866513234
+sues_to_dense,SinGeo-QView,Base,common,42,Snow,far200_removed,307,44,66,66.6666666667,53.8461538462,77.9714946071
+sues_to_dense,SinGeo-QView,Base,common,43,Blur,rescue,323,9,30,30,14.2857142857,47.3798627002
+sues_to_dense,SinGeo-QView,Base,common,43,Blur,new_failure,323,105,226,46.4601769912,38.8591892716,54.3796897242
+sues_to_dense,SinGeo-QView,Base,common,43,Blur,far200_removed,323,11,12,91.6666666667,71.4285714286,100
+sues_to_dense,SinGeo-QView,Base,common,43,Clean,rescue,323,0,0,,,
+sues_to_dense,SinGeo-QView,Base,common,43,Clean,new_failure,323,149,323,46.1300309598,39.8225792594,52.7122905302
+sues_to_dense,SinGeo-QView,Base,common,43,Clean,far200_removed,323,0,0,,,
+sues_to_dense,SinGeo-QView,Base,common,43,ExposureClip,rescue,323,22,90,24.4444444444,15.3819444444,34.1479460847
+sues_to_dense,SinGeo-QView,Base,common,43,ExposureClip,new_failure,323,63,136,46.3235294118,36.9365904366,56.1000806289
+sues_to_dense,SinGeo-QView,Base,common,43,ExposureClip,far200_removed,323,28,42,66.6666666667,51.2820512821,81.0810810811
+sues_to_dense,SinGeo-QView,Base,common,43,Fog,rescue,323,32,81,39.5061728395,28.0487804878,51.2195121951
+sues_to_dense,SinGeo-QView,Base,common,43,Fog,new_failure,323,74,159,46.5408805031,37.9977124183,55.7904423636
+sues_to_dense,SinGeo-QView,Base,common,43,Fog,far200_removed,323,14,20,70,46.6666666667,90
+sues_to_dense,SinGeo-QView,Base,common,43,Gamma,rescue,323,8,16,50,25,75
+sues_to_dense,SinGeo-QView,Base,common,43,Gamma,new_failure,323,109,247,44.1295546559,36.4863414917,51.4288653733
+sues_to_dense,SinGeo-QView,Base,common,43,Gamma,far200_removed,323,2,2,100,100,100
+sues_to_dense,SinGeo-QView,Base,common,43,Posterize4,rescue,323,4,9,44.4444444444,11.1111111111,80.0454545455
+sues_to_dense,SinGeo-QView,Base,common,43,Posterize4,new_failure,323,122,283,43.109540636,36.225191577,50
+sues_to_dense,SinGeo-QView,Base,common,43,Posterize4,far200_removed,323,3,3,100,100,100
+sues_to_dense,SinGeo-QView,Base,common,43,Snow,rescue,323,31,100,31,21.6968974908,40.1713395639
+sues_to_dense,SinGeo-QView,Base,common,43,Snow,new_failure,323,62,109,56.880733945,46.3408215661,68.1447838666
+sues_to_dense,SinGeo-QView,Base,common,43,Snow,far200_removed,323,27,45,60,44.7368421053,75
+sues_to_dense,SinGeo-QView,Base,common,mean,Clean,rescue,,,,,,
+sues_to_dense,SinGeo-QView,Base,common,mean,Clean,new_failure,,,,49.9379796493,44.7686786431,55.2027099347
+sues_to_dense,SinGeo-QView,Base,common,mean,Clean,far200_removed,,,,,,
+sues_to_dense,SinGeo-QView,Base,common,mean,Fog,rescue,,,,44.3684710351,35.8658665105,53.0484456062
+sues_to_dense,SinGeo-QView,Base,common,mean,Fog,new_failure,,,,45.9448588562,39.187720329,53.0722547818
+sues_to_dense,SinGeo-QView,Base,common,mean,Fog,far200_removed,,,,72.5,57.6879699248,85.6678571429
+sues_to_dense,SinGeo-QView,Base,common,mean,Snow,rescue,,,,29.4344262295,22.3420350687,36.4212436322
+sues_to_dense,SinGeo-QView,Base,common,mean,Snow,new_failure,,,,57.3877353935,47.9478668976,67.1568129589
+sues_to_dense,SinGeo-QView,Base,common,mean,Snow,far200_removed,,,,63.3333333333,53.5269512417,72.596024274
+sues_to_dense,SinGeo-QView,Base,common,mean,Blur,rescue,,,,34.2307692308,21.1246527778,46.796875
+sues_to_dense,SinGeo-QView,Base,common,mean,Blur,new_failure,,,,49.1391794047,42.9733324426,55.3497316637
+sues_to_dense,SinGeo-QView,Base,common,mean,Blur,far200_removed,,,,82.196969697,65.5811688312,96.6666666667
+sues_to_dense,SinGeo-QView,Base,common,mean,Gamma,rescue,,,,46.1538461538,30.303030303,61.6633705206
+sues_to_dense,SinGeo-QView,Base,common,mean,Gamma,new_failure,,,,48.5487955928,42.2964459916,54.4770422327
+sues_to_dense,SinGeo-QView,Base,common,mean,Gamma,far200_removed,,,,92.8571428571,75,100
+sues_to_dense,SinGeo-QView,Base,common,mean,ExposureClip,rescue,,,,20.0873907615,13.5243336874,27.3920425505
+sues_to_dense,SinGeo-QView,Base,common,mean,ExposureClip,new_failure,,,,53.0830245484,44.63952469,61.4194750877
+sues_to_dense,SinGeo-QView,Base,common,mean,ExposureClip,far200_removed,,,,53.9855072464,42.0240099329,65.4179964539
+sues_to_dense,SinGeo-QView,Base,common,mean,Posterize4,rescue,,,,37.2222222222,13.6363636364,61.1145833333
+sues_to_dense,SinGeo-QView,Base,common,mean,Posterize4,new_failure,,,,48.3472231482,42.638695157,53.8831818193
+sues_to_dense,SinGeo-QView,Base,common,mean,Posterize4,far200_removed,,,,100,100,100
+sues_to_sues,Base + QGIN,Base,host,42,Blur,rescue,14297,401,577,69.4974003466,56.9650995004,84.2144275784
+sues_to_sues,Base + QGIN,Base,host,42,Blur,new_failure,14297,454,13051,3.47866063903,1.53762935369,5.95271279598
+sues_to_sues,Base + QGIN,Base,host,42,Clean,rescue,14297,0,0,,,
+sues_to_sues,Base + QGIN,Base,host,42,Clean,new_failure,14297,298,14291,2.08522846547,1.09540200237,3.29932858612
+sues_to_sues,Base + QGIN,Base,host,42,ExposureClip,rescue,14297,863,1101,78.3832879201,70.2677415313,85.7988507172
+sues_to_sues,Base + QGIN,Base,host,42,ExposureClip,new_failure,14297,318,11741,2.70845754195,1.57751336689,4.02657424233
+sues_to_sues,Base + QGIN,Base,host,42,Fog,rescue,14297,204,239,85.3556485356,74.8181969888,93.023255814
+sues_to_sues,Base + QGIN,Base,host,42,Fog,new_failure,14297,263,13559,1.93967106719,1.05301139227,3.05614286525
+sues_to_sues,Base + QGIN,Base,host,42,Gamma,rescue,14297,26,28,92.8571428571,78.9473684211,100
+sues_to_sues,Base + QGIN,Base,host,42,Gamma,new_failure,14297,270,13927,1.93868026136,0.984343026263,3.11664529752
+sues_to_sues,Base + QGIN,Base,host,42,Posterize4,rescue,14297,10,11,90.9090909091,75,100
+sues_to_sues,Base + QGIN,Base,host,42,Posterize4,new_failure,14297,268,14050,1.90747330961,1.0562636038,2.90211122097
+sues_to_sues,Base + QGIN,Base,host,42,Snow,rescue,14297,1545,2288,67.5262237762,56.7447007092,78.5524910178
+sues_to_sues,Base + QGIN,Base,host,42,Snow,new_failure,14297,458,10132,4.52033162258,2.61807925342,6.71281274454
+sues_to_sues,Base + QGIN,Base,host,43,Blur,rescue,14350,303,375,80.8,71.2207602339,88.7308602878
+sues_to_sues,Base + QGIN,Base,host,43,Blur,new_failure,14350,346,13321,2.5974025974,1.16971645115,4.51218571838
+sues_to_sues,Base + QGIN,Base,host,43,Clean,rescue,14350,0,0,,,
+sues_to_sues,Base + QGIN,Base,host,43,Clean,new_failure,14350,266,14350,1.85365853659,0.661054001365,3.6321223685
+sues_to_sues,Base + QGIN,Base,host,43,ExposureClip,rescue,14350,760,1122,67.7361853832,52.3859880178,83.6773752105
+sues_to_sues,Base + QGIN,Base,host,43,ExposureClip,new_failure,14350,345,11979,2.88004007012,1.1777456224,5.34570617534
+sues_to_sues,Base + QGIN,Base,host,43,Fog,rescue,14350,130,164,79.2682926829,69.7840738398,88.312633968
+sues_to_sues,Base + QGIN,Base,host,43,Fog,new_failure,14350,240,13771,1.7427928255,0.683950143955,3.36104470999
+sues_to_sues,Base + QGIN,Base,host,43,Gamma,rescue,14350,24,30,80,60,96.4285714286
+sues_to_sues,Base + QGIN,Base,host,43,Gamma,new_failure,14350,244,14061,1.73529620937,0.56468545732,3.49139360622
+sues_to_sues,Base + QGIN,Base,host,43,Posterize4,rescue,14350,12,13,92.3076923077,57.1428571429,100
+sues_to_sues,Base + QGIN,Base,host,43,Posterize4,new_failure,14350,248,14185,1.74832569616,0.663340678867,3.43436837944
+sues_to_sues,Base + QGIN,Base,host,43,Snow,rescue,14350,1786,2383,74.9475451112,64.9578312404,84.004124344
+sues_to_sues,Base + QGIN,Base,host,43,Snow,new_failure,14350,212,9969,2.12659243655,1.12894031589,3.38090782078
+sues_to_sues,Base + QGIN,Base,host,mean,Clean,rescue,,,,,,
+sues_to_sues,Base + QGIN,Base,host,mean,Clean,new_failure,,,,1.96944350103,0.963449334063,3.30650597525
+sues_to_sues,Base + QGIN,Base,host,mean,Fog,rescue,,,,82.3119706092,76.3836734601,88.0574912835
+sues_to_sues,Base + QGIN,Base,host,mean,Fog,new_failure,,,,1.84123194635,0.985944082517,3.06619982356
+sues_to_sues,Base + QGIN,Base,host,mean,Snow,rescue,,,,71.2368844437,62.5254652363,80.0572507692
+sues_to_sues,Base + QGIN,Base,host,mean,Snow,new_failure,,,,3.32346202957,2.00707151577,4.89073593629
+sues_to_sues,Base + QGIN,Base,host,mean,Blur,rescue,,,,75.1487001733,67.7024608886,83.8350619895
+sues_to_sues,Base + QGIN,Base,host,mean,Blur,new_failure,,,,3.03803161822,1.49991420254,4.89644063633
+sues_to_sues,Base + QGIN,Base,host,mean,Gamma,rescue,,,,86.4285714286,73.0345864835,95.8333333333
+sues_to_sues,Base + QGIN,Base,host,mean,Gamma,new_failure,,,,1.83698823537,0.871133481913,3.14224819838
+sues_to_sues,Base + QGIN,Base,host,mean,ExposureClip,rescue,,,,73.0597366517,63.235201056,82.9488628823
+sues_to_sues,Base + QGIN,Base,host,mean,ExposureClip,new_failure,,,,2.79424880603,1.57951316549,4.41091335258
+sues_to_sues,Base + QGIN,Base,host,mean,Posterize4,rescue,,,,91.6083916084,77.7777777778,100
+sues_to_sues,Base + QGIN,Base,host,mean,Posterize4,new_failure,,,,1.82789950288,0.924627982175,3.05004898786
+sues_to_sues,Base + QGIN,Base,common,42,Blur,rescue,14297,401,577,69.4974003466,56.9650995004,84.2144275784
+sues_to_sues,Base + QGIN,Base,common,42,Blur,new_failure,14297,454,13051,3.47866063903,1.53762935369,5.95271279598
+sues_to_sues,Base + QGIN,Base,common,42,Clean,rescue,14297,0,0,,,
+sues_to_sues,Base + QGIN,Base,common,42,Clean,new_failure,14297,298,14291,2.08522846547,1.09540200237,3.29932858612
+sues_to_sues,Base + QGIN,Base,common,42,ExposureClip,rescue,14297,863,1101,78.3832879201,70.2677415313,85.7988507172
+sues_to_sues,Base + QGIN,Base,common,42,ExposureClip,new_failure,14297,318,11741,2.70845754195,1.57751336689,4.02657424233
+sues_to_sues,Base + QGIN,Base,common,42,Fog,rescue,14297,204,239,85.3556485356,74.8181969888,93.023255814
+sues_to_sues,Base + QGIN,Base,common,42,Fog,new_failure,14297,263,13559,1.93967106719,1.05301139227,3.05614286525
+sues_to_sues,Base + QGIN,Base,common,42,Gamma,rescue,14297,26,28,92.8571428571,78.9473684211,100
+sues_to_sues,Base + QGIN,Base,common,42,Gamma,new_failure,14297,270,13927,1.93868026136,0.984343026263,3.11664529752
+sues_to_sues,Base + QGIN,Base,common,42,Posterize4,rescue,14297,10,11,90.9090909091,75,100
+sues_to_sues,Base + QGIN,Base,common,42,Posterize4,new_failure,14297,268,14050,1.90747330961,1.0562636038,2.90211122097
+sues_to_sues,Base + QGIN,Base,common,42,Snow,rescue,14297,1545,2288,67.5262237762,56.7447007092,78.5524910178
+sues_to_sues,Base + QGIN,Base,common,42,Snow,new_failure,14297,458,10132,4.52033162258,2.61807925342,6.71281274454
+sues_to_sues,Base + QGIN,Base,common,43,Blur,rescue,14350,303,375,80.8,71.2207602339,88.7308602878
+sues_to_sues,Base + QGIN,Base,common,43,Blur,new_failure,14350,346,13321,2.5974025974,1.16971645115,4.51218571838
+sues_to_sues,Base + QGIN,Base,common,43,Clean,rescue,14350,0,0,,,
+sues_to_sues,Base + QGIN,Base,common,43,Clean,new_failure,14350,266,14350,1.85365853659,0.661054001365,3.6321223685
+sues_to_sues,Base + QGIN,Base,common,43,ExposureClip,rescue,14350,760,1122,67.7361853832,52.3859880178,83.6773752105
+sues_to_sues,Base + QGIN,Base,common,43,ExposureClip,new_failure,14350,345,11979,2.88004007012,1.1777456224,5.34570617534
+sues_to_sues,Base + QGIN,Base,common,43,Fog,rescue,14350,130,164,79.2682926829,69.7840738398,88.312633968
+sues_to_sues,Base + QGIN,Base,common,43,Fog,new_failure,14350,240,13771,1.7427928255,0.683950143955,3.36104470999
+sues_to_sues,Base + QGIN,Base,common,43,Gamma,rescue,14350,24,30,80,60,96.4285714286
+sues_to_sues,Base + QGIN,Base,common,43,Gamma,new_failure,14350,244,14061,1.73529620937,0.56468545732,3.49139360622
+sues_to_sues,Base + QGIN,Base,common,43,Posterize4,rescue,14350,12,13,92.3076923077,57.1428571429,100
+sues_to_sues,Base + QGIN,Base,common,43,Posterize4,new_failure,14350,248,14185,1.74832569616,0.663340678867,3.43436837944
+sues_to_sues,Base + QGIN,Base,common,43,Snow,rescue,14350,1786,2383,74.9475451112,64.9578312404,84.004124344
+sues_to_sues,Base + QGIN,Base,common,43,Snow,new_failure,14350,212,9969,2.12659243655,1.12894031589,3.38090782078
+sues_to_sues,Base + QGIN,Base,common,mean,Clean,rescue,,,,,,
+sues_to_sues,Base + QGIN,Base,common,mean,Clean,new_failure,,,,1.96944350103,0.963449334063,3.30650597525
+sues_to_sues,Base + QGIN,Base,common,mean,Fog,rescue,,,,82.3119706092,76.3836734601,88.0574912835
+sues_to_sues,Base + QGIN,Base,common,mean,Fog,new_failure,,,,1.84123194635,0.985944082517,3.06619982356
+sues_to_sues,Base + QGIN,Base,common,mean,Snow,rescue,,,,71.2368844437,62.5254652363,80.0572507692
+sues_to_sues,Base + QGIN,Base,common,mean,Snow,new_failure,,,,3.32346202957,2.00707151577,4.89073593629
+sues_to_sues,Base + QGIN,Base,common,mean,Blur,rescue,,,,75.1487001733,67.7024608886,83.8350619895
+sues_to_sues,Base + QGIN,Base,common,mean,Blur,new_failure,,,,3.03803161822,1.49991420254,4.89644063633
+sues_to_sues,Base + QGIN,Base,common,mean,Gamma,rescue,,,,86.4285714286,73.0345864835,95.8333333333
+sues_to_sues,Base + QGIN,Base,common,mean,Gamma,new_failure,,,,1.83698823537,0.871133481913,3.14224819838
+sues_to_sues,Base + QGIN,Base,common,mean,ExposureClip,rescue,,,,73.0597366517,63.235201056,82.9488628823
+sues_to_sues,Base + QGIN,Base,common,mean,ExposureClip,new_failure,,,,2.79424880603,1.57951316549,4.41091335258
+sues_to_sues,Base + QGIN,Base,common,mean,Posterize4,rescue,,,,91.6083916084,77.7777777778,100
+sues_to_sues,Base + QGIN,Base,common,mean,Posterize4,new_failure,,,,1.82789950288,0.924627982175,3.05004898786
+sues_to_sues,S4G-QDual,Sample4Geo,host,42,Blur,rescue,15276,92,134,68.6567164179,35.8947368421,89.5851293103
+sues_to_sues,S4G-QDual,Sample4Geo,host,42,Blur,new_failure,15276,177,14478,1.22254455035,0.620041274523,2.08291492467
+sues_to_sues,S4G-QDual,Sample4Geo,host,42,Clean,rescue,15276,0,0,,,
+sues_to_sues,S4G-QDual,Sample4Geo,host,42,Clean,new_failure,15276,324,15170,2.13579433092,0.976514461324,3.91523474706
+sues_to_sues,S4G-QDual,Sample4Geo,host,42,ExposureClip,rescue,15276,607,925,65.6216216216,51.5527442448,79.0695497155
+sues_to_sues,S4G-QDual,Sample4Geo,host,42,ExposureClip,new_failure,15276,292,13303,2.19499361046,1.13282235969,3.77779850083
+sues_to_sues,S4G-QDual,Sample4Geo,host,42,Fog,rescue,15276,66,85,77.6470588235,40.3830645161,94.9157906029
+sues_to_sues,S4G-QDual,Sample4Geo,host,42,Fog,new_failure,15276,281,14825,1.89544688027,0.858510351643,3.35951619434
+sues_to_sues,S4G-QDual,Sample4Geo,host,42,Gamma,rescue,15276,8,23,34.7826086957,6.63440860215,100
+sues_to_sues,S4G-QDual,Sample4Geo,host,42,Gamma,new_failure,15276,297,14935,1.98861734181,1.02762340536,3.36262550092
+sues_to_sues,S4G-QDual,Sample4Geo,host,42,Posterize4,rescue,15276,2,11,18.1818181818,0,100
+sues_to_sues,S4G-QDual,Sample4Geo,host,42,Posterize4,new_failure,15276,285,15018,1.89772273272,0.906111060958,3.38609543643
+sues_to_sues,S4G-QDual,Sample4Geo,host,42,Snow,rescue,15276,1756,2327,75.4619681994,63.9692023676,84.3862995296
+sues_to_sues,S4G-QDual,Sample4Geo,host,42,Snow,new_failure,15276,338,11069,3.05357304183,1.45449386862,5.21765435603
+sues_to_sues,S4G-QDual,Sample4Geo,host,43,Blur,rescue,15161,75,111,67.5675675676,49.0566037736,83.3333333333
+sues_to_sues,S4G-QDual,Sample4Geo,host,43,Blur,new_failure,15161,138,14510,0.951068228808,0.470664037423,1.59405286969
+sues_to_sues,S4G-QDual,Sample4Geo,host,43,Clean,rescue,15161,0,0,,,
+sues_to_sues,S4G-QDual,Sample4Geo,host,43,Clean,new_failure,15161,90,15072,0.597133757962,0.275120807542,1.02981443277
+sues_to_sues,S4G-QDual,Sample4Geo,host,43,ExposureClip,rescue,15161,618,788,78.4263959391,65.3455243484,88.244058818
+sues_to_sues,S4G-QDual,Sample4Geo,host,43,ExposureClip,new_failure,15161,225,13533,1.66260252716,0.69885985277,3.05742256379
+sues_to_sues,S4G-QDual,Sample4Geo,host,43,Fog,rescue,15161,24,39,61.5384615385,30,88.5730519481
+sues_to_sues,S4G-QDual,Sample4Geo,host,43,Fog,new_failure,15161,107,14816,0.722192224622,0.339749152207,1.23556915421
+sues_to_sues,S4G-QDual,Sample4Geo,host,43,Gamma,rescue,15161,14,16,87.5,61.5384615385,100
+sues_to_sues,S4G-QDual,Sample4Geo,host,43,Gamma,new_failure,15161,93,14888,0.624664159054,0.316626984872,1.02661565814
+sues_to_sues,S4G-QDual,Sample4Geo,host,43,Posterize4,rescue,15161,4,6,66.6666666667,0,100
+sues_to_sues,S4G-QDual,Sample4Geo,host,43,Posterize4,new_failure,15161,101,14975,0.674457429048,0.315802091386,1.12220704488
+sues_to_sues,S4G-QDual,Sample4Geo,host,43,Snow,rescue,15161,1326,1685,78.6943620178,67.3025596888,87.3375695571
+sues_to_sues,S4G-QDual,Sample4Geo,host,43,Snow,new_failure,15161,296,11703,2.52926600017,1.20869810943,4.36851320387
+sues_to_sues,S4G-QDual,Sample4Geo,host,mean,Clean,rescue,,,,,,
+sues_to_sues,S4G-QDual,Sample4Geo,host,mean,Clean,new_failure,,,,1.36646404444,0.671510812183,2.40493532017
+sues_to_sues,S4G-QDual,Sample4Geo,host,mean,Fog,rescue,,,,69.592760181,41.9346013105,88.0774736892
+sues_to_sues,S4G-QDual,Sample4Geo,host,mean,Fog,new_failure,,,,1.30881955245,0.651256821005,2.26799821502
+sues_to_sues,S4G-QDual,Sample4Geo,host,mean,Snow,rescue,,,,77.0781651086,66.8111051677,85.3272944237
+sues_to_sues,S4G-QDual,Sample4Geo,host,mean,Snow,new_failure,,,,2.791419521,1.38807995259,4.66841867491
+sues_to_sues,S4G-QDual,Sample4Geo,host,mean,Blur,rescue,,,,68.1121419927,48.6040959321,82.8608931486
+sues_to_sues,S4G-QDual,Sample4Geo,host,mean,Blur,new_failure,,,,1.08680638958,0.582904516941,1.8106262797
+sues_to_sues,S4G-QDual,Sample4Geo,host,mean,Gamma,rescue,,,,61.1413043478,40.9310344828,96.1538461538
+sues_to_sues,S4G-QDual,Sample4Geo,host,mean,Gamma,new_failure,,,,1.30664075043,0.729555899359,2.10548053041
+sues_to_sues,S4G-QDual,Sample4Geo,host,mean,ExposureClip,rescue,,,,72.0240087804,59.787918619,82.4254353397
+sues_to_sues,S4G-QDual,Sample4Geo,host,mean,ExposureClip,new_failure,,,,1.92879806881,1.01786937935,3.1427563939
+sues_to_sues,S4G-QDual,Sample4Geo,host,mean,Posterize4,rescue,,,,42.4242424242,12.9583333333,83.3333333333
+sues_to_sues,S4G-QDual,Sample4Geo,host,mean,Posterize4,new_failure,,,,1.28609008088,0.68703958787,2.13667966886
+sues_to_sues,S4G-QDual,Base,common,42,Blur,rescue,14297,555,577,96.1871750433,92.099054919,98.4026690039
+sues_to_sues,S4G-QDual,Base,common,42,Blur,new_failure,14297,197,13051,1.50946287641,0.746732733251,2.5161100111
+sues_to_sues,S4G-QDual,Base,common,42,Clean,rescue,14297,0,0,,,
+sues_to_sues,S4G-QDual,Base,common,42,Clean,new_failure,14297,185,14291,1.29452102722,0.674233197965,2.11324684545
+sues_to_sues,S4G-QDual,Base,common,42,ExposureClip,rescue,14297,944,1101,85.740236149,78.7960005885,92.1520712209
+sues_to_sues,S4G-QDual,Base,common,42,ExposureClip,new_failure,14297,321,11741,2.73400902819,1.21069538982,4.77086193946
+sues_to_sues,S4G-QDual,Base,common,42,Fog,rescue,14297,217,239,90.7949790795,80.2812268347,98.6795388509
+sues_to_sues,S4G-QDual,Base,common,42,Fog,new_failure,14297,181,13559,1.33490670403,0.683602730089,2.14125238671
+sues_to_sues,S4G-QDual,Base,common,42,Gamma,rescue,14297,26,28,92.8571428571,79.1611842105,100
+sues_to_sues,S4G-QDual,Base,common,42,Gamma,new_failure,14297,173,13927,1.24219142673,0.676964377648,1.98144283556
+sues_to_sues,S4G-QDual,Base,common,42,Posterize4,rescue,14297,9,11,81.8181818182,50,100
+sues_to_sues,S4G-QDual,Base,common,42,Posterize4,new_failure,14297,199,14050,1.41637010676,0.729975450379,2.28334360167
+sues_to_sues,S4G-QDual,Base,common,42,Snow,rescue,14297,1732,2288,75.6993006993,65.0491406926,85.5273619135
+sues_to_sues,S4G-QDual,Base,common,42,Snow,new_failure,14297,401,10132,3.95775759968,2.21906939669,6.02461174276
+sues_to_sues,S4G-QDual,Base,common,43,Blur,rescue,14350,326,375,86.9333333333,77.777014652,94.6715664012
+sues_to_sues,S4G-QDual,Base,common,43,Blur,new_failure,14350,196,13321,1.47136100893,0.633389248219,2.62969724295
+sues_to_sues,S4G-QDual,Base,common,43,Clean,rescue,14350,0,0,,,
+sues_to_sues,S4G-QDual,Base,common,43,Clean,new_failure,14350,172,14350,1.19860627178,0.33215897076,2.61501580627
+sues_to_sues,S4G-QDual,Base,common,43,ExposureClip,rescue,14350,984,1122,87.7005347594,81.6404654061,92.4679059082
+sues_to_sues,S4G-QDual,Base,common,43,ExposureClip,new_failure,14350,246,11979,2.05359378913,0.726477062782,4.09139064786
+sues_to_sues,S4G-QDual,Base,common,43,Fog,rescue,14350,150,164,91.4634146341,84.9555143211,97.0588235294
+sues_to_sues,S4G-QDual,Base,common,43,Fog,new_failure,14350,168,13771,1.21995497785,0.314596152946,2.72048695421
+sues_to_sues,S4G-QDual,Base,common,43,Gamma,rescue,14350,22,30,73.3333333333,50,96.1538461538
+sues_to_sues,S4G-QDual,Base,common,43,Gamma,new_failure,14350,176,14061,1.25168906906,0.332144516257,2.80516629935
+sues_to_sues,S4G-QDual,Base,common,43,Posterize4,rescue,14350,13,13,100,100,100
+sues_to_sues,S4G-QDual,Base,common,43,Posterize4,new_failure,14350,182,14185,1.28304547057,0.393586595165,2.67083831582
+sues_to_sues,S4G-QDual,Base,common,43,Snow,rescue,14350,1871,2383,78.5144775493,66.8150382565,87.603477969
+sues_to_sues,S4G-QDual,Base,common,43,Snow,new_failure,14350,307,9969,3.07954659444,0.834729840443,7.15715217012
+sues_to_sues,S4G-QDual,Base,common,mean,Clean,rescue,,,,,,
+sues_to_sues,S4G-QDual,Base,common,mean,Clean,new_failure,,,,1.2465636495,0.549701106792,2.36010327307
+sues_to_sues,S4G-QDual,Base,common,mean,Fog,rescue,,,,91.1291968568,84.07937033,96.5653677792
+sues_to_sues,S4G-QDual,Base,common,mean,Fog,new_failure,,,,1.27743084094,0.550414749617,2.40496760684
+sues_to_sues,S4G-QDual,Base,common,mean,Snow,rescue,,,,77.1068891243,66.9292305594,85.6246548008
+sues_to_sues,S4G-QDual,Base,common,mean,Snow,new_failure,,,,3.51865209706,1.63771297566,6.23076074349
+sues_to_sues,S4G-QDual,Base,common,mean,Blur,rescue,,,,91.5602541883,86.2958136234,95.9892214885
+sues_to_sues,S4G-QDual,Base,common,mean,Blur,new_failure,,,,1.49041194267,0.70551093405,2.54471436489
+sues_to_sues,S4G-QDual,Base,common,mean,Gamma,rescue,,,,83.0952380952,70.2767857143,95.652173913
+sues_to_sues,S4G-QDual,Base,common,mean,Gamma,new_failure,,,,1.24694024789,0.540906766594,2.35675912525
+sues_to_sues,S4G-QDual,Base,common,mean,ExposureClip,rescue,,,,86.7203854542,81.1356638809,91.7099523771
+sues_to_sues,S4G-QDual,Base,common,mean,ExposureClip,new_failure,,,,2.39380140866,1.13746312553,3.99417831443
+sues_to_sues,S4G-QDual,Base,common,mean,Posterize4,rescue,,,,90.9090909091,75,100
+sues_to_sues,S4G-QDual,Base,common,mean,Posterize4,new_failure,,,,1.34970778866,0.602779655864,2.43077833407
+sues_to_sues,ConGeo-QView,ConGeo,host,42,Blur,rescue,15027,46,81,56.7901234568,43.3310810811,71.4285714286
+sues_to_sues,ConGeo-QView,ConGeo,host,42,Blur,new_failure,15027,422,14471,2.91617718195,1.71524580465,4.46096156948
+sues_to_sues,ConGeo-QView,ConGeo,host,42,Clean,rescue,15027,0,0,,,
+sues_to_sues,ConGeo-QView,ConGeo,host,42,Clean,new_failure,15027,253,14935,1.69400736525,0.701176710591,3.37439179124
+sues_to_sues,ConGeo-QView,ConGeo,host,42,ExposureClip,rescue,15027,803,1121,71.632471008,56.5328708697,83.9467844203
+sues_to_sues,ConGeo-QView,ConGeo,host,42,ExposureClip,new_failure,15027,374,13046,2.86677908938,1.44844685684,5.09696484623
+sues_to_sues,ConGeo-QView,ConGeo,host,42,Fog,rescue,15027,39,57,68.4210526316,40,92.8596579477
+sues_to_sues,ConGeo-QView,ConGeo,host,42,Fog,new_failure,15027,302,14616,2.06622879037,0.938826112635,3.80767943924
+sues_to_sues,ConGeo-QView,ConGeo,host,42,Gamma,rescue,15027,9,14,64.2857142857,30,92.8571428571
+sues_to_sues,ConGeo-QView,ConGeo,host,42,Gamma,new_failure,15027,288,14768,1.95016251354,0.815875743298,3.74992473954
+sues_to_sues,ConGeo-QView,ConGeo,host,42,Posterize4,rescue,15027,14,15,93.3333333333,77.7777777778,100
+sues_to_sues,ConGeo-QView,ConGeo,host,42,Posterize4,new_failure,15027,256,14789,1.7310162959,0.745420064788,3.24228760206
+sues_to_sues,ConGeo-QView,ConGeo,host,42,Snow,rescue,15027,1496,2121,70.5327675625,60.2608220051,80.2455182648
+sues_to_sues,ConGeo-QView,ConGeo,host,42,Snow,new_failure,15027,309,10567,2.92419797483,1.70522137688,4.4057033151
+sues_to_sues,ConGeo-QView,ConGeo,host,43,Blur,rescue,15061,110,204,53.9215686275,35.8483525767,70.9513399725
+sues_to_sues,ConGeo-QView,ConGeo,host,43,Blur,new_failure,15061,267,14206,1.87948754048,0.907376988814,3.27348785786
+sues_to_sues,ConGeo-QView,ConGeo,host,43,Clean,rescue,15061,0,0,,,
+sues_to_sues,ConGeo-QView,ConGeo,host,43,Clean,new_failure,15061,203,14924,1.36022514071,0.720421633997,2.22062133871
+sues_to_sues,ConGeo-QView,ConGeo,host,43,ExposureClip,rescue,15061,857,1064,80.545112782,70.5601698322,87.2000731261
+sues_to_sues,ConGeo-QView,ConGeo,host,43,ExposureClip,new_failure,15061,166,12868,1.2900217594,0.786653847541,1.91077893374
+sues_to_sues,ConGeo-QView,ConGeo,host,43,Fog,rescue,15061,32,57,56.1403508772,35.2901430843,77.7777777778
+sues_to_sues,ConGeo-QView,ConGeo,host,43,Fog,new_failure,15061,215,14591,1.47351106847,0.728178042855,2.41266446161
+sues_to_sues,ConGeo-QView,ConGeo,host,43,Gamma,rescue,15061,13,22,59.0909090909,35.2941176471,92.3076923077
+sues_to_sues,ConGeo-QView,ConGeo,host,43,Gamma,new_failure,15061,199,14709,1.35291318241,0.727012444339,2.12567121
+sues_to_sues,ConGeo-QView,ConGeo,host,43,Posterize4,rescue,15061,5,11,45.4545454545,10,87.5
+sues_to_sues,ConGeo-QView,ConGeo,host,43,Posterize4,new_failure,15061,207,14760,1.40243902439,0.717080407038,2.21600971676
+sues_to_sues,ConGeo-QView,ConGeo,host,43,Snow,rescue,15061,1370,2020,67.8217821782,55.7670585158,78.6351146514
+sues_to_sues,ConGeo-QView,ConGeo,host,43,Snow,new_failure,15061,325,10841,2.9978784245,1.66177342564,4.54037683514
+sues_to_sues,ConGeo-QView,ConGeo,host,mean,Clean,rescue,,,,,,
+sues_to_sues,ConGeo-QView,ConGeo,host,mean,Clean,new_failure,,,,1.52711625298,0.777193446985,2.66677925226
+sues_to_sues,ConGeo-QView,ConGeo,host,mean,Fog,rescue,,,,62.2807017544,41.8087729555,80.1076796188
+sues_to_sues,ConGeo-QView,ConGeo,host,mean,Fog,new_failure,,,,1.76986992942,0.898233415554,3.01268867667
+sues_to_sues,ConGeo-QView,ConGeo,host,mean,Snow,rescue,,,,69.1772748703,60.694348319,78.1064208204
+sues_to_sues,ConGeo-QView,ConGeo,host,mean,Snow,new_failure,,,,2.96103819966,1.80625886273,4.31217694035
+sues_to_sues,ConGeo-QView,ConGeo,host,mean,Blur,rescue,,,,55.3558460421,44.7269521271,66.8692933674
+sues_to_sues,ConGeo-QView,ConGeo,host,mean,Blur,new_failure,,,,2.39783236121,1.4515090504,3.65191611889
+sues_to_sues,ConGeo-QView,ConGeo,host,mean,Gamma,rescue,,,,61.6883116883,38.8888888889,85.0270164884
+sues_to_sues,ConGeo-QView,ConGeo,host,mean,Gamma,new_failure,,,,1.65153784797,0.85942069312,2.75242186455
+sues_to_sues,ConGeo-QView,ConGeo,host,mean,ExposureClip,rescue,,,,76.088791895,65.976340956,83.8698059914
+sues_to_sues,ConGeo-QView,ConGeo,host,mean,ExposureClip,new_failure,,,,2.07840042439,1.23200881271,3.40754737639
+sues_to_sues,ConGeo-QView,ConGeo,host,mean,Posterize4,rescue,,,,69.3939393939,51.1904761905,91.1180555556
+sues_to_sues,ConGeo-QView,ConGeo,host,mean,Posterize4,new_failure,,,,1.56672766014,0.818581403895,2.58113795246
+sues_to_sues,ConGeo-QView,Base,common,42,Blur,rescue,14297,532,577,92.2010398614,87.1558351699,96.4012105102
+sues_to_sues,ConGeo-QView,Base,common,42,Blur,new_failure,14297,352,13051,2.69711133246,1.39173052017,4.23343987758
+sues_to_sues,ConGeo-QView,Base,common,42,Clean,rescue,14297,0,0,,,
+sues_to_sues,ConGeo-QView,Base,common,42,Clean,new_failure,14297,188,14291,1.31551326009,0.681059533759,2.14649927338
+sues_to_sues,ConGeo-QView,Base,common,42,ExposureClip,rescue,14297,924,1101,83.9237057221,75.881332201,90.763171516
+sues_to_sues,ConGeo-QView,Base,common,42,ExposureClip,new_failure,14297,385,11741,3.27910740141,2.03106822107,4.7346796
+sues_to_sues,ConGeo-QView,Base,common,42,Fog,rescue,14297,220,239,92.050209205,84.1001806771,97.3860453272
+sues_to_sues,ConGeo-QView,Base,common,42,Fog,new_failure,14297,188,13559,1.38653293016,0.560835847017,2.56280163395
+sues_to_sues,ConGeo-QView,Base,common,42,Gamma,rescue,14297,26,28,92.8571428571,79.1611842105,100
+sues_to_sues,ConGeo-QView,Base,common,42,Gamma,new_failure,14297,217,13927,1.55812450635,0.743064459694,2.67121975157
+sues_to_sues,ConGeo-QView,Base,common,42,Posterize4,rescue,14297,11,11,100,100,100
+sues_to_sues,ConGeo-QView,Base,common,42,Posterize4,new_failure,14297,202,14050,1.43772241993,0.728548381704,2.4467528119
+sues_to_sues,ConGeo-QView,Base,common,42,Snow,rescue,14297,1633,2288,71.3723776224,61.026800443,82.317445091
+sues_to_sues,ConGeo-QView,Base,common,42,Snow,new_failure,14297,523,10132,5.16186340308,2.34924225267,8.81449236819
+sues_to_sues,ConGeo-QView,Base,common,43,Blur,rescue,14350,311,375,82.9333333333,70.6481631794,93.773015873
+sues_to_sues,ConGeo-QView,Base,common,43,Blur,new_failure,14350,405,13321,3.04031228887,1.61152121393,4.7311647908
+sues_to_sues,ConGeo-QView,Base,common,43,Clean,rescue,14350,0,0,,,
+sues_to_sues,ConGeo-QView,Base,common,43,Clean,new_failure,14350,290,14350,2.02090592334,0.895403192943,3.49774230807
+sues_to_sues,ConGeo-QView,Base,common,43,ExposureClip,rescue,14350,958,1122,85.3832442068,78.8612336635,90.8602924112
+sues_to_sues,ConGeo-QView,Base,common,43,ExposureClip,new_failure,14350,337,11979,2.81325653226,1.49038350406,4.56644493865
+sues_to_sues,ConGeo-QView,Base,common,43,Fog,rescue,14350,119,164,72.5609756098,52.8035206362,89.7733070501
+sues_to_sues,ConGeo-QView,Base,common,43,Fog,new_failure,14350,269,13771,1.95338029192,0.971048726889,3.30639035094
+sues_to_sues,ConGeo-QView,Base,common,43,Gamma,rescue,14350,24,30,80,60,96.5545977011
+sues_to_sues,ConGeo-QView,Base,common,43,Gamma,new_failure,14350,312,14061,2.21890334969,0.978281016146,3.83675716874
+sues_to_sues,ConGeo-QView,Base,common,43,Posterize4,rescue,14350,12,13,92.3076923077,62.5,100
+sues_to_sues,ConGeo-QView,Base,common,43,Posterize4,new_failure,14350,334,14185,2.3545999295,1.0908587604,3.99506733966
+sues_to_sues,ConGeo-QView,Base,common,43,Snow,rescue,14350,1568,2383,65.7994125052,53.8848296042,78.3457870663
+sues_to_sues,ConGeo-QView,Base,common,43,Snow,new_failure,14350,585,9969,5.86819139332,2.9834050806,9.52993000982
+sues_to_sues,ConGeo-QView,Base,common,mean,Clean,rescue,,,,,,
+sues_to_sues,ConGeo-QView,Base,common,mean,Clean,new_failure,,,,1.66820959172,0.845569722354,2.74631171031
+sues_to_sues,ConGeo-QView,Base,common,mean,Fog,rescue,,,,82.3055924074,70.7496857947,92.2375679516
+sues_to_sues,ConGeo-QView,Base,common,mean,Fog,new_failure,,,,1.66995661104,0.832538444278,2.92974045584
+sues_to_sues,ConGeo-QView,Base,common,mean,Snow,rescue,,,,68.5858950638,59.0952176463,78.9037356511
+sues_to_sues,ConGeo-QView,Base,common,mean,Snow,new_failure,,,,5.5150273982,2.75504977313,9.1083855903
+sues_to_sues,ConGeo-QView,Base,common,mean,Blur,rescue,,,,87.5671865973,80.8361276378,93.9161961245
+sues_to_sues,ConGeo-QView,Base,common,mean,Blur,new_failure,,,,2.86871181067,1.62250626789,4.33592434483
+sues_to_sues,ConGeo-QView,Base,common,mean,Gamma,rescue,,,,86.4285714286,74.4106240981,96.0294233259
+sues_to_sues,ConGeo-QView,Base,common,mean,Gamma,new_failure,,,,1.88851392802,0.964106002588,3.17586035723
+sues_to_sues,ConGeo-QView,Base,common,mean,ExposureClip,rescue,,,,84.6534749644,78.5695602636,89.9120250704
+sues_to_sues,ConGeo-QView,Base,common,mean,ExposureClip,new_failure,,,,3.04618196684,1.89416962483,4.41693453925
+sues_to_sues,ConGeo-QView,Base,common,mean,Posterize4,rescue,,,,96.1538461538,81.25,100
+sues_to_sues,ConGeo-QView,Base,common,mean,Posterize4,new_failure,,,,1.89616117472,0.987825187331,3.15938070636
+sues_to_sues,SinGeo-QView,SinGeo,host,42,Blur,rescue,15138,73,159,45.9119496855,28.9086803015,64.0459329008
+sues_to_sues,SinGeo-QView,SinGeo,host,42,Blur,new_failure,15138,743,14294,5.1979851686,3.41798646238,7.38733579436
+sues_to_sues,SinGeo-QView,SinGeo,host,42,Clean,rescue,15138,0,0,,,
+sues_to_sues,SinGeo-QView,SinGeo,host,42,Clean,new_failure,15138,535,15006,3.56524057044,1.96381069871,5.74843833818
+sues_to_sues,SinGeo-QView,SinGeo,host,42,ExposureClip,rescue,15138,881,1351,65.2109548483,56.2999895668,73.5038623772
+sues_to_sues,SinGeo-QView,SinGeo,host,42,ExposureClip,new_failure,15138,738,12294,6.00292825769,3.6263255208,9.01113655684
+sues_to_sues,SinGeo-QView,SinGeo,host,42,Fog,rescue,15138,48,79,60.7594936709,35.2941176471,77.7804487179
+sues_to_sues,SinGeo-QView,SinGeo,host,42,Fog,new_failure,15138,492,14599,3.37009384204,1.94055771625,5.27504284548
+sues_to_sues,SinGeo-QView,SinGeo,host,42,Gamma,rescue,15138,13,27,48.1481481481,22.7272727273,75
+sues_to_sues,SinGeo-QView,SinGeo,host,42,Gamma,new_failure,15138,597,14755,4.04608607252,2.28002876823,6.2227482744
+sues_to_sues,SinGeo-QView,SinGeo,host,42,Posterize4,rescue,15138,6,16,37.5,0,70.5882352941
+sues_to_sues,SinGeo-QView,SinGeo,host,42,Posterize4,new_failure,15138,491,14828,3.31130294038,1.86091713575,5.33049741221
+sues_to_sues,SinGeo-QView,SinGeo,host,42,Snow,rescue,15138,1622,2379,68.1799075242,56.2125635093,79.0484184962
+sues_to_sues,SinGeo-QView,SinGeo,host,42,Snow,new_failure,15138,662,10167,6.51126192584,4.11957576852,9.32090848919
+sues_to_sues,SinGeo-QView,SinGeo,host,43,Blur,rescue,14837,133,209,63.6363636364,47.3353530032,76.5765765766
+sues_to_sues,SinGeo-QView,SinGeo,host,43,Blur,new_failure,14837,290,13916,2.08393216442,1.27399278786,3.0574581079
+sues_to_sues,SinGeo-QView,SinGeo,host,43,Clean,rescue,14837,0,0,,,
+sues_to_sues,SinGeo-QView,SinGeo,host,43,Clean,new_failure,14837,272,14719,1.84795162715,1.07551000962,2.80671994997
+sues_to_sues,SinGeo-QView,SinGeo,host,43,ExposureClip,rescue,14837,1161,1583,73.3417561592,60.04729841,84.3749849111
+sues_to_sues,SinGeo-QView,SinGeo,host,43,ExposureClip,new_failure,14837,345,11798,2.92422444482,1.81526468741,4.43365885934
+sues_to_sues,SinGeo-QView,SinGeo,host,43,Fog,rescue,14837,54,67,80.5970149254,60,95.3850574713
+sues_to_sues,SinGeo-QView,SinGeo,host,43,Fog,new_failure,14837,280,14347,1.95162751795,1.18902637064,2.87422544065
+sues_to_sues,SinGeo-QView,SinGeo,host,43,Gamma,rescue,14837,25,31,80.6451612903,60,94.2896825397
+sues_to_sues,SinGeo-QView,SinGeo,host,43,Gamma,new_failure,14837,274,14457,1.89527564502,1.07437387493,3.02433118343
+sues_to_sues,SinGeo-QView,SinGeo,host,43,Posterize4,rescue,14837,3,10,30,0,66.6666666667
+sues_to_sues,SinGeo-QView,SinGeo,host,43,Posterize4,new_failure,14837,256,14573,1.75667329994,1.02752534689,2.62202084208
+sues_to_sues,SinGeo-QView,SinGeo,host,43,Snow,rescue,14837,1676,2564,65.3666146646,52.9076798541,76.04491276
+sues_to_sues,SinGeo-QView,SinGeo,host,43,Snow,new_failure,14837,476,10342,4.60259137498,2.76004270642,7.17668985169
+sues_to_sues,SinGeo-QView,SinGeo,host,mean,Clean,rescue,,,,,,
+sues_to_sues,SinGeo-QView,SinGeo,host,mean,Clean,new_failure,,,,2.70659609879,1.65038341397,4.15694489367
+sues_to_sues,SinGeo-QView,SinGeo,host,mean,Fog,rescue,,,,70.6782542981,52.431056701,83.4904255319
+sues_to_sues,SinGeo-QView,SinGeo,host,mean,Fog,new_failure,,,,2.66086068,1.69739757345,3.94622001531
+sues_to_sues,SinGeo-QView,SinGeo,host,mean,Snow,rescue,,,,66.7732610944,56.392878011,76.1846751651
+sues_to_sues,SinGeo-QView,SinGeo,host,mean,Snow,new_failure,,,,5.55692665041,3.70749048727,7.92885929929
+sues_to_sues,SinGeo-QView,SinGeo,host,mean,Blur,rescue,,,,54.7741566609,42.0689240716,67.6728352469
+sues_to_sues,SinGeo-QView,SinGeo,host,mean,Blur,new_failure,,,,3.64095866651,2.45766750826,5.04281220718
+sues_to_sues,SinGeo-QView,SinGeo,host,mean,Gamma,rescue,,,,64.3966547192,47.736129386,80.5053069483
+sues_to_sues,SinGeo-QView,SinGeo,host,mean,Gamma,new_failure,,,,2.97068085877,1.85918478034,4.36042006169
+sues_to_sues,SinGeo-QView,SinGeo,host,mean,ExposureClip,rescue,,,,69.2763555037,60.3049027832,76.8514442318
+sues_to_sues,SinGeo-QView,SinGeo,host,mean,ExposureClip,new_failure,,,,4.46357635125,2.88194704273,6.5004886385
+sues_to_sues,SinGeo-QView,SinGeo,host,mean,Posterize4,rescue,,,,33.75,10,61.2664473684
+sues_to_sues,SinGeo-QView,SinGeo,host,mean,Posterize4,new_failure,,,,2.53398812016,1.56895518187,3.85924006287
+sues_to_sues,SinGeo-QView,Base,common,42,Blur,rescue,14297,481,577,83.3622183709,73.2939721098,91.9443100682
+sues_to_sues,SinGeo-QView,Base,common,42,Blur,new_failure,14297,724,13051,5.547467627,3.58847177597,7.69769573368
+sues_to_sues,SinGeo-QView,Base,common,42,Clean,rescue,14297,0,0,,,
+sues_to_sues,SinGeo-QView,Base,common,42,Clean,new_failure,14297,455,14291,3.18382198587,1.86379904562,4.8191883445
+sues_to_sues,SinGeo-QView,Base,common,42,ExposureClip,rescue,14297,849,1101,77.1117166213,67.000021065,86.0792118186
+sues_to_sues,SinGeo-QView,Base,common,42,ExposureClip,new_failure,14297,882,11741,7.51213695597,4.81592550021,10.5233002378
+sues_to_sues,SinGeo-QView,Base,common,42,Fog,rescue,14297,191,239,79.9163179916,66.2446585504,91.2145229248
+sues_to_sues,SinGeo-QView,Base,common,42,Fog,new_failure,14297,429,13559,3.16395014382,1.88781863393,4.62937533759
+sues_to_sues,SinGeo-QView,Base,common,42,Gamma,rescue,14297,24,28,85.7142857143,64.2857142857,97.0588235294
+sues_to_sues,SinGeo-QView,Base,common,42,Gamma,new_failure,14297,546,13927,3.92044230631,2.20802001514,5.86308539329
+sues_to_sues,SinGeo-QView,Base,common,42,Posterize4,rescue,14297,9,11,81.8181818182,52.5657894737,100
+sues_to_sues,SinGeo-QView,Base,common,42,Posterize4,new_failure,14297,469,14050,3.33807829181,1.99492583974,5.07648239451
+sues_to_sues,SinGeo-QView,Base,common,42,Snow,rescue,14297,1455,2288,63.5926573427,51.5138458099,76.0315489887
+sues_to_sues,SinGeo-QView,Base,common,42,Snow,new_failure,14297,937,10132,9.24792735886,5.87062668658,12.9470046627
+sues_to_sues,SinGeo-QView,Base,common,43,Blur,rescue,14350,305,375,81.3333333333,73.3311688312,89.0716559121
+sues_to_sues,SinGeo-QView,Base,common,43,Blur,new_failure,14350,413,13321,3.10036784025,1.79227258119,4.69221198014
+sues_to_sues,SinGeo-QView,Base,common,43,Clean,rescue,14350,0,0,,,
+sues_to_sues,SinGeo-QView,Base,common,43,Clean,new_failure,14350,391,14350,2.72473867596,1.53146139837,4.28082542793
+sues_to_sues,SinGeo-QView,Base,common,43,ExposureClip,rescue,14350,812,1122,72.3707664884,56.5658685225,85.3157137124
+sues_to_sues,SinGeo-QView,Base,common,43,ExposureClip,new_failure,14350,594,11979,4.95867768595,3.17832669741,6.96982796729
+sues_to_sues,SinGeo-QView,Base,common,43,Fog,rescue,14350,121,164,73.7804878049,55.4741458627,90.511688696
+sues_to_sues,SinGeo-QView,Base,common,43,Fog,new_failure,14350,384,13771,2.7884685208,1.55009894607,4.37791221198
+sues_to_sues,SinGeo-QView,Base,common,43,Gamma,rescue,14350,19,30,63.3333333333,31.5789473684,90.9090909091
+sues_to_sues,SinGeo-QView,Base,common,43,Gamma,new_failure,14350,391,14061,2.78074105682,1.44173476736,4.45898510704
+sues_to_sues,SinGeo-QView,Base,common,43,Posterize4,rescue,14350,12,13,92.3076923077,62.5,100
+sues_to_sues,SinGeo-QView,Base,common,43,Posterize4,new_failure,14350,390,14185,2.74938315122,1.52619370318,4.32661781051
+sues_to_sues,SinGeo-QView,Base,common,43,Snow,rescue,14350,1536,2383,64.4565673521,51.3834041919,77.163108252
+sues_to_sues,SinGeo-QView,Base,common,43,Snow,new_failure,14350,620,9969,6.21927976728,3.57143671381,9.48658864075
+sues_to_sues,SinGeo-QView,Base,common,mean,Clean,rescue,,,,,,
+sues_to_sues,SinGeo-QView,Base,common,mean,Clean,new_failure,,,,2.95428033091,1.83330445386,4.26382594785
+sues_to_sues,SinGeo-QView,Base,common,mean,Fog,rescue,,,,76.8484028983,64.0194464925,88.2766644921
+sues_to_sues,SinGeo-QView,Base,common,mean,Fog,new_failure,,,,2.97620933231,1.87015071281,4.30279722442
+sues_to_sues,SinGeo-QView,Base,common,mean,Snow,rescue,,,,64.0246123474,53.3245817838,75.4110043159
+sues_to_sues,SinGeo-QView,Base,common,mean,Snow,new_failure,,,,7.73360356307,5.0543306496,10.7892037567
+sues_to_sues,SinGeo-QView,Base,common,mean,Blur,rescue,,,,82.3477758521,75.6332497011,88.9302959761
+sues_to_sues,SinGeo-QView,Base,common,mean,Blur,new_failure,,,,4.32391773363,2.80454190706,5.99551744421
+sues_to_sues,SinGeo-QView,Base,common,mean,Gamma,rescue,,,,74.5238095238,50.5093746367,93.0741341991
+sues_to_sues,SinGeo-QView,Base,common,mean,Gamma,new_failure,,,,3.35059168157,2.05306293123,4.88134987523
+sues_to_sues,SinGeo-QView,Base,common,mean,ExposureClip,rescue,,,,74.7412415548,62.4155598189,84.7307570172
+sues_to_sues,SinGeo-QView,Base,common,mean,ExposureClip,new_failure,,,,6.23540732096,4.31820722589,8.37379436541
+sues_to_sues,SinGeo-QView,Base,common,mean,Posterize4,rescue,,,,87.0629370629,66.6666666667,100
+sues_to_sues,SinGeo-QView,Base,common,mean,Posterize4,new_failure,,,,3.04373072152,1.87159989364,4.42133831236

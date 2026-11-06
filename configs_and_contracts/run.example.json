@@ -1,0 +1,37 @@
+{
+  "domain": "dense",
+  "seed": 42,
+  "host": "ConGeo",
+  "method": "ConGeo-QView",
+  "warmup_model": "checkpoints/dense_seed42_warmup.pth",
+  "warmup_optimizer": "checkpoints/dense_seed42_optimizer.pth",
+  "output": "outputs/congeo_qview_dense42",
+  "workers": 8,
+  "chunk": 8,
+  "blocks": [
+    {
+      "plan": "data/plans/block1.json",
+      "augmentation": "data/parameters/block1.pt"
+    },
+    {
+      "plan": "data/plans/block2.json",
+      "augmentation": "data/parameters/block2.pt"
+    },
+    {
+      "plan": "data/plans/block3.json",
+      "augmentation": "data/parameters/block3.pt"
+    },
+    {
+      "plan": "data/plans/block4.json",
+      "augmentation": "data/parameters/block4.pt"
+    },
+    {
+      "plan": "data/plans/block5.json",
+      "augmentation": "data/parameters/block5.pt"
+    },
+    {
+      "plan": "data/plans/block6.json",
+      "augmentation": "data/parameters/block6.pt"
+    }
+  ]
+}

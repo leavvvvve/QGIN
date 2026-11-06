@@ -1,0 +1,69 @@
+{
+  "label": "MRGeo‡ (paper reimplementation)",
+  "url": "https://github.com/WLHASH/MRGeo",
+  "commit": "bb14d2bd3656acb07319646cec87d98d4d184321",
+  "paper": "https://arxiv.org/html/2603.12587v1",
+  "fixed": {
+    "steps": 648,
+    "seeds": [
+      42,
+      43
+    ],
+    "domains": [
+      "dense",
+      "sues"
+    ],
+    "checkpoint": "step648",
+    "views": 2,
+    "new_temperature": false,
+    "weight_decay": 0.01,
+    "lr": 0.0001
+  },
+  "mapping": [
+    [
+      "Eq3-5",
+      "no official training implementation",
+      "one full768D qkv attention per global/local stream; local3x3 square-neighborhood mask, borders omit out-ofbounds; sigmoid FCconcat gate"
+    ],
+    [
+      "standard selfattention versus displayed raw dot products",
+      "paper ambiguous on softmax/scaling",
+      "explicit implementer choice: scaled dotproduct softmax, no dropout, no qkvbias, PyTorch SDPA"
+    ],
+    [
+      "Eq6",
+      "GAP then conv1d/linear correlations, outerproduct horizontal sum",
+      "kernel3 padding1 conv1d1→1; linear768→768; f_h*sum(f_l)+f_l*sum(f_h) exactly row-sum algebra; no extra normalization"
+    ],
+    [
+      "residual correction",
+      "initial projection + learnablealpha unspecifiedinitialvalue",
+      "linear768→768, alpha=.001 initialized beforetest, standardPyTorch initialization; fullspatialbroadcast"
+    ],
+    [
+      "Eq7",
+      "2x2sat and1x4street in panorama paper",
+      "controlled 2x2 onbothnadirviews; rowmajor4regions,3072L2"
+    ],
+    [
+      "Eq8",
+      "temperaturehyperparameter unspecifiedvalue; no labelsmoothing described",
+      "fixedtau.07; unsmoothed symmetric CE; no invented learnabletemp"
+    ],
+    [
+      "Sec4.2",
+      "AdamW1e-4/cosine,20epochs firstwarmup",
+      "common108warmup backboneAdam restored; newheads step0;648cosine; wd.01/clipvalue100 documented implementation choices"
+    ],
+    [
+      "augmentation unspecified",
+      "no official code",
+      "Sample4Geo default nonpanoramic singleview transformations fixed beforetest"
+    ],
+    [
+      "attachment unspecified",
+      "paper SCEB sharedbackbone feature map",
+      "one top SARM+CCM block after common EVA native fc_norm applied to24x24patches; registerexcluded"
+    ]
+  ]
+}

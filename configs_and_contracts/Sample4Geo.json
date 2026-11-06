@@ -1,0 +1,60 @@
+{
+  "label": "Sample4Geo†",
+  "url": "https://github.com/Skyy93/Sample4Geo",
+  "commit": "498c6511478053ddb4a43f24a9f4942fab238f09",
+  "entry": "train_university.py",
+  "blob": "fa79afa6d9acb748e2cf78380ea34cfd6f4f4939",
+  "mapping": [
+    [
+      "paper symmetric InfoNCE",
+      "InfoNCE symmetric mean CE, LS=.1",
+      "identical .1, full64/16 batch, FP32 loss"
+    ],
+    [
+      "learned temperature",
+      "logit_scale exp initialized ln(1/.07), no clamp found in entry/trainer",
+      "learned new param; task explicitly adds forward max100 clamp"
+    ],
+    [
+      "unique-place hard-negative sampling",
+      "University dataset unique-class shuffle, no dynamic mining in this entry",
+      "historical unique-place plan fulfills fixed648 coverage; no extra mining invented"
+    ],
+    [
+      "image augmentation",
+      "University get_transforms + paired flip",
+      "verbatim factory, 384 and EVA mean/std .5; satellite RandomRotate90 retained"
+    ],
+    [
+      "optimizer",
+      "AdamW .001 CNN entry; inline ViT recommendation .0001; cosine warmup .1 epoch",
+      "ViT .0001; shared Adam108 names/shapes mapped; new temperature step0; cosine648, no second warmup"
+    ],
+    [
+      "backbone/global feature",
+      "ConvNeXt global vector",
+      "common EVA native GAP768; no additional inference parameters"
+    ],
+    [
+      "precision/reduction",
+      "autocastFP16 + GradScaler, clip_grad_value100",
+      "BF16 deterministic descriptor replay8; fullbatch loss/head once; clip_grad_value100"
+    ]
+  ],
+  "fixed": {
+    "steps": 648,
+    "seeds": [
+      42,
+      43
+    ],
+    "domains": [
+      "dense",
+      "sues"
+    ],
+    "checkpoint": "step648",
+    "views": 2,
+    "new_temperature": true,
+    "weight_decay": 0.01,
+    "lr": 0.0001
+  }
+}

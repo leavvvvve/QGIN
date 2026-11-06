@@ -1,0 +1,106 @@
+{
+  "backbone": "vit_base_patch16_rope_reg1_gap_256.sbb_in1k",
+  "implementation_class": "timm.models.eva.Eva",
+  "input": [
+    384,
+    384
+  ],
+  "patch_size": 16,
+  "spatial_tokens": 576,
+  "register_tokens": 1,
+  "native_descriptor_dim": 768,
+  "seeds": [
+    42,
+    43
+  ],
+  "shared_warmup_updates": 108,
+  "formal_updates": 648,
+  "final_selection": "fixed final update",
+  "batch_plan": {
+    "dense": "six blocks, each 105 batches of 64 and 3 batches of 16",
+    "sues": "648 batches of 64"
+  },
+  "Base": {
+    "label_smoothing": 0.092,
+    "temperature": 0.07,
+    "lr_start": 0.0001,
+    "lr_end": 1e-06,
+    "schedule": "cosine (t-1)/647",
+    "gradient_clip": "global norm 100"
+  },
+  "hosts": {
+    "label_smoothing": 0.1,
+    "schedule": "cosine (t-1)/648",
+    "lr": 0.0001,
+    "gradient_clip": "value 100"
+  },
+  "QDFL": {
+    "optimizer": "SGD",
+    "adapter_lr": 0.009,
+    "head_lr": 0.03,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "nesterov": true,
+    "warmup_steps": 175
+  },
+  "MRGeo": {
+    "temperature": 0.07,
+    "label_smoothing": 0
+  },
+  "QGIN": {
+    "channels": [
+      3,
+      2,
+      2,
+      2,
+      3
+    ],
+    "quantile_range": [
+      0.25,
+      0.75
+    ],
+    "mix_range": [
+      0.35,
+      0.85
+    ],
+    "epsilon": 1e-06,
+    "leaky_relu_slope": 0.01,
+    "inference": false
+  },
+  "evaluation": {
+    "conditions": [
+      "Clean",
+      "Fog",
+      "Snow",
+      "Blur",
+      "Gamma",
+      "ExposureClip",
+      "Posterize4"
+    ],
+    "horizontal_flip_sum": true,
+    "precision": "FP16 encoder, FP32 normalization and similarities",
+    "dense_queries": 2331,
+    "dense_places": 777,
+    "dense_gallery": 18198,
+    "dense_positive_images": 6,
+    "sues_queries": 16000,
+    "sues_places": 80,
+    "sues_gallery": 200,
+    "sues_positive_images": 1,
+    "dense_AP": "official trapezoidal AP",
+    "sues_AP": "standard AP; one positive reciprocal rank",
+    "SUES_spatial_metrics": "not applicable: GPS absent"
+  },
+  "bootstrap": {
+    "draws": 2000,
+    "rng": "numpy.default_rng(3045)",
+    "unit": "place, retaining every condition, height and frame",
+    "seed_mean": "average fixed-seed endpoints within each common place bootstrap replicate",
+    "worst_height": "minimum height R1 recomputed each replicate, then average across seeds"
+  },
+  "source_diagnostic": {
+    "images": 32,
+    "parameter_draws_per_image": 4,
+    "bootstrap_clusters": 32
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "method": "Base + QGIN",
+  "host": "Base",
+  "augmentation": "QGIN",
+  "augmented_query_view_index": 0,
+  "loss": "average clean and augmented cross-view loss",
+  "temperature": "fixed tau .07",
+  "inference_extra_parameters": 0,
+  "descriptor_dimension": 768,
+  "training_updates": 648,
+  "seeds": [
+    42,
+    43
+  ],
+  "domains": [
+    "dense",
+    "sues"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "raw_metric_cells_checked": 5868,
+  "max_absolute_roundtrip_error": 4.83510120830033e-09,
+  "native_cte_cells_checked": 420,
+  "source_sha256_verified": 226,
+  "publication_files": 77,
+  "qgin_historical_max_output_error": 0.0,
+  "core_unit_tests_passed": 4,
+  "strict_baseline_checkpoint_loads": 7,
+  "published_statistics_reference_checks": "Base and ConGeo-QView seed42, all four directions, all endpoints and CI",
+  "historical_experiments_modified": false,
+  "weights_or_raw_query_files_in_release": false
+}
