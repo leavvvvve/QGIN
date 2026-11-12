@@ -6,17 +6,30 @@ The release contains portable operator/host code, pinned baseline contracts, sev
 
 ## ConGeo-QView results
 
-CorrMean6 R@1, two-seed means. Gains use paired 2,000-draw place-cluster 95% confidence intervals.
+CorrMean6 R@1, two-seed means. Gains use the EXP-003K paired 2,000-draw place-cluster 95% confidence intervals; earlier tables can differ slightly because they used a different bootstrap draw seed.
 
 | Train → test | ConGeo† | ConGeo-QView | Gain (pp) [95% CI] |
 | --- | --- | --- | --- |
 | Dense → Dense | 82.61 | 85.73 | 3.12 [2.51, 3.71] |
-| SUES → SUES | 87.24 | 92.46 | 5.22 [3.16, 7.48] |
-| Dense → SUES | 71.08 | 73.49 | 2.41 [1.40, 3.46] |
+| SUES → SUES | 87.24 | 92.46 | 5.22 [3.21, 7.45] |
+| Dense → SUES | 71.08 | 73.49 | 2.41 [1.29, 3.45] |
 | SUES → Dense | 17.52 | 22.33 | 4.81 [3.60, 5.95] |
 
 
 ![Paired gains across hosts](paper_assets/figures/paired_gains.png)
+
+## Selected cross-domain augmentation comparison
+
+EXP-003K compares four selected, task-specific adapters—SLAug*, PASTA*, AFA* and RaffeSDG/FreeAug*—under the same ConGeo host. The table gives CorrMean6 R@1 two-seed means and the best point estimate among those four selected adapters. It is a selected comparison, not an exhaustive ranking.
+
+| Train → test | ConGeo-QView | Best selected adapter | QView − adapter, pp [95% CI] |
+| --- | ---: | --- | ---: |
+| Dense → Dense | 85.73 | SLAug* 85.29 | +0.44 [-0.22, +1.11] |
+| SUES → SUES | 92.46 | SLAug* 90.85 | +1.61 [-0.05, +3.51] |
+| Dense → SUES | 73.49 | RaffeSDG* 73.34 | +0.15 [-0.96, +1.18] |
+| SUES → Dense | 22.33 | SLAug* 20.56 | +1.77 [+0.54, +3.06] |
+
+Intervals resample test places while conditioning on the two trained seeds; they do not measure training-seed variability. The adapters are not complete reproductions of the cited methods. [Results and paper-ready tables](paper_assets/exp003k/paper_section_and_tables.md) include all seven conditions, further metrics, intervals, diagnostic limitations and the selected data. [Protocol and source differences](configs_and_contracts/exp003k/PROTOCOL.md) document the implementations.
 
 ## Paper assets
 
@@ -25,12 +38,14 @@ CorrMean6 R@1, two-seed means. Gains use paired 2,000-draw place-cluster 95% con
 - [Complete main benchmark tables](paper_assets/03_Main_Benchmark_Tables.md)
 - [Paired host comparisons](paper_assets/04_PlugAndPlay_Host_Tables.md)
 - [CTE trajectories, spatial errors, ablations and cost](paper_assets/05_CTE_Spatial_and_Ablation.md)
+- [Selected cross-domain comparison and manuscript text](paper_assets/exp003k/paper_section_and_tables.md)
 - [Evidence paths and SHA256 manifest](paper_assets/FILE_MANIFEST.md)
 
 ## Code and execution
 
 ```text
 src/modules/       QGIN, fixed-zero-hinge and standard photometric operators
+src/modules/cross_domain/  four task-specific cross-domain augmentation adapters
 src/hosts/         shared encoder, source views, objectives, optimizer and replay training
 src/baselines/     pinned official-source adapters and MRGeo implementation
 src/evaluation/    seven conditions, full-gallery retrieval, cluster bootstrap and CTE

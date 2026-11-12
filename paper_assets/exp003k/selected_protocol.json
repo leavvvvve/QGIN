@@ -1,0 +1,44 @@
+{
+  "experiment": "EXP-003K",
+  "created_utc": "2026-11-10T09:39:16Z",
+  "taskbook_sha256": "bab1f572aa6a93a26e7cfb8ff3f32983d63847dd5a5d4caae93471832d4d46ff",
+  "datasets": [
+    "dense",
+    "sues"
+  ],
+  "seeds": [
+    42,
+    43
+  ],
+  "actual_host_loss": "H/I ConGeo objective; differs from taskbook displayed equation",
+  "rng": "SHA256 per sample/method/step, isolated torch.Generator",
+  "replay_chunk": 8,
+  "effective_batch": "64, Dense 18 tail batches of 16",
+  "checkpoint_rule": "final 648 only, 108-step crash-resume snapshots with SHA verification",
+  "eval_conditions": [
+    "Clean",
+    "Fog",
+    "Snow",
+    "Blur",
+    "Gamma",
+    "ExposureClip",
+    "Posterize4"
+  ],
+  "bootstrap": "2000 location clusters; same query clusters jointly resampled across seeds for seed-average CI",
+  "selected_adaptations": [
+    "SLAug",
+    "PASTA",
+    "AFA",
+    "RaffeSDG"
+  ],
+  "selected_formal_models": 16,
+  "selected_training_updates": 10368,
+  "selected_model_target_evaluations": 32,
+  "selected_condition_combinations": 224,
+  "operator_code_sha256": {
+    "SLAug": "293cc750d44e0e60857807f012b266aa1eb99206ed0acae8ab490fab53edae10",
+    "PASTA": "6432d78966d7dc38d4ae2024e2934cbe05c63c921e6ac5e80623611cfac18b42",
+    "AFA": "9c95f4eaa6580541ec1773f9f3d66850341c09435ef001be23b17d8d544a1856",
+    "RaffeSDG": "c0e43cd8bc4463864af7c842b6ac75487b431b49efa1bfe2175237186bef1b28"
+  }
+}

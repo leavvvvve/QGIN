@@ -14,6 +14,7 @@ from . import replay, utils
 from .data import Pairs
 from .base_data import Pairs as BasePairs
 from src.modules.augmentations import secondary
+from src.modules.cross_domain import OPERATORS as CROSS_DOMAIN_OPERATORS, apply_normalized_batch
 
 
 class Cache(torch.nn.Module):
@@ -50,6 +51,10 @@ def train_step(model, opt, views, labels, method):
 
 def run(config):
     seed, method, host = config['seed'], config['method'], config['host']
+    cross_domain_operator = config.get('cross_domain_operator')
+    if cross_domain_operator is not None:
+        assert host == 'ConGeo' and method == 'ConGeo'
+        assert cross_domain_operator in CROSS_DOMAIN_OPERATORS
     utils.system_seed(seed)
     model = Model(config['domain'], seed, host, config['warmup_model']).cuda().train()
     opt = make_optimizer(model, config['warmup_optimizer'])
@@ -87,6 +92,9 @@ def run(config):
                 aug = secondary(views[view], method, indices, params)
                 if view == 0: views.append(aug)
                 else: views[view] = aug
+            if cross_domain_operator is not None:
+                views[2] = apply_normalized_batch(
+                    views[2], cross_domain_operator, seed, count, indices.tolist(), 'cuda')
             lr = (1e-6 + .5*(1e-4-1e-6)*(1+math.cos(math.pi*(count-1)/647)) if host == 'Base'
                   else 1e-4*.5*(1+math.cos(math.pi*(count-1)/648)))
             if host == 'QDFL': lr = .03*min(1., count/175)*.5*(1+math.cos(math.pi*(count-1)/648))

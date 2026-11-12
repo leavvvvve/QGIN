@@ -14,7 +14,7 @@ def main():
         if p.suffix=='.py':ast.parse(p.read_text(encoding='utf-8'))
         count+=1
     manifest=(ROOT/'paper_assets/FILE_MANIFEST.md').read_text(encoding='utf-8')
-    hashes=re.findall(r'\| `(paper_assets/summary_csv/[^`]+)` \| `([0-9a-f]{64})` \|',manifest)
+    hashes=re.findall(r'\| `(paper_assets/(?:summary_csv|exp003k)/[^`]+)` \| `([0-9a-f]{64})` \|',manifest)
     for path,digest in hashes:
         h=hashlib.sha256()
         with (ROOT/path).open('rb') as f:

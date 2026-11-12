@@ -1,0 +1,20 @@
+{
+  "domain": "dense",
+  "seed": 42,
+  "host": "ConGeo",
+  "method": "ConGeo",
+  "cross_domain_operator": "SLAug",
+  "warmup_model": "checkpoints/dense_seed42_warmup.pth",
+  "warmup_optimizer": "checkpoints/dense_seed42_optimizer.pth",
+  "output": "outputs/congeo_slaug_dense42",
+  "workers": 4,
+  "chunk": 8,
+  "blocks": [
+    {"plan": "data/plans/block1.json"},
+    {"plan": "data/plans/block2.json"},
+    {"plan": "data/plans/block3.json"},
+    {"plan": "data/plans/block4.json"},
+    {"plan": "data/plans/block5.json"},
+    {"plan": "data/plans/block6.json"}
+  ]
+}

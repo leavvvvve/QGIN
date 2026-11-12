@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checks": {
+    "benchmark_metrics.csv": {
+      "rows": 648,
+      "all_cells_equal_to_archived_selection": true
+    },
+    "paired_bootstrap_ci.csv": {
+      "rows": 720,
+      "all_cells_equal_to_archived_selection": true
+    },
+    "competitive_events.csv": {
+      "rows": 672,
+      "all_cells_equal_to_archived_selection": true
+    },
+    "operator_diagnostics.csv": {
+      "rows": 5,
+      "all_cells_equal_to_archived_selection": true
+    },
+    "operator_diagnostics_per_pair.csv": {
+      "rows": 640,
+      "all_cells_equal_to_archived_selection": true
+    },
+    "operator_diagnostics_paired_ci.csv": {
+      "rows": 28,
+      "all_cells_equal_to_archived_selection": true
+    },
+    "training_curves.csv": {
+      "rows": 10368,
+      "all_cells_equal_to_archived_selection": true
+    },
+    "evaluation_checksums.json": {
+      "records": 32,
+      "all_fields_equal_to_archive": true
+    }
+  },
+  "scope": "All selected published CSV data cells and evaluation identifiers compared to archived results; no training or evaluation rerun."
+}

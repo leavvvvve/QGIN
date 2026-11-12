@@ -470,3 +470,27 @@ Dense AP is official trapezoidal AP; SUES AP is reciprocal rank for its single p
 QGIN was compared against the historical implementation on CPU for three parameter seeds with and without quantile anchoring: output tensors and diagnostic records matched exactly (maximum output error 0.00). Four core tests cover RNG preservation/spatial permutation, constant/identity fallback, Base loss and gradient equivalence, and bootstrap/geographic/AP checks. On the CUDA server, all seven external baseline checkpoints loaded strictly and produced finite descriptors with the recorded dimensions: Sample4Geo/ConGeo/SinGeo/MEAN 768, DAC 1024, QDFL 2048, MRGeo 3072. The portable refactoring has not been used to retrain the benchmark; the tables describe the archived completed runs.
 
 The final validation independently checked 5,868 finite raw-metric cells, 420 native CTE rate cells and all 226 input SHA256 values. The maximum CSV round-trip discrepancy was 4.84 × 10⁻⁹ in the displayed metric units.
+
+<!-- EXP003K HASHES BEGIN -->
+## EXP-003K selected comparison output hashes
+
+The selected results are derived from the archived experiment; source-cell and operator equivalence checks are included in the selection directory.
+
+| File | SHA256 |
+|---|---|
+| `paper_assets/exp003k/benchmark_metrics.csv` | `769efe66ca3360fc2c2d6cacd9ec3aef8d523a3054765b20ae03c62431744535` |
+| `paper_assets/exp003k/checkpoint_checksums.json` | `99bc1d2e376097ef10332ee776984565f5e4deb265f496deb99dec0dea35764e` |
+| `paper_assets/exp003k/competitive_events.csv` | `7d07802945224ba17a082246721f5db25207d7ee0e97da00750f7cad7f3a6b3d` |
+| `paper_assets/exp003k/data_source_verification.json` | `30bd35dc2d15a03cb10d4f87f88c8dc8c4b0f6ccd001f44a6c0c05aaacf5d813` |
+| `paper_assets/exp003k/evaluation_checksums.json` | `bc831546cce9360f9cdcddcb89e656e4c43b5d6a45c2c5e754c822a2331a6e36` |
+| `paper_assets/exp003k/operator_code_equivalence.json` | `bd44ef2be979db628e40f92c35d91b62fb1a23894aa5113c6b2da36bd0c43b6c` |
+| `paper_assets/exp003k/operator_diagnostics.csv` | `0a9933fb226ff5729de4c33dccbe323c2dcf97f9043e73c5590d7f45444363b8` |
+| `paper_assets/exp003k/operator_diagnostics_paired_ci.csv` | `599bed07c3e51763825797ce40f871f3becbfef658568d91e523d164c590df23` |
+| `paper_assets/exp003k/operator_diagnostics_per_pair.csv` | `14ca53038c2924f489c727ad5d06dcda7714a6b2ac03ebd0926668c287f74917` |
+| `paper_assets/exp003k/paired_bootstrap_ci.csv` | `4b08819419c676eaedf104ef72f95eac1c15af912b77d3bb6a87acd293f9d006` |
+| `paper_assets/exp003k/paper_section_and_tables.md` | `5e50810fe3579c484bebb2c56e44835ff3ce509692665423b1ed230cbb3e3028` |
+| `paper_assets/exp003k/selected_protocol.json` | `a80094db5b8f060a105ca0d0dc09b1d202900bc3f80f3f53c376212463898ea9` |
+| `paper_assets/exp003k/smoke_verification.json` | `009a85c3687bea5e7645ec8ef9a7da088dee1c26fe4424d2d58144823da4a4fb` |
+| `paper_assets/exp003k/source_provenance.json` | `03cb1889a869dd920d417f4439c8269dcb09a27f0d76cb2b5616c38495699d2e` |
+| `paper_assets/exp003k/training_curves.csv` | `86fe01f1417098981c9f675807a40afd84ef177d87f7121ddfd9bf0653411bfb` |
+<!-- EXP003K HASHES END -->
