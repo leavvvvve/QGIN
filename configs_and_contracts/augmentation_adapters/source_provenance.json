@@ -1,0 +1,37 @@
+{
+  "audit_date": "2026-11-10",
+  "sources": [
+    {
+      "method": "SLAug",
+      "repository": "https://github.com/Kaiseem/SLAug",
+      "commit": "03ffa0014ab7d9eda5c937e5dc9043625806188a",
+      "path": "dataloaders/location_scale_augmentation.py",
+      "blob": "cc521cc6853906785791e141435e9978065644f2",
+      "observation": "Official GLA sorts sampled curve coordinates separately, clips scale to 0.9..1.1 and clips location according to input percentiles; controlled implementation sorts control-point coordinates and specifies different truncated distributions."
+    },
+    {
+      "method": "PASTA",
+      "repository": "https://github.com/prithv1/PASTA",
+      "commit": "6dea48697f8bd31859241d3726b712915ef02cf4",
+      "path": "pasta.ipynb",
+      "blob": "1d45d51d7a3473d4756c341dfc82e6fc9e4020ed",
+      "observation": "Notebook blob identity recorded; paper equation samples an unconstrained Gaussian multiplier, whereas controlled implementation clips negative multipliers."
+    },
+    {
+      "method": "AFA",
+      "repository": "https://github.com/nis-research/afa-augment",
+      "commit": "7dcf705b5f1e0c650a956a083dd27a1ccf4cf5ec",
+      "path": "project/augs/fba/fourier_basis.py",
+      "blob": "625376f77095e3b82b3f1bc488345e22894bf7d1",
+      "observation": "Official waves are unit L2-normalized and then multiplied by image_size/32; frequencies and orientations are sampled on discrete grids. Controlled implementation uses a continuous grid and a chosen pixel-RMS mean of 0.05."
+    },
+    {
+      "method": "RaffeSDG/FreeAug",
+      "repository": "https://github.com/liamheng/Non-IID_Medical_Image_Segmentation",
+      "commit": "589c933085c1790834fda76083732cefa3bd10cc",
+      "path": "utils/augmentations/fmaug.py",
+      "blob": "3489dadd0322b64af90791bbb990fa0bfda92227",
+      "observation": "Published implementation uses a discrete Butterworth filter bank and offline masks; controlled implementation specifies continuous per-channel filter samples and radial masks."
+    }
+  ]
+}

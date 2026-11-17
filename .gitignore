@@ -20,3 +20,16 @@ outputs/
 *per_query*.csv
 retrieval.csv
 .env
+
+# Local results, abandoned branches and internal recovery artifacts
+**/*LayerMix*/
+**/*LayerMix*
+**/*QView-OR-AugMix*
+**/*e1_exploratory*
+**/e1_selection*
+**/e1_decision.json
+**/protocol_lock.json
+**/recovery/
+**/per_query_*.csv
+*.7z
+*.hdf5

@@ -1,0 +1,9 @@
+domain,seed,arm,median_step_seconds,gpu_load_at_start,note
+dense,44,Base (EVA-02 + Label Smoothing),2.603161096572876,"NVIDIA GeForce RTX 4090, 9049 MiB, 15032 MiB, 85 %","shared server; step time includes augmentation and optimizer, excludes data loading"
+dense,44,Base + QGIN,5.808986067771912,"NVIDIA GeForce RTX 4090, 5593 MiB, 18489 MiB, 100 %","shared server; step time includes augmentation and optimizer, excludes data loading"
+dense,44,ConGeo,4.956725835800171,"NVIDIA GeForce RTX 4090, 14905 MiB, 9177 MiB, 71 %","shared server; step time includes augmentation and optimizer, excludes data loading"
+dense,44,ConGeo-QView,7.0969932079315186,"NVIDIA GeForce RTX 4090, 14387 MiB, 9695 MiB, 81 %","shared server; step time includes augmentation and optimizer, excludes data loading"
+sues,44,Base (EVA-02 + Label Smoothing),2.2480145692825317,"NVIDIA GeForce RTX 4090, 14335 MiB, 9747 MiB, 89 %","shared server; step time includes augmentation and optimizer, excludes data loading"
+sues,44,Base + QGIN,5.549408555030823,"NVIDIA GeForce RTX 4090, 14335 MiB, 9747 MiB, 99 %","shared server; step time includes augmentation and optimizer, excludes data loading"
+sues,44,ConGeo,4.56445050239563,"NVIDIA GeForce RTX 4090, 14823 MiB, 9259 MiB, 99 %","shared server; step time includes augmentation and optimizer, excludes data loading"
+sues,44,ConGeo-QView,6.332612037658691,"NVIDIA GeForce RTX 4090, 14369 MiB, 9713 MiB, 80 %","shared server; step time includes augmentation and optimizer, excludes data loading"

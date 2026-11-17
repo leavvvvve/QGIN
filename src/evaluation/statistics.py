@@ -1,4 +1,5 @@
 """Place-cluster percentile bootstrap, retaining seed and height pairing."""
+
 import numpy as np
 
 
@@ -15,7 +16,7 @@ def interval(samples):
     x = np.asarray(samples)
     if not np.isfinite(x).any():
         return np.nan, np.nan
-    return tuple(np.nanquantile(x, [.025, .975], axis=0))
+    return tuple(np.nanquantile(x, [0.025, 0.975], axis=0))
 
 
 def summarize(values, weights):
@@ -28,7 +29,8 @@ def summarize(values, weights):
 def ratio_bootstrap(numerator, denominator, weights):
     numerator, denominator = np.asarray(numerator), np.asarray(denominator)
     den = weights @ denominator
-    samples = np.divide(weights @ numerator, den,
-                        out=np.full(den.shape, np.nan), where=den > 0)
+    samples = np.divide(
+        weights @ numerator, den, out=np.full(den.shape, np.nan), where=den > 0
+    )
     total = denominator.sum()
     return numerator.sum() / total if total else np.nan, samples
